@@ -1,0 +1,13 @@
+#XCode
+.idea
+.DS_Store
+.idea
+Pods
+Podfile.lock
+*.xcworkspace
+build/
+IPA/
+upload/
+xcuserdata/
+*.xcworkspace
+*.xcuserstate
