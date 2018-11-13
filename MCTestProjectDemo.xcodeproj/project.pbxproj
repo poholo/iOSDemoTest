@@ -344,6 +344,7 @@
 		25409C66219AC8B700F29736 /* SDL_test_compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_test_compare.h; sourceTree = "<group>"; };
 		25409C67219AC8B700F29736 /* SDL_opengles2_gl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2.h; sourceTree = "<group>"; };
 		25409C69219AC8B700F29736 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL2.a; sourceTree = "<group>"; };
+		25409C6D219AD98600F29736 /* ffmpeg.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ffmpeg.sh; sourceTree = "<group>"; };
 		25442B041E96284E002570DA /* timg-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-2.jpeg"; sourceTree = "<group>"; };
 		25442B051E96284E002570DA /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		254D09DF1E84152C00442D63 /* TouchShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchShot.h; sourceTree = "<group>"; };
@@ -473,6 +474,7 @@
 		25409B62219AC4A000F29736 /* TestFFmpeg */ = {
 			isa = PBXGroup;
 			children = (
+				25409C6D219AD98600F29736 /* ffmpeg.sh */,
 				25409B77219AC4D900F29736 /* 3rdPart */,
 				25409C05219AC4D900F29736 /* Code */,
 				25409B63219AC4A000F29736 /* AppDelegate.h */,
