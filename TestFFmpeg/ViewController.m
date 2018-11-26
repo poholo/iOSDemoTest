@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 
+#include "libavcodec/avcodec.h"
+#include "libavformat/avformat.h"
+
+
 @interface ViewController ()
 
 @end
@@ -17,6 +21,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    AVFormatContext    *pFormatCtx;
+    int                i, videoindex;
+    AVCodecContext    *pCodecCtx;
+    AVCodec            *pCodec;
+    AVFrame    *pFrame,*pFrameYUV;
+    AVPacket *packet;
+    struct SwsContext *img_convert_ctx;
+   
+    
+    av_register_all();
+    avformat_network_init();
+
 }
 
 
