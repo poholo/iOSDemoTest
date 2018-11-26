@@ -50,6 +50,7 @@
 		1A666B8B70A6A029B44F3433 /* PlayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6667E8D130887FC26768CD /* PlayerTestViewController.m */; };
 		1A666C629958288A777FC9EE /* PhotoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66657BC404A350E0210904 /* PhotoListController.m */; };
 		1A666D455B5B5A40E516B6EF /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6669FFB5670AEE4D996D2C /* ListController.m */; };
+		1A666D56407A9F5C47F83480 /* DesignPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66665F8D19A45D07F60B9D /* DesignPatternController.m */; };
 		1A666DA7E022CBBA88E50A4E /* Test.js in Sources */ = {isa = PBXBuildFile; fileRef = 1A6663D0B5CF3714DF77036E /* Test.js */; };
 		1A666E75D05B3D4F4F7EA234 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66665172404DE388EE542C /* QRCodeViewController.m */; };
 		1A666E770D675253D289DDD1 /* OldListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666933CC5AD03D509E70BC /* OldListController.m */; };
@@ -97,6 +98,7 @@
 		1A6662738F17B10DF3CD780F /* IJKFFmpeg.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = IJKFFmpeg.sh; sourceTree = "<group>"; };
 		1A6662A91D365665B7C5ECFE /* SliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderController.h; sourceTree = "<group>"; };
 		1A6662CE2DE31B475961FC05 /* PhotoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListController.h; sourceTree = "<group>"; };
+		1A6662EC7DEB0F3B196A72D5 /* DesignPatternController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternController.h; sourceTree = "<group>"; };
 		1A66631F7A4595BA4C3F7A86 /* AlgorithmListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmListController.h; sourceTree = "<group>"; };
 		1A666349E98F349230FCDDF2 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
 		1A666353CC4FCEC74F42B068 /* ListDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDataVM.m; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		1A6665EB0DA19BAF90397D41 /* SliderLayerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderLayerControl.m; sourceTree = "<group>"; };
 		1A666645B569E04847F99004 /* UIControlSliderTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlSliderTestController.h; sourceTree = "<group>"; };
 		1A66665172404DE388EE542C /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		1A66665F8D19A45D07F60B9D /* DesignPatternController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternController.m; sourceTree = "<group>"; };
 		1A666678A6FDAD610C606EE7 /* praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "praise@2x.png"; sourceTree = "<group>"; };
 		1A666683CC349DAA693BB639 /* MMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMController.h; sourceTree = "<group>"; };
 		1A6666B922D63B50F904677D /* PraiseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PraiseController.h; sourceTree = "<group>"; };
@@ -144,6 +147,7 @@
 		1A6669BB563D45C3F044C05D /* AlgorithmListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListController.m; sourceTree = "<group>"; };
 		1A6669FFB5670AEE4D996D2C /* ListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListController.m; sourceTree = "<group>"; };
 		1A666A083D3D1CBEF131E41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MCTestProjectDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		1A666A4C24ECCEA694AC17AD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A666A510EB1E093A2CE943A /* PlayerLoadResourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerLoadResourceController.h; sourceTree = "<group>"; };
 		1A666B1047FAB5EA420B4995 /* AnimationListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationListController.h; sourceTree = "<group>"; };
 		1A666B269E15FC0EFB532A79 /* MMNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavController.m; sourceTree = "<group>"; };
@@ -381,6 +385,8 @@
 		1A6662D8E03FF4770B48BE99 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				1A66665F8D19A45D07F60B9D /* DesignPatternController.m */,
+				1A6662EC7DEB0F3B196A72D5 /* DesignPatternController.h */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -590,6 +596,7 @@
 				2504DBEE1F2B2520003EA775 /* Frameworks */,
 				1A6665D5914794D9919D5145 /* .gitignore */,
 				4BBA327C01E2B437F36548B7 /* Pods */,
+				1A666A4C24ECCEA694AC17AD /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1048,6 +1055,7 @@
 				1A666D455B5B5A40E516B6EF /* ListController.m in Sources */,
 				1A6664A028BA81650AB1A485 /* ListDataVM.m in Sources */,
 				1A666A29577C53ED9E234BE5 /* ActionDto.m in Sources */,
+				1A666D56407A9F5C47F83480 /* DesignPatternController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

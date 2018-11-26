@@ -7,6 +7,10 @@
 
 #import "ActionDto.h"
 #import "OldListController.h"
+#import "AVFoundationListController.h"
+#import "AnimationListController.h"
+#import "DesignPatternController.h"
+#import "AlgorithmListController.h"
 
 
 @implementation ListDataVM
@@ -19,6 +23,38 @@
         ActionDto *dto = [ActionDto new];
         dto.targetClass = [OldListController class];
         dto.name = @"1.old";
+        dto.desc = @"";
+        [self.dataList addObject:dto];
+    }
+
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [AVFoundationListController class];
+        dto.name = @"2.AVFoundation";
+        dto.desc = @"";
+        [self.dataList addObject:dto];
+    }
+
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [AnimationListController class];
+        dto.name = @"3.Animations";
+        dto.desc = @"";
+        [self.dataList addObject:dto];
+    }
+
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [DesignPatternController class];
+        dto.name = @"4.Design pattern";
+        dto.desc = @"";
+        [self.dataList addObject:dto];
+    }
+
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [AlgorithmListController class];
+        dto.name = @"5.Algorithm";
         dto.desc = @"";
         [self.dataList addObject:dto];
     }

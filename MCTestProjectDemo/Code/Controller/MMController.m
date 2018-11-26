@@ -17,6 +17,7 @@
     self = [super init];
     if (self) {
         self.uuid = [NSUUID UUID].UUIDString;
+        self.view.backgroundColor = [UIColor whiteColor];
     }
 
     return self;
@@ -26,6 +27,7 @@
     self = [super init];
     if (self) {
         self.uuid = [NSUUID UUID].UUIDString;
+        self.view.backgroundColor = [UIColor whiteColor];
     }
 
     return self;
