@@ -1,6 +1,6 @@
 //
 // Created by 赵江明 on 16/4/29.
-// Copyright (c) 2016 GymChina inc. All rights reserved.
+// Copyright (c) 2016 poholo inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

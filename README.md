@@ -5,6 +5,7 @@
 ## Function List
 ### 1.old
 ### 2.AVFoundation
+##### • ScanQRCode 二维码扫描器
 ### 3.Animations
 ### 4.Design pattern
 ### 5.Algorithm

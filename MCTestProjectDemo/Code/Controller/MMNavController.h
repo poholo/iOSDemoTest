@@ -1,6 +1,6 @@
 //
 // Created by Jiangmingz on 2017/3/15.
-// Copyright (c) 2017 GymChina inc. All rights reserved.
+// Copyright (c) 2017 poholo inc. All rights reserved.
 //
 
 
