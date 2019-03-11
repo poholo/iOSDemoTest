@@ -1,21 +1,25 @@
 //
-// Created by majiancheng on 2018/11/26.
-// Copyright (c) 2018 mjc. All rights reserved.
+// Created by majiancheng on 2019/3/11.
+// Copyright (c) 2019 mjc. All rights reserved.
 //
 
-#import "AnimationListController.h"
-
-#import "AnimationDataVM.h"
-#import "ActionDto.h"
+#import "PayListController.h"
+#import "PayListDataVM.h"
 #import "MMDict.h"
+#import "ActionDto.h"
+#import "MCGoodsDto.h"
+#import "MCIAPPayHelper.h"
 
-@interface AnimationListController()
 
-@property(nonatomic, strong) AnimationDataVM * dataVM;
+@interface PayListController ()
+
+@property(nonatomic, strong) PayListDataVM *dataVM;
+
+@property(nonatomic, strong) MCIAPPayHelper *iapRequestHelper;
 
 @end
 
-@implementation AnimationListController
+@implementation PayListController
 
 
 - (instancetype)initWithRouterParams:(MMDict *)params {
@@ -28,11 +32,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     self.title = self.dataVM.dto.name;
-    
+
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
-    
+
     [self refresh];
 }
 
@@ -53,11 +57,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
-    ActionDto *dto = self.dataVM.dataList[indexPath.row];
+    MCGoodsDto *dto = self.dataVM.dataList[indexPath.row];
     cell.textLabel.text = dto.name;
-    cell.detailTextLabel.text = dto.desc;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ CNY", dto.price];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    
+
     return cell;
 }
 
@@ -66,21 +70,24 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    ActionDto *dto = self.dataVM.dataList[indexPath.row];
-    MMDict *dict = [MMDict new];
-    [dict setObj:dto forKey:ROUTE_DTO];
-    MMController *classController = (MMController *) [dto.targetClass alloc];
-    MMController *vc = [classController initWithRouterParams:dict];
-    [self.navigationController pushViewController:vc animated:YES];
+    MCGoodsDto *dto = self.dataVM.dataList[indexPath.row];
+    [self.iapRequestHelper createProductsRequest:dto.pid];
 }
 
 #pragma mark - getter
 
-- (AnimationDataVM *)dataVM {
+- (PayListDataVM *)dataVM {
     if (!_dataVM) {
-        _dataVM = [AnimationDataVM new];
+        _dataVM = [PayListDataVM new];
     }
     return _dataVM;
 }
 
+
+- (MCIAPPayHelper *)iapRequestHelper {
+    if (!_iapRequestHelper) {
+        _iapRequestHelper = [MCIAPPayHelper new];
+    }
+    return _iapRequestHelper;
+}
 @end

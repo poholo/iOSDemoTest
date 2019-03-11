@@ -11,6 +11,7 @@
 #import "AnimationListController.h"
 #import "DesignPatternController.h"
 #import "AlgorithmListController.h"
+#import "PayListController.h"
 
 
 @implementation ListDataVM
@@ -56,6 +57,14 @@
         dto.targetClass = [AlgorithmListController class];
         dto.name = @"5.Algorithm";
         dto.desc = @"";
+        [self.dataList addObject:dto];
+    }
+
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [PayListController class];
+        dto.name = @"6.Pay";
+        dto.desc = @"IAP pay";
         [self.dataList addObject:dto];
     }
 }
