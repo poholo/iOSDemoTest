@@ -4,6 +4,9 @@
 //
 
 #import "PayListController.h"
+
+#import <ReactiveCocoa.h>
+
 #import "PayListDataVM.h"
 #import "MMDict.h"
 #import "ActionDto.h"
@@ -71,7 +74,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     MCGoodsDto *dto = self.dataVM.dataList[indexPath.row];
-    [self.iapRequestHelper createProductsRequest:dto.pid];
+    
+    @weakify(self);
+    [self.iapRequestHelper startBuyProduct:dto.pid payType:@"" callBack:^(BOOL success, NSString * info) {
+        @strongify(self);
+        NSLog(@"success %d info:%@", success, info);
+    }];
 }
 
 #pragma mark - getter

@@ -10,7 +10,6 @@
 
 #import <MBProgressHUD/MBProgressHUD.h>
 
-#import "GCDQueue.h"
 #import "AppDelegate.h"
 
 static MBProgressHUD *hud;
@@ -19,7 +18,7 @@ static MBProgressHUD *hud;
 
 + (void)show {
     if (hud) return;
-
+    
     if (hud) {
         [[self class] dismiss];
     }
@@ -31,21 +30,19 @@ static MBProgressHUD *hud;
         hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
         hud.bezelView.color = [UIColor colorWithWhite:0.0 alpha:0.8];
     } else {
-
+        
         __block MBProgressHUD *popupHud = hud;
-        [[GCDQueue mainQueue] execute:^{
-            popupHud = [MBProgressHUD showHUDAddedTo:keyWindow animated:YES];
-            popupHud.contentColor = [UIColor whiteColor];
-            popupHud.mode = MBProgressHUDModeIndeterminate;
-            hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
-            hud.bezelView.color = [UIColor colorWithWhite:0.0 alpha:0.8];
-        }                  afterDelay:USEC_PER_SEC];
+        popupHud = [MBProgressHUD showHUDAddedTo:keyWindow animated:YES];
+        popupHud.contentColor = [UIColor whiteColor];
+        popupHud.mode = MBProgressHUDModeIndeterminate;
+        hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+        hud.bezelView.color = [UIColor colorWithWhite:0.0 alpha:0.8];
     }
 }
 
 + (void)showWithText:(NSString *)text {
     if (hud) return;
-
+    
     if (hud) {
         [[self class] dismiss];
     }
@@ -58,14 +55,13 @@ static MBProgressHUD *hud;
         hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
         hud.bezelView.color = [UIColor blackColor];
     } else {
-        [[GCDQueue mainQueue] execute:^{
-            hud = [MBProgressHUD showHUDAddedTo:keyWindow animated:YES];
-            hud.mode = MBProgressHUDModeIndeterminate;
-            hud.label.text = text;
-            hud.label.textColor = [UIColor whiteColor];
-            hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
-            hud.bezelView.color = [UIColor blackColor];
-        }                  afterDelay:USEC_PER_SEC];
+        
+        hud = [MBProgressHUD showHUDAddedTo:keyWindow animated:YES];
+        hud.mode = MBProgressHUDModeIndeterminate;
+        hud.label.text = text;
+        hud.label.textColor = [UIColor whiteColor];
+        hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+        hud.bezelView.color = [UIColor blackColor];
     }
 }
 
@@ -76,10 +72,9 @@ static MBProgressHUD *hud;
         hud = nil;
     } else {
         __block MBProgressHUD *popupHud = hud;
-        [[GCDQueue mainQueue] execute:^{
-            [popupHud hideAnimated:YES];
-            popupHud = nil;
-        }                  afterDelay:USEC_PER_SEC];
+        
+        [popupHud hideAnimated:YES];
+        popupHud = nil;
     }
 }
 
@@ -91,10 +86,8 @@ static MBProgressHUD *hud;
         hud.mode = MBProgressHUDModeDeterminateHorizontalBar;
         hud.progress = progress;
     } else {
-        [[GCDQueue mainQueue] execute:^{
-            hud.mode = MBProgressHUDModeDeterminateHorizontalBar;
-            hud.progress = progress;
-        }                  afterDelay:USEC_PER_SEC];
+        hud.mode = MBProgressHUDModeDeterminateHorizontalBar;
+        hud.progress = progress;
     }
 }
 @end

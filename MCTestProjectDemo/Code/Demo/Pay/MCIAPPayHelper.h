@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol MCPayProtocol;
+#import "MCPayProtocol.h"
 
 
 @interface MCIAPPayHelper : NSObject <MCPayProtocol>

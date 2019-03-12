@@ -26,11 +26,11 @@ NSString *const ERROR_403 = @"error_403";
 #define ARRAY_SIZE(a) sizeof(a)/sizeof(a[0])
 
 const char *jailbreak_tool_pathes[] = {
-        "/Applications/Cydia.app",
-        "/Library/MobileSubstrate/MobileSubstrate.dylib",
-        "/bin/bash",
-        "/usr/sbin/sshd",
-        "/etc/apt"
+    "/Applications/Cydia.app",
+    "/Library/MobileSubstrate/MobileSubstrate.dylib",
+    "/bin/bash",
+    "/usr/sbin/sshd",
+    "/etc/apt"
 };
 
 @interface MCIAPPayHelper () <SKProductsRequestDelegate, UIAlertViewDelegate, SKPaymentTransactionObserver>
@@ -53,7 +53,7 @@ const char *jailbreak_tool_pathes[] = {
     if (self) {
         [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
     }
-
+    
     return self;
 }
 
@@ -80,7 +80,11 @@ const char *jailbreak_tool_pathes[] = {
     self.payDto.productId = productId;
     self.processCallBack = callBack;
     [HUDView show];
-
+#if DEBUG
+    SKProductsRequest *productsRequest = [[SKProductsRequest alloc] initWithProductIdentifiers:[NSSet setWithObject:self.payDto.productId]];
+    productsRequest.delegate = self;
+    [productsRequest start];
+#else
     @weakify(self);
     RACSignal *signal = nil;//[self createOrder:self.payDto.productId payType:@"iap"];
     [signal subscribeNext:^(NSDictionary *dict) {
@@ -92,7 +96,7 @@ const char *jailbreak_tool_pathes[] = {
             SKPaymentTransaction *transaction = [transactions firstObject];
             [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
         }
-
+        
         self.payDto.requestId = dict[@"requestId"];
         self.payDto.orderId = dict[@"orderId"];
         if (![SKPaymentQueue canMakePayments]) {
@@ -101,14 +105,14 @@ const char *jailbreak_tool_pathes[] = {
             }
             return;
         }
-
+        
         if (self.payDto.requestId.length == 0 || self.payDto.orderId.length == 0) {
             if (self.processCallBack) {
                 self.processCallBack(NO, @"request or orderId == NULL");
             }
             return;
         }
-
+        
         [HUDView show];
         SKProductsRequest *productsRequest = [[SKProductsRequest alloc] initWithProductIdentifiers:[NSSet setWithObject:self.payDto.productId]];
         productsRequest.delegate = self;
@@ -125,21 +129,22 @@ const char *jailbreak_tool_pathes[] = {
             self.processCallBack(NO, error.userInfo[ERROR_MESSAGE]);
         }
     }];
+#endif
 }
 
 - (void)processBuyProductStatus:(NSURL *)url callBack:(MCProcessCallback)callBack {
-
+    
 }
 
 #pragma mark -
 #pragma mark SKPaymentTransactionObserver
 
 - (void)paymentQueueRestoreCompletedTransactionsFinished:(SKPaymentQueue *)queue {
-
+    
 }
 
 - (void)paymentQueue:(SKPaymentQueue *)queue restoreCompletedTransactionsFailedWithError:(NSError *)error {
-
+    
 }
 
 #pragma mark SKProductsRequestDelegate
@@ -154,18 +159,19 @@ const char *jailbreak_tool_pathes[] = {
 }
 
 - (void)requestDidFinish:(SKRequest *)request {
-
+    
 }
 
 //请求成功
 - (void)productsRequest:(SKProductsRequest *)request didReceiveResponse:(SKProductsResponse *)response {
     SKProduct *skproduct = [[response products] lastObject];
+    [HUDView dismiss];
     if (!skproduct) {
         if (self.processCallBack) {
             self.processCallBack(NO, @"商品列表中无此商品");
         }
-        [HUDView dismiss];
     } else {
+        [HUDView show];
         SKPayment *payment = [SKPayment paymentWithProduct:skproduct];
         [[SKPaymentQueue defaultQueue] addPayment:payment];
     }
@@ -173,6 +179,7 @@ const char *jailbreak_tool_pathes[] = {
 
 //交易回调
 - (void)paymentQueue:(SKPaymentQueue *)queue updatedTransactions:(NSArray *)transactions {
+    [HUDView dismiss];
     for (SKPaymentTransaction *transaction in transactions) {
         switch (transaction.transactionState) {
             case SKPaymentTransactionStatePurchased: {
@@ -183,17 +190,17 @@ const char *jailbreak_tool_pathes[] = {
                 }
                 break;
             }
-
+                
             case SKPaymentTransactionStateRestored: {
                 [self completePurchaseTransaction:transaction];
                 break;
             }
-
+                
             case SKPaymentTransactionStateFailed: {
                 [self handelFailedTransaction:transaction];
                 break;
             }
-
+                
             case SKPaymentTransactionStatePurchasing: {
                 self.inPurchase = YES;
                 break;
@@ -208,28 +215,28 @@ const char *jailbreak_tool_pathes[] = {
 #pragma mark SKPaymentTrasactionObserver
 
 - (void)paymentQueue:(SKPaymentQueue *)queue removedTransactions:(NSArray *)transactions {
-
+    
 }
 
 //完成购买交易
 - (void)completePurchaseTransaction:(SKPaymentTransaction *)transaction {
-//    GOrder *globalOrder = [GOrder new];
-//    globalOrder.entityId = self.orderId;
-//    globalOrder.requestId = self.requestId;
-//    globalOrder.userId = [UserSession share].user.entityId;
-//    globalOrder.type = self.orderType;
-//    [globalOrder MMPersistence];
-
+    //    GOrder *globalOrder = [GOrder new];
+    //    globalOrder.entityId = self.orderId;
+    //    globalOrder.requestId = self.requestId;
+    //    globalOrder.userId = [UserSession share].user.entityId;
+    //    globalOrder.type = self.orderType;
+    //    [globalOrder MMPersistence];
+    
     [self appStoreReciept];
     [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
 }
 
 - (void)appStoreReciept {
     NSData *receiptData = [NSData dataWithContentsOfURL:[[NSBundle mainBundle] appStoreReceiptURL]];
-//    GOrder *globalOrder = (GOrder *) [GOrder MMFindEntityById:self.orderId];
+    //    GOrder *globalOrder = (GOrder *) [GOrder MMFindEntityById:self.orderId];
     NSString *receipt = nil;//[receiptData base64EncodedString];
-//    globalOrder.receipt = receipt;
-//    [globalOrder MMPersistence];
+    //    globalOrder.receipt = receipt;
+    //    [globalOrder MMPersistence];
     [self requestVerifyReceipt:receipt];
 }
 
@@ -242,7 +249,7 @@ const char *jailbreak_tool_pathes[] = {
             if (self.processCallBack) {
                 self.processCallBack(YES, nil);
             }
-//            [GOrder MMRemoveById:self.orderId];
+            //            [GOrder MMRemoveById:self.orderId];
         } else {
             [ToastUtils showOnTabTopTitle:@"网络连接超时"];
             if (self.processCallBack) {
@@ -264,10 +271,10 @@ const char *jailbreak_tool_pathes[] = {
 - (void)handelFailedTransaction:(SKPaymentTransaction *)transaction {
     [[SKPaymentQueue defaultQueue] finishTransaction:transaction];
     NSString *error = [NSString stringWithFormat:@"本次购买失败。原因：%@%@", @(transaction.error.code), transaction.error.description];
-
+    
     NSLog(@"handelFailedTransaction %@", error);
     NSLog(@"handelFailedTransaction error.code %@", @(transaction.error.code));
-
+    
     if (transaction.error.code != SKErrorPaymentCancelled) {
         if (self.processCallBack) {
             self.processCallBack(NO, @"购买失败");
@@ -279,30 +286,30 @@ const char *jailbreak_tool_pathes[] = {
 }
 
 + (void)checkOrderErrorsWithType:(NSString *)type {
-//    NSMutableArray *orderList = [GOrder MMFindAll];
-//    for (GOrder *globalOrder in orderList) {
-//        if ([globalOrder.type isEqualToString:type]) {
-//            [[self class] requestOrder:globalOrder];
-//        }
-//    }
+    //    NSMutableArray *orderList = [GOrder MMFindAll];
+    //    for (GOrder *globalOrder in orderList) {
+    //        if ([globalOrder.type isEqualToString:type]) {
+    //            [[self class] requestOrder:globalOrder];
+    //        }
+    //    }
 }
 
 
 + (BOOL)hasOrderErrorsWithType:(NSString *)type {
     NSMutableArray *orderList = [NSMutableArray array];
-//    for (GOrder *globalOrder in [GOrder MMFindAll]) {
-//        if ([globalOrder.type isEqualToString:type]) {
-//            [orderList addObject:globalOrder];
-//        }
-//    }
+    //    for (GOrder *globalOrder in [GOrder MMFindAll]) {
+    //        if ([globalOrder.type isEqualToString:type]) {
+    //            [orderList addObject:globalOrder];
+    //        }
+    //    }
     return orderList.count > 0;
 }
 
 + (void)checkOrderErrors {
-//    NSMutableArray *orderList = [GOrder MMFindAll];
-//    for (GOrder *globalOrder in orderList) {
-//        [[self class] requestOrder:globalOrder];
-//    }
+    //    NSMutableArray *orderList = [GOrder MMFindAll];
+    //    for (GOrder *globalOrder in orderList) {
+    //        [[self class] requestOrder:globalOrder];
+    //    }
 }
 
 
@@ -334,5 +341,12 @@ const char *jailbreak_tool_pathes[] = {
 //        [dataTask resume];
 //    }
 //}
+
+- (PayDto *)payDto {
+    if(!_payDto) {
+        _payDto = [PayDto new];
+    }
+    return _payDto;
+}
 
 @end
