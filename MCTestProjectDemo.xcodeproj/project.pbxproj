@@ -53,6 +53,7 @@
 		1A6668C07E79FEAD8788AFB5 /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666B73EBBD48B6B76899F9 /* PlayerController.m */; };
 		1A6668FAB03E6DCE56A22B49 /* ALAssetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666C92C91973ACB27C7AA5 /* ALAssetController.m */; };
 		1A66693A8034C7716D3CF209 /* ActionSheetControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666C503B05809019209214 /* ActionSheetControllerViewController.m */; };
+		1A66693CE123B554046E41A1 /* CoverAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6661B3DB764C6CF5BF4044 /* CoverAnimator.m */; };
 		1A666968124C4B0AF3D03EFD /* ScanQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666C2CB1ACECBECA78A9B7 /* ScanQRCodeController.m */; };
 		1A666973FB35452995B2B02F /* PlayerLoadResourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66617CFAC2EE4057F97BF1 /* PlayerLoadResourceController.m */; };
 		1A66697DBBA02177CC030573 /* String2HexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6668821132A55370787B64 /* String2HexViewController.m */; };
@@ -122,6 +123,7 @@
 		1A66615E4277ECC170F32AD3 /* SliderLayerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderLayerControl.h; sourceTree = "<group>"; };
 		1A66617CFAC2EE4057F97BF1 /* PlayerLoadResourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLoadResourceController.m; sourceTree = "<group>"; };
 		1A6661AD89CE685CE81DA642 /* ListDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDataVM.h; sourceTree = "<group>"; };
+		1A6661B3DB764C6CF5BF4044 /* CoverAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverAnimator.m; sourceTree = "<group>"; };
 		1A6661FF3F0822D42D68992B /* PayListDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayListDataVM.m; sourceTree = "<group>"; };
 		1A66622E102DF2B97BE181C3 /* TranstionToAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranstionToAnimationController.m; sourceTree = "<group>"; };
 		1A6662738F17B10DF3CD780F /* IJKFFmpeg.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = IJKFFmpeg.sh; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 		1A666C804F6FA5409D0D2432 /* AnimationActionDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationActionDto.h; sourceTree = "<group>"; };
 		1A666C92C91973ACB27C7AA5 /* ALAssetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAssetController.m; sourceTree = "<group>"; };
 		1A666CAB3F265B848E8ADBBD /* Wideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wideo.h; sourceTree = "<group>"; };
+		1A666CC1649E1E0CD9C71474 /* CoverAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverAnimator.h; sourceTree = "<group>"; };
 		1A666CD57F3DF380822835DC /* FFmpegController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFmpegController.m; sourceTree = "<group>"; };
 		1A666CD7D43533EE2EE38ED4 /* AVFoundationListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFoundationListController.h; sourceTree = "<group>"; };
 		1A666CF365CD759DA75A3554 /* MMTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTableController.h; sourceTree = "<group>"; };
@@ -538,8 +541,18 @@
 				1A6667A9DD01BECBEAE9AF4A /* Fade */,
 				1A6663C4945229ED08C9386E /* AnimationActionDto.m */,
 				1A666C804F6FA5409D0D2432 /* AnimationActionDto.h */,
+				1A66675DCD9EE97E0A787DA7 /* Cover */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		1A66675DCD9EE97E0A787DA7 /* Cover */ = {
+			isa = PBXGroup;
+			children = (
+				1A6661B3DB764C6CF5BF4044 /* CoverAnimator.m */,
+				1A666CC1649E1E0CD9C71474 /* CoverAnimator.h */,
+			);
+			path = Cover;
 			sourceTree = "<group>";
 		};
 		1A66677DD5D9EDDB913951E6 /* Vender */ = {
@@ -1239,6 +1252,7 @@
 				1A666E123F3309379737F59E /* FrameAnimator.m in Sources */,
 				1A6660893F220560B583A7A5 /* FrameDismissAnimator.m in Sources */,
 				1A6660F38BBA90F18E7B2022 /* AnimationActionDto.m in Sources */,
+				1A66693CE123B554046E41A1 /* CoverAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

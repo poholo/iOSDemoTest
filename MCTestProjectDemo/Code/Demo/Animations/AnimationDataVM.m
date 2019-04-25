@@ -15,6 +15,7 @@
 #import "FadeDismissAnimator.h"
 #import "FrameAnimator.h"
 #import "FrameDismissAnimator.h"
+#import "CoverAnimator.h"
 
 @implementation AnimationDataVM
 
@@ -49,7 +50,15 @@
         dto.dimissAnimaterClass = [FrameDismissAnimator class];
         [self.dataList addObject:dto];
     }
-
+    {
+        AnimationActionDto *dto = [AnimationActionDto new];
+        dto.targetClass = [TranstionAnimationController class];
+        dto.name = @"4.转场动画";
+        dto.desc = @"遮罩";
+        dto.toAnimaterClass = [CoverAnimator class];
+        dto.dimissAnimaterClass = [FrameDismissAnimator class];
+        [self.dataList addObject:dto];
+    }
 
 }
 

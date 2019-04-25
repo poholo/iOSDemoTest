@@ -6,4 +6,7 @@
 #import "MMController.h"
 
 @interface TranstionAnimationController : MMController
+
+@property(nonatomic, readonly) UIButton *showBtn;
+
 @end
