@@ -9,6 +9,7 @@
 #import "AnimationDataVM.h"
 
 #import "CALayerControllerViewController.h"
+#import "TranstionAnimationController.h"
 
 @implementation AnimationDataVM
 
@@ -23,6 +24,16 @@
         dto.desc = @"CALayer shadow";
         [self.dataList addObject:dto];
     }
+
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [TranstionAnimationController class];
+        dto.name = @"2.转场动画";
+        dto.desc = @"present";
+        [self.dataList addObject:dto];
+    }
+
+
 }
 
 @end

@@ -7,6 +7,7 @@
 
 #import "AlgorithmListDataVM.h"
 #import "ActionDto.h"
+#import "MMDict.h"
 
 @interface AlgorithmListController ()
 
@@ -56,8 +57,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     ActionDto *dto = self.dataVM.dataList[indexPath.row];
-//    UIViewController *vc = (UIViewController *) [[dto.targetClass alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+    MMDict *dict = [MMDict new];
+    [dict setObj:dto forKey:ROUTE_DTO];
+    MMController *classController = (MMController *) [dto.targetClass alloc];
+    MMController *vc = [classController initWithRouterParams:dict];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - getter

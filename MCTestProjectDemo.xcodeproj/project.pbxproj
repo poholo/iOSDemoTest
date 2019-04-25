@@ -16,6 +16,7 @@
 		1A66615C2EA8EB74C1AFA0D9 /* PayListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666F8D7C1BAD441BDB592D /* PayListController.m */; };
 		1A66616503D22E8A68B0E8FE /* Dto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6667F41745DAD5EB3CBB86 /* Dto.m */; };
 		1A666168C64791375CF37B75 /* SliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666BDB7E3C24459799F3C4 /* SliderController.m */; };
+		1A6661C3BA52612E02272F50 /* TranstionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66629A2F6F935DC4FCC24F /* TranstionAnimationController.m */; };
 		1A6662157DE84DB4F34ABA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A666AF12E351EB21BADA269 /* Main.storyboard */; };
 		1A666223EA82333B9FB24AB0 /* praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A666678A6FDAD610C606EE7 /* praise@2x.png */; };
 		1A666246246D381AFDCE4D45 /* GridSliderProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6660365A7557D9F57883C6 /* GridSliderProgress.m */; };
@@ -35,6 +36,8 @@
 		1A66665402C29F764EA49946 /* AlgorithmListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6669BB563D45C3F044C05D /* AlgorithmListController.m */; };
 		1A666672EE963E2EBC30FCCE /* IJKFFmpeg.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1A6662738F17B10DF3CD780F /* IJKFFmpeg.sh */; };
 		1A6666B865F1516D88517262 /* SliderLayerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6665EB0DA19BAF90397D41 /* SliderLayerControl.m */; };
+		1A6666CF72AAE526A3966731 /* AnimatedTranstor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6665EE9E12F9A7C5D36BDD /* AnimatedTranstor.m */; };
+		1A66671241F3DA89A217C18B /* AnimatedDismissTranstor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6668254C2407B3D74F6E68 /* AnimatedDismissTranstor.m */; };
 		1A66678DA724C227E1143507 /* SliderProgressDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666D614052E18D5F0DB5E9 /* SliderProgressDot.m */; };
 		1A6667A08858C40115917805 /* ScanQRCodeDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66694EBB60607EEE56BAD2 /* ScanQRCodeDataVM.m */; };
 		1A6667B2BFF93855D90E2FB1 /* MMRoutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666950F2D143592CA7D208 /* MMRoutable.m */; };
@@ -58,6 +61,7 @@
 		1A666B8B70A6A029B44F3433 /* PlayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6667E8D130887FC26768CD /* PlayerTestViewController.m */; };
 		1A666B9BD04F2D04CE97AE7F /* HUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6665E7A1ACA364F7877BE8 /* HUDView.m */; };
 		1A666C629958288A777FC9EE /* PhotoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66657BC404A350E0210904 /* PhotoListController.m */; };
+		1A666C6B5645063376C73426 /* TranstionToAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6661D01444293B1F0A0272 /* TranstionToAnimationController.m */; };
 		1A666D455B5B5A40E516B6EF /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6669FFB5670AEE4D996D2C /* ListController.m */; };
 		1A666D56407A9F5C47F83480 /* DesignPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66665F8D19A45D07F60B9D /* DesignPatternController.m */; };
 		1A666DA7E022CBBA88E50A4E /* Test.js in Sources */ = {isa = PBXBuildFile; fileRef = 1A6663D0B5CF3714DF77036E /* Test.js */; };
@@ -94,6 +98,7 @@
 		258266A2219D7012009C0564 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2582669C219D7012009C0564 /* libswscale.a */; };
 		258429781F44204400ED4EEE /* script2.js in Resources */ = {isa = PBXBuildFile; fileRef = 258429771F44204400ED4EEE /* script2.js */; };
 		25847AA21F90D06100BAFF61 /* 59c0defacecaab508c5b9bab.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 25847AA11F90CF5700BAFF61 /* 59c0defacecaab508c5b9bab.m4a */; };
+		25B2DDB2223909370027B40B /* BlockSyncAsyncTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2DDB1223909370027B40B /* BlockSyncAsyncTestController.m */; };
 		25BA6FD2219C1D6A00EF2FDC /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA6FD0219C1D6A00EF2FDC /* VideoToolbox.framework */; };
 		25BA6FD3219C1D6A00EF2FDC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA6FD1219C1D6A00EF2FDC /* AudioToolbox.framework */; };
 		25D57338223657A400A14A99 /* MCIAPPayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D57336223657A400A14A99 /* MCIAPPayHelper.m */; };
@@ -114,8 +119,10 @@
 		1A66615E4277ECC170F32AD3 /* SliderLayerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderLayerControl.h; sourceTree = "<group>"; };
 		1A66617CFAC2EE4057F97BF1 /* PlayerLoadResourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLoadResourceController.m; sourceTree = "<group>"; };
 		1A6661AD89CE685CE81DA642 /* ListDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDataVM.h; sourceTree = "<group>"; };
+		1A6661D01444293B1F0A0272 /* TranstionToAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranstionToAnimationController.m; sourceTree = "<group>"; };
 		1A6661FF3F0822D42D68992B /* PayListDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayListDataVM.m; sourceTree = "<group>"; };
 		1A6662738F17B10DF3CD780F /* IJKFFmpeg.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = IJKFFmpeg.sh; sourceTree = "<group>"; };
+		1A66629A2F6F935DC4FCC24F /* TranstionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranstionAnimationController.m; sourceTree = "<group>"; };
 		1A6662A91D365665B7C5ECFE /* SliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderController.h; sourceTree = "<group>"; };
 		1A6662CE2DE31B475961FC05 /* PhotoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListController.h; sourceTree = "<group>"; };
 		1A6662EC7DEB0F3B196A72D5 /* DesignPatternController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternController.h; sourceTree = "<group>"; };
@@ -124,6 +131,7 @@
 		1A666349E98F349230FCDDF2 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
 		1A666353CC4FCEC74F42B068 /* ListDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDataVM.m; sourceTree = "<group>"; };
 		1A6663AC93DEB4B9CF0ACCBD /* SliderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderControl.h; sourceTree = "<group>"; };
+		1A6663B62D3C5B354D35D6CA /* AnimatedDismissTranstor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedDismissTranstor.h; sourceTree = "<group>"; };
 		1A6663D0B5CF3714DF77036E /* Test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Test.js; sourceTree = "<group>"; };
 		1A6663E13539A5B15CB47B71 /* MMNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNavController.h; sourceTree = "<group>"; };
 		1A66643B48BC61805E640F45 /* AVFoundationDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationDataVM.m; sourceTree = "<group>"; };
@@ -139,7 +147,9 @@
 		1A6665D5914794D9919D5145 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		1A6665E7A1ACA364F7877BE8 /* HUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDView.m; sourceTree = "<group>"; };
 		1A6665EB0DA19BAF90397D41 /* SliderLayerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderLayerControl.m; sourceTree = "<group>"; };
+		1A6665EE9E12F9A7C5D36BDD /* AnimatedTranstor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTranstor.m; sourceTree = "<group>"; };
 		1A6665FDF020701EF8B6B822 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		1A66663D7013D89CF92EA375 /* AnimatedTranstor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTranstor.h; sourceTree = "<group>"; };
 		1A666645B569E04847F99004 /* UIControlSliderTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControlSliderTestController.h; sourceTree = "<group>"; };
 		1A66665172404DE388EE542C /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
 		1A66665F8D19A45D07F60B9D /* DesignPatternController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternController.m; sourceTree = "<group>"; };
@@ -155,6 +165,8 @@
 		1A6667E8D130887FC26768CD /* PlayerTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTestViewController.m; sourceTree = "<group>"; };
 		1A6667F41745DAD5EB3CBB86 /* Dto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dto.m; sourceTree = "<group>"; };
 		1A66681F9C04C97F8913602D /* DataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVM.h; sourceTree = "<group>"; };
+		1A6668254C2407B3D74F6E68 /* AnimatedDismissTranstor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedDismissTranstor.m; sourceTree = "<group>"; };
+		1A6668274DB70678995ED4F1 /* TranstionToAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranstionToAnimationController.h; sourceTree = "<group>"; };
 		1A666841C6448E731C67451D /* AlgorithmListDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmListDataVM.h; sourceTree = "<group>"; };
 		1A66686553DE067F2B76527E /* AlgorithmListDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListDataVM.m; sourceTree = "<group>"; };
 		1A66687FA9ED18521AC54B90 /* MCGoodsDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCGoodsDto.h; sourceTree = "<group>"; };
@@ -167,6 +179,7 @@
 		1A6668EA4A8FDA450BE7DD54 /* AVFoundationListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationListController.m; sourceTree = "<group>"; };
 		1A6668F5729D5F7CEB2B7D70 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		1A6669152C0069BE6BC118E3 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		1A666928D999A6215BB5D0B4 /* TranstionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranstionAnimationController.h; sourceTree = "<group>"; };
 		1A66693030BCB8E6C01CFBA0 /* ffmpegI.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ffmpegI.sh; sourceTree = "<group>"; };
 		1A666933CC5AD03D509E70BC /* OldListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldListController.m; sourceTree = "<group>"; };
 		1A66694EBB60607EEE56BAD2 /* ScanQRCodeDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRCodeDataVM.m; sourceTree = "<group>"; };
@@ -361,6 +374,8 @@
 		2582669C219D7012009C0564 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
 		258429771F44204400ED4EEE /* script2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script2.js; sourceTree = "<group>"; };
 		25847AA11F90CF5700BAFF61 /* 59c0defacecaab508c5b9bab.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 59c0defacecaab508c5b9bab.m4a; sourceTree = "<group>"; };
+		25B2DDB0223909370027B40B /* BlockSyncAsyncTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockSyncAsyncTestController.h; sourceTree = "<group>"; };
+		25B2DDB1223909370027B40B /* BlockSyncAsyncTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockSyncAsyncTestController.m; sourceTree = "<group>"; };
 		25BA6FCE219C1D5700EF2FDC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		25BA6FD0219C1D6A00EF2FDC /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		25BA6FD1219C1D6A00EF2FDC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -499,6 +514,14 @@
 				25F7F25321EC9938007D6B48 /* CALayerControllerViewController.m */,
 				25F7F25521EC998B007D6B48 /* AnimationDataVM.h */,
 				25F7F25621EC998B007D6B48 /* AnimationDataVM.m */,
+				1A66629A2F6F935DC4FCC24F /* TranstionAnimationController.m */,
+				1A666928D999A6215BB5D0B4 /* TranstionAnimationController.h */,
+				1A6661D01444293B1F0A0272 /* TranstionToAnimationController.m */,
+				1A6668274DB70678995ED4F1 /* TranstionToAnimationController.h */,
+				1A6665EE9E12F9A7C5D36BDD /* AnimatedTranstor.m */,
+				1A66663D7013D89CF92EA375 /* AnimatedTranstor.h */,
+				1A6668254C2407B3D74F6E68 /* AnimatedDismissTranstor.m */,
+				1A6663B62D3C5B354D35D6CA /* AnimatedDismissTranstor.h */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -654,6 +677,8 @@
 				1A66631F7A4595BA4C3F7A86 /* AlgorithmListController.h */,
 				1A66686553DE067F2B76527E /* AlgorithmListDataVM.m */,
 				1A666841C6448E731C67451D /* AlgorithmListDataVM.h */,
+				25B2DDB0223909370027B40B /* BlockSyncAsyncTestController.h */,
+				25B2DDB1223909370027B40B /* BlockSyncAsyncTestController.m */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -1027,7 +1052,7 @@
 				TargetAttributes = {
 					253A856B1E7C0F07006864F3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = T6YK2SCZ3R;
+						DevelopmentTeam = 6FNUHS4H7D;
 						ProvisioningStyle = Automatic;
 					};
 					25409B60219AC4A000F29736 = {
@@ -1042,6 +1067,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1130,6 +1156,7 @@
 				1A6668B6F972AF74B4EBD2A5 /* LeftRightViewController.m in Sources */,
 				1A66664009191CAF85690D54 /* Wideo.m in Sources */,
 				25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */,
+				25B2DDB2223909370027B40B /* BlockSyncAsyncTestController.m in Sources */,
 				1A6666B865F1516D88517262 /* SliderLayerControl.m in Sources */,
 				1A666853EF142A6DC3F2A7B3 /* PraiseController.m in Sources */,
 				1A66697DBBA02177CC030573 /* String2HexViewController.m in Sources */,
@@ -1174,6 +1201,10 @@
 				1A666B9BD04F2D04CE97AE7F /* HUDView.m in Sources */,
 				1A666F384AF58AC9C2D9BB9A /* ToastUtils.m in Sources */,
 				1A666FFDADB828B81D9DEE6D /* UIView+Toast.m in Sources */,
+				1A6661C3BA52612E02272F50 /* TranstionAnimationController.m in Sources */,
+				1A666C6B5645063376C73426 /* TranstionToAnimationController.m in Sources */,
+				1A6666CF72AAE526A3966731 /* AnimatedTranstor.m in Sources */,
+				1A66671241F3DA89A217C18B /* AnimatedDismissTranstor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1318,11 +1349,11 @@
 			baseConfigurationReference = 0810D2A0D8FF692B26AFE3BB /* Pods-MCTestProjectDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T6YK2SCZ3R;
+				DEVELOPMENT_TEAM = 6FNUHS4H7D;
 				INFOPLIST_FILE = MCTestProjectDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jx.iaptest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MCTestProjectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
@@ -1333,11 +1364,11 @@
 			baseConfigurationReference = 3BF1BD2AB13F2DD351D03826 /* Pods-MCTestProjectDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T6YK2SCZ3R;
+				DEVELOPMENT_TEAM = 6FNUHS4H7D;
 				INFOPLIST_FILE = MCTestProjectDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jx.iaptest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MCTestProjectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};

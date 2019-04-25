@@ -4,10 +4,21 @@
 //
 
 #import "AlgorithmListDataVM.h"
+
+#import "BlockSyncAsyncTestController.h"
 #import "ActionDto.h"
 
 
-@implementation AlgorithmListDataVM {
+@implementation AlgorithmListDataVM
 
+- (void)refresh {
+    [super refresh];
+    
+    {
+        ActionDto * actionDto = [ActionDto new];
+        actionDto.name = @"1. Block Async & Sync Test";
+        actionDto.targetClass = [BlockSyncAsyncTestController class];
+        [self.dataList addObject:actionDto];
+    }
 }
 @end

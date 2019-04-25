@@ -17,7 +17,6 @@
     self = [super init];
     if (self) {
         self.uuid = [NSUUID UUID].UUIDString;
-        self.view.backgroundColor = [UIColor whiteColor];
     }
 
     return self;
@@ -27,7 +26,6 @@
     self = [super init];
     if (self) {
         self.uuid = [NSUUID UUID].UUIDString;
-        self.view.backgroundColor = [UIColor whiteColor];
     }
 
     return self;
@@ -37,6 +35,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     [self viewLoading];
 
     self.edgesForExtendedLayout = UIRectEdgeNone;
