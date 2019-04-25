@@ -10,15 +10,20 @@
 
 #import "CALayerControllerViewController.h"
 #import "TranstionAnimationController.h"
+#import "AnimationActionDto.h"
+#import "FadeAnimator.h"
+#import "FadeDismissAnimator.h"
+#import "FrameAnimator.h"
+#import "FrameDismissAnimator.h"
 
 @implementation AnimationDataVM
 
 - (void)refresh {
     [super refresh];
     [self.dataList removeAllObjects];
-    
+
     {
-        ActionDto *dto = [ActionDto new];
+        AnimationActionDto *dto = [AnimationActionDto new];
         dto.targetClass = [CALayerControllerViewController class];
         dto.name = @"1.CALayer";
         dto.desc = @"CALayer shadow";
@@ -26,10 +31,22 @@
     }
 
     {
-        ActionDto *dto = [ActionDto new];
+        AnimationActionDto *dto = [AnimationActionDto new];
         dto.targetClass = [TranstionAnimationController class];
         dto.name = @"2.转场动画";
-        dto.desc = @"present";
+        dto.desc = @"淡入淡出";
+        dto.toAnimaterClass = [FadeAnimator class];
+        dto.dimissAnimaterClass = [FadeDismissAnimator class];
+        [self.dataList addObject:dto];
+    }
+
+    {
+        AnimationActionDto *dto = [AnimationActionDto new];
+        dto.targetClass = [TranstionAnimationController class];
+        dto.name = @"3.转场动画";
+        dto.desc = @"位移";
+        dto.toAnimaterClass = [FrameAnimator class];
+        dto.dimissAnimaterClass = [FrameDismissAnimator class];
         [self.dataList addObject:dto];
     }
 

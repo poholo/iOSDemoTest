@@ -16,4 +16,8 @@
 @property(nonatomic, strong) NSString *name;
 @property(nonatomic, strong) NSString *desc;
 
+@property(nonatomic, strong) NSNumber *type;
+
+- (NSString *)text;
+
 @end

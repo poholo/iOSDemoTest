@@ -54,10 +54,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
     ActionDto *dto = self.dataVM.dataList[indexPath.row];
-    cell.textLabel.text = dto.name;
-    cell.detailTextLabel.text = dto.desc;
+    cell.textLabel.text = dto.text;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    
     return cell;
 }
 

@@ -3,28 +3,26 @@
 // Copyright (c) 2019 mjc. All rights reserved.
 //
 
-#import "AnimatedDismissTranstor.h"
+#import "FrameDismissAnimator.h"
 
 
-@implementation AnimatedDismissTranstor
+@implementation FrameDismissAnimator
 
 - (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext {
-    return 1;
+    return 3;
 }
 
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
     UIView *fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
     UIView *toView = [transitionContext viewForKey:UITransitionContextToViewKey];
-    UIView *continner = transitionContext.containerView;
-    toView.alpha = 0.3;
-    [fromView removeFromSuperview];
-    [continner addSubview:toView];
-    [UIView animateWithDuration:1 animations:^{
-        toView.alpha = 1;
+    [transitionContext.containerView addSubview:toView];
+    toView.frame = CGRectMake(0, -toView.frame.size.height, toView.frame.size.width, toView.frame.size.height);
+    [UIView animateWithDuration:2 delay:0 usingSpringWithDamping:.5 initialSpringVelocity:3 options:UIViewAnimationOptionLayoutSubviews animations:^{
+        toView.frame = CGRectMake(0, 0, toView.frame.size.width, toView.frame.size.height);
     }                completion:^(BOOL finished) {
         [transitionContext completeTransition:YES];
-    }];
 
+    }];
 }
 
 @end

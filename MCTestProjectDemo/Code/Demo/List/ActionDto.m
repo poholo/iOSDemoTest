@@ -7,7 +7,10 @@
 #import "MMController.h"
 
 
-@implementation ActionDto {
+@implementation ActionDto
 
+- (NSString *)text {
+    return [NSString stringWithFormat:@"%@-%@", self.name, self.desc];
 }
+
 @end

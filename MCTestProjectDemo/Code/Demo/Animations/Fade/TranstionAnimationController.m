@@ -4,21 +4,32 @@
 //
 
 #import "TranstionAnimationController.h"
+
 #import "TranstionToAnimationController.h"
-#import "AnimatedTranstor.h"
-#import "AnimatedDismissTranstor.h"
+#import "AnimationActionDto.h"
+#import "MMDict.h"
 
 
 @interface TranstionAnimationController () <UIViewControllerTransitioningDelegate>
 
 @property(nonatomic, strong) UIButton *showBtn;
 
-@property(nonatomic, strong) AnimatedTranstor *transtor;
-@property(nonatomic, strong) AnimatedDismissTranstor *dismissTranstor;
+@property(nonatomic, strong) id <UIViewControllerAnimatedTransitioning> transtor;
+@property(nonatomic, strong) id <UIViewControllerAnimatedTransitioning> dismissTranstor;
+
+@property(nonatomic, weak) AnimationActionDto *dto;
 
 @end
 
 @implementation TranstionAnimationController
+
+- (instancetype)initWithRouterParams:(MMDict *)params {
+    self = [super initWithRouterParams:params];
+    if (self) {
+        self.dto = [params objForKey:ROUTE_DTO];
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -77,16 +88,16 @@
     return _showBtn;
 }
 
-- (AnimatedTranstor *)transtor {
+- (id <UIViewControllerAnimatedTransitioning>)transtor {
     if (!_transtor) {
-        _transtor = [AnimatedTranstor new];
+        _transtor = (id <UIViewControllerAnimatedTransitioning>) [self.dto.toAnimaterClass new];
     }
     return _transtor;
 }
 
-- (AnimatedDismissTranstor *)dismissTranstor {
+- (id <UIViewControllerAnimatedTransitioning>)dismissTranstor {
     if (!_dismissTranstor) {
-        _dismissTranstor = [AnimatedDismissTranstor new];
+        _dismissTranstor = (id <UIViewControllerAnimatedTransitioning>) [self.dto.dimissAnimaterClass new];
     }
     return _dismissTranstor;
 }

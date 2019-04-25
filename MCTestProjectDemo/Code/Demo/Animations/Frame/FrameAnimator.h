@@ -5,6 +5,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AnimatedDismissTranstor : NSObject <UIViewControllerAnimatedTransitioning>
-
+@interface FrameAnimator : NSObject <UIViewControllerAnimatedTransitioning>
 @end

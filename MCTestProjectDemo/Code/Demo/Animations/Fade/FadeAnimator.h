@@ -5,6 +5,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AnimatedTranstor : NSObject <UIViewControllerAnimatedTransitioning>
+@interface FadeAnimator : NSObject <UIViewControllerAnimatedTransitioning>
 
 @end
