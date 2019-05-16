@@ -3,8 +3,8 @@
 // Copyright (c) 2018 waqu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MMTableController.h"
 
-@interface FFmpegController : UIViewController
+@interface FFmpegController : MMTableController
 
 @end

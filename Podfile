@@ -9,4 +9,5 @@ target 'MCTestProjectDemo' do
   pod 'AFNetworking', '3.1.0'
   pod 'MBProgressHUD'
   pod 'MMPopupView'
+  pod 'FFmpeg'
 end

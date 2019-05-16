@@ -12,6 +12,8 @@
 #import "DesignPatternController.h"
 #import "AlgorithmListController.h"
 #import "PayListController.h"
+#import "FFmpegController.h"
+#import "BaseController.h"
 
 
 @implementation ListDataVM
@@ -65,6 +67,22 @@
         dto.targetClass = [PayListController class];
         dto.name = @"6.Pay";
         dto.desc = @"IAP pay";
+        [self.dataList addObject:dto];
+    }
+
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [FFmpegController class];
+        dto.name = @"7.FFmpeg";
+        dto.desc = @"编解码";
+        [self.dataList addObject:dto];
+    }
+
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [BaseController class];
+        dto.name = @"8.Base";
+        dto.desc = @"基础测试";
         [self.dataList addObject:dto];
     }
 }

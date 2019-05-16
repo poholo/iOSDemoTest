@@ -1,21 +1,24 @@
 //
-// Created by majiancheng on 2018/11/7.
-// Copyright (c) 2018 waqu. All rights reserved.
+// Created by majiancheng on 2019/5/16.
+// Copyright (c) 2019 mjc. All rights reserved.
 //
 
-#import "FFmpegController.h"
+#import "BaseController.h"
+
 
 #import "MMDict.h"
-#import "FFmpegDataVM.h"
+#import "BaseDataVM.h"
 #import "ActionDto.h"
 
-@interface FFmpegController ()
+@interface BaseController ()
 
-@property(nonatomic, strong) FFmpegDataVM *dataVM;
+@property(nonatomic, strong) BaseDataVM *dataVM;
 
 @end
 
-@implementation FFmpegController
+
+@implementation BaseController
+
 
 - (instancetype)initWithRouterParams:(MMDict *)params {
     self = [super initWithRouterParams:params];
@@ -68,17 +71,17 @@
     ActionDto *dto = self.dataVM.dataList[indexPath.row];
     MMDict *dict = [MMDict new];
     [dict setObj:dto forKey:ROUTE_DTO];
-    MMController * classController = (MMController * )
-    [dto.targetClass alloc];
+    MMController *classController = (MMController *)
+            [dto.targetClass alloc];
     MMController *vc = [classController initWithRouterParams:dict];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - getter
 
-- (FFmpegDataVM *)dataVM {
+- (BaseDataVM *)dataVM {
     if (!_dataVM) {
-        _dataVM = [FFmpegDataVM new];
+        _dataVM = [BaseDataVM new];
     }
     return _dataVM;
 }
