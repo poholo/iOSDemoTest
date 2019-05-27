@@ -6,6 +6,7 @@
 #import "AVFoundationDataVM.h"
 #import "ActionDto.h"
 #import "ScanQRCodeController.h"
+#import "BabyTrimViewController.h"
 
 
 @implementation AVFoundationDataVM
@@ -21,6 +22,17 @@
         dto.name = @"1.ScanQRCode";
         dto.desc = @"二维码扫描器";
         [self.dataList addObject:dto];
+    }
+
+    {
+
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [BabyTrimViewController class];
+        dto.name = @"2.TrimView";
+        dto.desc = @"TrimView";
+        [self.dataList addObject:dto];
+
+
     }
 }
 

@@ -18,6 +18,7 @@
 		1A66615C2EA8EB74C1AFA0D9 /* PayListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666F8D7C1BAD441BDB592D /* PayListController.m */; };
 		1A66616503D22E8A68B0E8FE /* Dto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6667F41745DAD5EB3CBB86 /* Dto.m */; };
 		1A666168C64791375CF37B75 /* SliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666BDB7E3C24459799F3C4 /* SliderController.m */; };
+		1A666173D3B43293D69F8AD6 /* ThumbImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666EA912A83B082744B522 /* ThumbImageView.m */; };
 		1A6662157DE84DB4F34ABA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A666AF12E351EB21BADA269 /* Main.storyboard */; };
 		1A666223EA82333B9FB24AB0 /* praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A666678A6FDAD610C606EE7 /* praise@2x.png */; };
 		1A666246246D381AFDCE4D45 /* GridSliderProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6660365A7557D9F57883C6 /* GridSliderProgress.m */; };
@@ -38,6 +39,7 @@
 		1A66662706A19D0A0A6F615F /* PayListDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6661FF3F0822D42D68992B /* PayListDataVM.m */; };
 		1A66664009191CAF85690D54 /* Wideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666E52213CA74959D1E9DA /* Wideo.m */; };
 		1A66664B1546E25292D8BAA3 /* TouchShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6665532829791A25FB30B9 /* TouchShot.m */; };
+		1A666651AB822CFD21908D4C /* BabyTrimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6660196B9B2149F6ADF179 /* BabyTrimViewController.m */; };
 		1A66665402C29F764EA49946 /* AlgorithmListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6669BB563D45C3F044C05D /* AlgorithmListController.m */; };
 		1A666672EE963E2EBC30FCCE /* IJKFFmpeg.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1A6662738F17B10DF3CD780F /* IJKFFmpeg.sh */; };
 		1A6666B865F1516D88517262 /* SliderLayerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6665EB0DA19BAF90397D41 /* SliderLayerControl.m */; };
@@ -47,6 +49,7 @@
 		1A6667B2BFF93855D90E2FB1 /* MMRoutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666950F2D143592CA7D208 /* MMRoutable.m */; };
 		1A6667C875D04FC912BA0D80 /* TranstionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666AA71A47A241331EEEF6 /* TranstionAnimationController.m */; };
 		1A6667CA7BFD9203A7CEB556 /* PayDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6663092785A1AA8D1142DC /* PayDto.m */; };
+		1A6668035690558DC229B7B4 /* ThumbCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6662854F30B8BA645303D5 /* ThumbCollectionCell.m */; };
 		1A666804F0BEAAEBE4B21A08 /* AlgorithmListDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66686553DE067F2B76527E /* AlgorithmListDataVM.m */; };
 		1A666828D246BA3BFE80A4E9 /* timg-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1A66649982BFFEF09C8A8093 /* timg-2.jpeg */; };
 		1A6668463E42D8D9E31F34CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666DD1E9117A5BD7DAD771 /* ViewController.m */; };
@@ -70,6 +73,7 @@
 		1A666BFB560DA1CD3ACC5C39 /* FadeDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666A85C11116B8EE0E8296 /* FadeDismissAnimator.m */; };
 		1A666C629958288A777FC9EE /* PhotoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66657BC404A350E0210904 /* PhotoListController.m */; };
 		1A666CFFD733B2C1909451B7 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66630E546E587DA4EF5346 /* BaseController.m */; };
+		1A666D2B88741D5080378424 /* BabyVideoCropBottomTrimView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666A0F9F39F140697261BA /* BabyVideoCropBottomTrimView.m */; };
 		1A666D455B5B5A40E516B6EF /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6669FFB5670AEE4D996D2C /* ListController.m */; };
 		1A666D56407A9F5C47F83480 /* DesignPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66665F8D19A45D07F60B9D /* DesignPatternController.m */; };
 		1A666DA7E022CBBA88E50A4E /* Test.js in Sources */ = {isa = PBXBuildFile; fileRef = 1A6663D0B5CF3714DF77036E /* Test.js */; };
@@ -119,6 +123,7 @@
 /* Begin PBXFileReference section */
 		0810D2A0D8FF692B26AFE3BB /* Pods-MCTestProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCTestProjectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCTestProjectDemo/Pods-MCTestProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1A6660069D1250B28EFEE2C2 /* ScanQRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRView.h; sourceTree = "<group>"; };
+		1A6660196B9B2149F6ADF179 /* BabyTrimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyTrimViewController.m; sourceTree = "<group>"; };
 		1A6660365A7557D9F57883C6 /* GridSliderProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridSliderProgress.m; sourceTree = "<group>"; };
 		1A666062722FC349CEA8A941 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		1A6660C8ABC12BFD4AD4AF4C /* ToastUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastUtils.m; sourceTree = "<group>"; };
@@ -133,11 +138,13 @@
 		1A66622E102DF2B97BE181C3 /* TranstionToAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranstionToAnimationController.m; sourceTree = "<group>"; };
 		1A666242B0F4D0383340D5C4 /* BaseDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataVM.m; sourceTree = "<group>"; };
 		1A6662738F17B10DF3CD780F /* IJKFFmpeg.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = IJKFFmpeg.sh; sourceTree = "<group>"; };
+		1A6662854F30B8BA645303D5 /* ThumbCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbCollectionCell.m; sourceTree = "<group>"; };
 		1A66629338CA6F2DC8F82A5A /* FadeAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeAnimator.m; sourceTree = "<group>"; };
 		1A6662A34509C66F81AB93E5 /* LifeCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeCircleController.h; sourceTree = "<group>"; };
 		1A6662A91D365665B7C5ECFE /* SliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderController.h; sourceTree = "<group>"; };
 		1A6662CE2DE31B475961FC05 /* PhotoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListController.h; sourceTree = "<group>"; };
 		1A6662EC7DEB0F3B196A72D5 /* DesignPatternController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternController.h; sourceTree = "<group>"; };
+		1A6662F228EB0F06C22B6DD8 /* BabyTrimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyTrimViewController.h; sourceTree = "<group>"; };
 		1A6663092785A1AA8D1142DC /* PayDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayDto.m; sourceTree = "<group>"; };
 		1A66630E546E587DA4EF5346 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
 		1A66631F7A4595BA4C3F7A86 /* AlgorithmListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmListController.h; sourceTree = "<group>"; };
@@ -178,10 +185,12 @@
 		1A666715A7EBAC611AE9C167 /* ListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListController.h; sourceTree = "<group>"; };
 		1A66672C9185DCFDC78ADBDA /* PraiseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PraiseController.m; sourceTree = "<group>"; };
 		1A6667578597D29B2DD9D723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MCTestProjectDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		1A6667B73FC8BAC20F328EA2 /* BabyVideoCropBottomTrimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyVideoCropBottomTrimView.h; sourceTree = "<group>"; };
 		1A6667E8D130887FC26768CD /* PlayerTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTestViewController.m; sourceTree = "<group>"; };
 		1A6667F41745DAD5EB3CBB86 /* Dto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dto.m; sourceTree = "<group>"; };
 		1A66681F9C04C97F8913602D /* DataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVM.h; sourceTree = "<group>"; };
 		1A666841C6448E731C67451D /* AlgorithmListDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmListDataVM.h; sourceTree = "<group>"; };
+		1A666856DA7D45B000639E14 /* ThumbCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbCollectionCell.h; sourceTree = "<group>"; };
 		1A66686553DE067F2B76527E /* AlgorithmListDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListDataVM.m; sourceTree = "<group>"; };
 		1A66687FA9ED18521AC54B90 /* MCGoodsDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCGoodsDto.h; sourceTree = "<group>"; };
 		1A6668821132A55370787B64 /* String2HexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String2HexViewController.m; sourceTree = "<group>"; };
@@ -207,10 +216,12 @@
 		1A6669E3207E1270B5C4D983 /* FFmpegDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFmpegDataVM.h; sourceTree = "<group>"; };
 		1A6669FFB5670AEE4D996D2C /* ListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListController.m; sourceTree = "<group>"; };
 		1A666A083D3D1CBEF131E41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MCTestProjectDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		1A666A0F9F39F140697261BA /* BabyVideoCropBottomTrimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyVideoCropBottomTrimView.m; sourceTree = "<group>"; };
 		1A666A4C24ECCEA694AC17AD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A666A510EB1E093A2CE943A /* PlayerLoadResourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerLoadResourceController.h; sourceTree = "<group>"; };
 		1A666A85C11116B8EE0E8296 /* FadeDismissAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeDismissAnimator.m; sourceTree = "<group>"; };
 		1A666AA71A47A241331EEEF6 /* TranstionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranstionAnimationController.m; sourceTree = "<group>"; };
+		1A666AD02DEFC3DDCC40B7E6 /* ThumbImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbImageView.h; sourceTree = "<group>"; };
 		1A666B1047FAB5EA420B4995 /* AnimationListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationListController.h; sourceTree = "<group>"; };
 		1A666B269E15FC0EFB532A79 /* MMNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavController.m; sourceTree = "<group>"; };
 		1A666B408F38DC8B332F2700 /* praise@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "praise@3x.png"; sourceTree = "<group>"; };
@@ -254,6 +265,7 @@
 		1A666E6EA07E57EF10B44F5E /* EnTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnTestController.m; sourceTree = "<group>"; };
 		1A666E8C0BB737E7D3DFC026 /* BaseDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataVM.h; sourceTree = "<group>"; };
 		1A666E928A1C566FFF1915DC /* JSCoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCoreController.h; sourceTree = "<group>"; };
+		1A666EA912A83B082744B522 /* ThumbImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbImageView.m; sourceTree = "<group>"; };
 		1A666EB03E6D9A8204D98BDE /* Dto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dto.h; sourceTree = "<group>"; };
 		1A666EBB44E560F712AF6D25 /* CircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgress.h; sourceTree = "<group>"; };
 		1A666EBC80861DB2CAB4D8DD /* ActionDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDto.h; sourceTree = "<group>"; };
@@ -513,6 +525,9 @@
 				1A6660F0FD83D78E588D3C4A /* QRScan */,
 				1A66643B48BC61805E640F45 /* AVFoundationDataVM.m */,
 				1A666FC6EAF2A7804BE5B46B /* AVFoundationDataVM.h */,
+				1A6664AB0849225558F386E0 /* TirmView */,
+				1A6660196B9B2149F6ADF179 /* BabyTrimViewController.m */,
+				1A6662F228EB0F06C22B6DD8 /* BabyTrimViewController.h */,
 			);
 			path = AVFoundation;
 			sourceTree = "<group>";
@@ -524,6 +539,19 @@
 				1A6662EC7DEB0F3B196A72D5 /* DesignPatternController.h */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		1A6664AB0849225558F386E0 /* TirmView */ = {
+			isa = PBXGroup;
+			children = (
+				1A6662854F30B8BA645303D5 /* ThumbCollectionCell.m */,
+				1A666A0F9F39F140697261BA /* BabyVideoCropBottomTrimView.m */,
+				1A6667B73FC8BAC20F328EA2 /* BabyVideoCropBottomTrimView.h */,
+				1A666AD02DEFC3DDCC40B7E6 /* ThumbImageView.h */,
+				1A666856DA7D45B000639E14 /* ThumbCollectionCell.h */,
+				1A666EA912A83B082744B522 /* ThumbImageView.m */,
+			);
+			path = TirmView;
 			sourceTree = "<group>";
 		};
 		1A6664B48CB4B94E5600AEDC /* VM */ = {
@@ -1293,6 +1321,10 @@
 				1A666CFFD733B2C1909451B7 /* BaseController.m in Sources */,
 				1A6665CD47B404E5E7939DCD /* BaseDataVM.m in Sources */,
 				1A666330DE595A7790DCFF6F /* LifeCircleController.m in Sources */,
+				1A6668035690558DC229B7B4 /* ThumbCollectionCell.m in Sources */,
+				1A666D2B88741D5080378424 /* BabyVideoCropBottomTrimView.m in Sources */,
+				1A666173D3B43293D69F8AD6 /* ThumbImageView.m in Sources */,
+				1A666651AB822CFD21908D4C /* BabyTrimViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
