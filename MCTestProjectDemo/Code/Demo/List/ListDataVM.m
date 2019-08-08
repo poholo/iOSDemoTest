@@ -14,6 +14,7 @@
 #import "PayListController.h"
 #import "FFmpegController.h"
 #import "BaseController.h"
+#import "MCTestProjectDemo-Swift.h"
 
 
 @implementation ListDataVM
@@ -83,6 +84,14 @@
         dto.targetClass = [BaseController class];
         dto.name = @"8.Base";
         dto.desc = @"基础测试";
+        [self.dataList addObject:dto];
+    }
+    
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [AlgorithmController class];
+        dto.name = @"9.swift";
+        dto.desc = @"swift";
         [self.dataList addObject:dto];
     }
 }

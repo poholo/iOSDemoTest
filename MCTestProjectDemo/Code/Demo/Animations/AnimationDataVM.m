@@ -16,6 +16,7 @@
 #import "FrameAnimator.h"
 #import "FrameDismissAnimator.h"
 #import "CoverAnimator.h"
+#import "MCTestProjectDemo-Swift.h"
 
 @implementation AnimationDataVM
 
@@ -59,6 +60,18 @@
         dto.dimissAnimaterClass = [FrameDismissAnimator class];
         [self.dataList addObject:dto];
     }
+    
+    {
+        AnimationActionDto *dto = [AnimationActionDto new];
+        dto.targetClass = [ArtLikeAnimationController class];
+        dto.name = @"4.点赞东环效果";
+        dto.desc = @"点赞";
+        dto.toAnimaterClass = [CoverAnimator class];
+        dto.dimissAnimaterClass = [FrameDismissAnimator class];
+        [self.dataList addObject:dto];
+    }
+    
+    
 
 }
 

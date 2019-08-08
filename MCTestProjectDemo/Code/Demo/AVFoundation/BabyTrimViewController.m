@@ -18,35 +18,42 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.videoCropBottomTrimView];
+
+    CGFloat duration = 100.0f; //s;
+    CGFloat min = 2.0f;
+    CGFloat max = 30.0f;
+    self.videoCropBottomTrimView.limitMiniRate = min / duration;
+    self.videoCropBottomTrimView.limitMaxRate = max / duration;
+
+    [self.videoCropBottomTrimView loadDefaultTrim:0.3 duration:self.videoCropBottomTrimView.limitMaxRate];
+
     [self addCropEnent];
 }
 
 - (void)addCropEnent {
     __weak typeof(self) weakSelf = self;
     self.videoCropBottomTrimView.leftVideoCropBottomTrimChangeBlock = ^(CGFloat rate) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
+        NSLog(@"leftVideoCropBottomTrimChangeBlock : rate = %lf", rate);
     };
 
     self.videoCropBottomTrimView.rightVideoCropBottomTrimChangeBlock = ^(CGFloat rate) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
+        NSLog(@"rightVideoCropBottomTrimChangeBlock : rate = %lf", rate);
     };
 
     self.videoCropBottomTrimView.leftVideoCropBottomTrimEndBlock = ^(CGFloat rate) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
+        NSLog(@"leftVideoCropBottomTrimEndBlock : rate = %lf", rate);
     };
 
     self.videoCropBottomTrimView.rightVideoCropBottomTrimEndBlock = ^(CGFloat rate) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-
+        NSLog(@"rightVideoCropBottomTrimEndBlock : rate = %lf", rate);
     };
 
     self.videoCropBottomTrimView.trimInBlock = ^(CGFloat rate) {
-        __strong typeof(weakSelf) strongSelf = weakSelf;
-        NSLog(@"rate %lf", rate);
+        NSLog(@"trimInBlock : rate = %lf", rate);
     };
 
     self.videoCropBottomTrimView.trimOutBlock = ^(CGFloat rate) {
-        NSLog(@"rate %lf", rate);
+        NSLog(@"trimOutBlock : rate = %lf", rate);
     };
 }
 

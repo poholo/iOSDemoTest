@@ -88,6 +88,9 @@
 		1A666FEC40725A822C14C7F5 /* AnimationListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666DC15134FB139B587E96 /* AnimationListController.m */; };
 		1A666FFDADB828B81D9DEE6D /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666062722FC349CEA8A941 /* UIView+Toast.m */; };
 		2504DBF01F2B2521003EA775 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2504DBEF1F2B2521003EA775 /* Photos.framework */; };
+		250C23FA22FC003B005D9AF3 /* ArtLikeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C23F922FC003B005D9AF3 /* ArtLikeAnimationView.swift */; };
+		250C23FC22FC0068005D9AF3 /* ArtLikeAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C23FB22FC0068005D9AF3 /* ArtLikeAnimationController.swift */; };
+		252B9ABC22E6FE0F009773B1 /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252B9ABB22E6FE0F009773B1 /* AlgorithmController.swift */; };
 		253A85711E7C0F07006864F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 253A85701E7C0F07006864F3 /* main.m */; };
 		253A85741E7C0F07006864F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 253A85731E7C0F07006864F3 /* AppDelegate.m */; };
 		25409B65219AC4A000F29736 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25409B64219AC4A000F29736 /* AppDelegate.m */; };
@@ -279,6 +282,10 @@
 		1A666FD938474CFC31489BAF /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
 		1A666FF9957861F5E641A12A /* MMTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTableController.m; sourceTree = "<group>"; };
 		2504DBEF1F2B2521003EA775 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		250C23F922FC003B005D9AF3 /* ArtLikeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtLikeAnimationView.swift; sourceTree = "<group>"; };
+		250C23FB22FC0068005D9AF3 /* ArtLikeAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtLikeAnimationController.swift; sourceTree = "<group>"; };
+		252B9ABA22E6FE0F009773B1 /* MCTestProjectDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCTestProjectDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		252B9ABB22E6FE0F009773B1 /* AlgorithmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmController.swift; sourceTree = "<group>"; };
 		253A856C1E7C0F07006864F3 /* MCTestProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCTestProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		253A85701E7C0F07006864F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		253A85721E7C0F07006864F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -425,6 +432,7 @@
 		25F7F25321EC9938007D6B48 /* CALayerControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerControllerViewController.m; sourceTree = "<group>"; };
 		25F7F25521EC998B007D6B48 /* AnimationDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDataVM.h; sourceTree = "<group>"; };
 		25F7F25621EC998B007D6B48 /* AnimationDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDataVM.m; sourceTree = "<group>"; };
+		25FF6F5F22E1BBD800ED9544 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BF1BD2AB13F2DD351D03826 /* Pods-MCTestProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCTestProjectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCTestProjectDemo/Pods-MCTestProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5EF8D5C2544E0F9D89375C4D /* libPods-MCTestProjectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCTestProjectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -577,6 +585,7 @@
 		1A6666945CCEE97A45815DF3 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				25FF6F5E22E1BBCD00ED9544 /* Swift */,
 				1A66677DD5D9EDDB913951E6 /* Vender */,
 				1A6661A18CD043C1AA087F49 /* Commen */,
 				1A66698C8B392C47821BED8F /* Controller */,
@@ -588,6 +597,7 @@
 		1A666717403300AD3F57D1FC /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				250C23F822FC003B005D9AF3 /* View */,
 				1A666DC15134FB139B587E96 /* AnimationListController.m */,
 				1A666B1047FAB5EA420B4995 /* AnimationListController.h */,
 				25F7F25221EC9938007D6B48 /* CALayerControllerViewController.h */,
@@ -599,6 +609,7 @@
 				1A6663C4945229ED08C9386E /* AnimationActionDto.m */,
 				1A666C804F6FA5409D0D2432 /* AnimationActionDto.h */,
 				1A66675DCD9EE97E0A787DA7 /* Cover */,
+				250C23FB22FC0068005D9AF3 /* ArtLikeAnimationController.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -821,6 +832,14 @@
 				5EF8D5C2544E0F9D89375C4D /* libPods-MCTestProjectDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		250C23F822FC003B005D9AF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				250C23F922FC003B005D9AF3 /* ArtLikeAnimationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		253A85631E7C0F07006864F3 = {
@@ -1101,6 +1120,16 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		25FF6F5E22E1BBCD00ED9544 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				25FF6F5F22E1BBD800ED9544 /* MyPlayground.playground */,
+				252B9ABB22E6FE0F009773B1 /* AlgorithmController.swift */,
+				252B9ABA22E6FE0F009773B1 /* MCTestProjectDemo-Bridging-Header.h */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		4BBA327C01E2B437F36548B7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1160,6 +1189,7 @@
 					253A856B1E7C0F07006864F3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6FNUHS4H7D;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					25409B60219AC4A000F29736 = {
@@ -1261,6 +1291,7 @@
 				1A666EE7297F870FF2C51688 /* FFmpegController.m in Sources */,
 				1A666592BA2C456B3E59D02B /* JSCoreController.m in Sources */,
 				1A6668B6F972AF74B4EBD2A5 /* LeftRightViewController.m in Sources */,
+				252B9ABC22E6FE0F009773B1 /* AlgorithmController.swift in Sources */,
 				1A66664009191CAF85690D54 /* Wideo.m in Sources */,
 				25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */,
 				25B2DDB2223909370027B40B /* BlockSyncAsyncTestController.m in Sources */,
@@ -1285,6 +1316,7 @@
 				1A666DA7E022CBBA88E50A4E /* Test.js in Sources */,
 				1A66678DA724C227E1143507 /* SliderProgressDot.m in Sources */,
 				1A666E770D675253D289DDD1 /* OldListController.m in Sources */,
+				250C23FC22FC0068005D9AF3 /* ArtLikeAnimationController.swift in Sources */,
 				1A66664B1546E25292D8BAA3 /* TouchShot.m in Sources */,
 				1A666168C64791375CF37B75 /* SliderController.m in Sources */,
 				1A66698D6C406B6CA7035F32 /* CircleProgress.m in Sources */,
@@ -1306,6 +1338,7 @@
 				1A66602DE259BA512F0CCEB9 /* MCGoodsDto.m in Sources */,
 				1A6667CA7BFD9203A7CEB556 /* PayDto.m in Sources */,
 				1A666B9BD04F2D04CE97AE7F /* HUDView.m in Sources */,
+				250C23FA22FC003B005D9AF3 /* ArtLikeAnimationView.swift in Sources */,
 				1A666F384AF58AC9C2D9BB9A /* ToastUtils.m in Sources */,
 				1A666FFDADB828B81D9DEE6D /* UIView+Toast.m in Sources */,
 				1A666781E872F4103183BC51 /* TranstionToAnimationController.m in Sources */,
@@ -1469,12 +1502,16 @@
 			baseConfigurationReference = 0810D2A0D8FF692B26AFE3BB /* Pods-MCTestProjectDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6FNUHS4H7D;
 				INFOPLIST_FILE = MCTestProjectDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MCTestProjectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MCTestProjectDemo/Code/Swift/MCTestProjectDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
@@ -1484,12 +1521,15 @@
 			baseConfigurationReference = 3BF1BD2AB13F2DD351D03826 /* Pods-MCTestProjectDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6FNUHS4H7D;
 				INFOPLIST_FILE = MCTestProjectDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MCTestProjectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MCTestProjectDemo/Code/Swift/MCTestProjectDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
