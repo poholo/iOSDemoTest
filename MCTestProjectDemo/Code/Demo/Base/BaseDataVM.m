@@ -4,8 +4,10 @@
 //
 
 #import "BaseDataVM.h"
+
 #import "ActionDto.h"
 #import "LifeCircleController.h"
+#import "LockController.h"
 
 
 @implementation BaseDataVM
@@ -21,6 +23,15 @@
         dto.desc = @"ViewController life circle";
         [self.dataList addObject:dto];
     }
+    
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [LockController class];
+        dto.name = @"2.LockController";
+        dto.desc = @"13 lock";
+        [self.dataList addObject:dto];
+    }
+    
 }
 
 @end

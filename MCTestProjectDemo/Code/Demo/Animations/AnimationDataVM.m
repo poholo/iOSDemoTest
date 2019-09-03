@@ -70,7 +70,15 @@
         dto.dimissAnimaterClass = [FrameDismissAnimator class];
         [self.dataList addObject:dto];
     }
-    
+    {
+        AnimationActionDto *dto = [AnimationActionDto new];
+        dto.targetClass = [DouYinAnimationController class];
+        dto.name = @"5. 抖音分享朋友圈 - 呼吸灯效果";
+        dto.desc = @"抖音分享";
+        dto.toAnimaterClass = [CoverAnimator class];
+        dto.dimissAnimaterClass = [FrameDismissAnimator class];
+        [self.dataList addObject:dto];
+    }
     
 
 }
