@@ -21,11 +21,13 @@
 		1A666173D3B43293D69F8AD6 /* ThumbImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666EA912A83B082744B522 /* ThumbImageView.m */; };
 		1A6662157DE84DB4F34ABA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A666AF12E351EB21BADA269 /* Main.storyboard */; };
 		1A666223EA82333B9FB24AB0 /* praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A666678A6FDAD610C606EE7 /* praise@2x.png */; };
+		1A666228C56A6C6C6563A078 /* RACTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6668E7F58B6B31E111D6C0 /* RACTestController.m */; };
 		1A666246246D381AFDCE4D45 /* GridSliderProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6660365A7557D9F57883C6 /* GridSliderProgress.m */; };
 		1A66630D9439C27972FF16B0 /* ScanQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6660F6C8EA27E4EB1551CE /* ScanQRView.m */; };
 		1A666327FCE62122492A8316 /* FFPngDecoderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666C6913FA67E2163E2C84 /* FFPngDecoderController.m */; };
 		1A666330DE595A7790DCFF6F /* LifeCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666892ABEEFD1603B0F19B /* LifeCircleController.m */; };
 		1A666341E08136E3DC4CE852 /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A666F69C201F2A6BE868C65 /* slider@2x.png */; };
+		1A66636ECE4A8E2096EFE011 /* ThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666B03D78B978E61BDDF3B /* ThreadController.m */; };
 		1A6663DAF4EC1317CC37F158 /* EnTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666E6EA07E57EF10B44F5E /* EnTestController.m */; };
 		1A6663FB1AB27AFF756730FD /* AVFoundationDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66643B48BC61805E640F45 /* AVFoundationDataVM.m */; };
 		1A66642B69D2244F81B465BA /* FFmpegDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6665F8CCF8D4CDC08768D8 /* FFmpegDataVM.m */; };
@@ -90,6 +92,7 @@
 		2504DBF01F2B2521003EA775 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2504DBEF1F2B2521003EA775 /* Photos.framework */; };
 		250C23FA22FC003B005D9AF3 /* ArtLikeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C23F922FC003B005D9AF3 /* ArtLikeAnimationView.swift */; };
 		250C23FC22FC0068005D9AF3 /* ArtLikeAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250C23FB22FC0068005D9AF3 /* ArtLikeAnimationController.swift */; };
+		25118995235871BC0037C490 /* ScollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25118994235871BC0037C490 /* ScollViewController.m */; };
 		2528CE2F231E0F3700CF5F9F /* ShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528CE2B231E0F3700CF5F9F /* ShareButton.m */; };
 		2528CE30231E0F3700CF5F9F /* PlayerControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528CE2E231E0F3700CF5F9F /* PlayerControlButton.m */; };
 		2528CE32231E104400CF5F9F /* ShareSets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2528CE31231E104400CF5F9F /* ShareSets.xcassets */; };
@@ -124,6 +127,7 @@
 		25BA6FD2219C1D6A00EF2FDC /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA6FD0219C1D6A00EF2FDC /* VideoToolbox.framework */; };
 		25BA6FD3219C1D6A00EF2FDC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA6FD1219C1D6A00EF2FDC /* AudioToolbox.framework */; };
 		25D57338223657A400A14A99 /* MCIAPPayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D57336223657A400A14A99 /* MCIAPPayHelper.m */; };
+		25F57CC5235AF63A009B8418 /* CropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F57CC4235AF63A009B8418 /* CropViewController.m */; };
 		25F7F25421EC9938007D6B48 /* CALayerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25321EC9938007D6B48 /* CALayerControllerViewController.m */; };
 		25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25621EC998B007D6B48 /* AnimationDataVM.m */; };
 		452F9FB84DD7E018AC972DFC /* libPods-MCTestProjectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF8D5C2544E0F9D89375C4D /* libPods-MCTestProjectDemo.a */; };
@@ -166,6 +170,7 @@
 		1A66643B48BC61805E640F45 /* AVFoundationDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationDataVM.m; sourceTree = "<group>"; };
 		1A666440E43802EAA34AE382 /* DataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVM.m; sourceTree = "<group>"; };
 		1A666454AAA48B6E2DD060D1 /* VM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VM.m; sourceTree = "<group>"; };
+		1A666463F7BE7C978910F5AF /* RACTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTestController.h; sourceTree = "<group>"; };
 		1A66649982BFFEF09C8A8093 /* timg-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-2.jpeg"; sourceTree = "<group>"; };
 		1A6664D13E030E8A8A0BAC24 /* FrameDismissAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameDismissAnimator.h; sourceTree = "<group>"; };
 		1A6664DBECE9C26DCFB254FE /* FrameDismissAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameDismissAnimator.m; sourceTree = "<group>"; };
@@ -205,10 +210,12 @@
 		1A6668821132A55370787B64 /* String2HexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String2HexViewController.m; sourceTree = "<group>"; };
 		1A666892ABEEFD1603B0F19B /* LifeCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeCircleController.m; sourceTree = "<group>"; };
 		1A666898A1C2EDBE7568C9B4 /* MMDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDict.h; sourceTree = "<group>"; };
+		1A6668B5A257238837F8C28C /* ThreadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadController.h; sourceTree = "<group>"; };
 		1A6668BD9261A4E9FFBB916A /* SliderProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderProgressDelegate.h; sourceTree = "<group>"; };
 		1A6668C9A8C28CCFF78AE511 /* PayListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayListController.h; sourceTree = "<group>"; };
 		1A6668CB00D5AE713428127E /* ScanQRCodeDataVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRCodeDataVM.h; sourceTree = "<group>"; };
 		1A6668CFB463649D3185E0BD /* EnTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnTestController.h; sourceTree = "<group>"; };
+		1A6668E7F58B6B31E111D6C0 /* RACTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTestController.m; sourceTree = "<group>"; };
 		1A6668EA4A8FDA450BE7DD54 /* AVFoundationListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationListController.m; sourceTree = "<group>"; };
 		1A6668F5729D5F7CEB2B7D70 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		1A6669152C0069BE6BC118E3 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
@@ -231,6 +238,7 @@
 		1A666A85C11116B8EE0E8296 /* FadeDismissAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeDismissAnimator.m; sourceTree = "<group>"; };
 		1A666AA71A47A241331EEEF6 /* TranstionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranstionAnimationController.m; sourceTree = "<group>"; };
 		1A666AD02DEFC3DDCC40B7E6 /* ThumbImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbImageView.h; sourceTree = "<group>"; };
+		1A666B03D78B978E61BDDF3B /* ThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadController.m; sourceTree = "<group>"; };
 		1A666B1047FAB5EA420B4995 /* AnimationListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationListController.h; sourceTree = "<group>"; };
 		1A666B269E15FC0EFB532A79 /* MMNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavController.m; sourceTree = "<group>"; };
 		1A666B408F38DC8B332F2700 /* praise@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "praise@3x.png"; sourceTree = "<group>"; };
@@ -290,6 +298,8 @@
 		2504DBEF1F2B2521003EA775 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		250C23F922FC003B005D9AF3 /* ArtLikeAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtLikeAnimationView.swift; sourceTree = "<group>"; };
 		250C23FB22FC0068005D9AF3 /* ArtLikeAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtLikeAnimationController.swift; sourceTree = "<group>"; };
+		25118993235871BC0037C490 /* ScollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScollViewController.h; sourceTree = "<group>"; };
+		25118994235871BC0037C490 /* ScollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScollViewController.m; sourceTree = "<group>"; };
 		2528CE2B231E0F3700CF5F9F /* ShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareButton.m; sourceTree = "<group>"; };
 		2528CE2C231E0F3700CF5F9F /* PlayerControlButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerControlButton.h; sourceTree = "<group>"; };
 		2528CE2D231E0F3700CF5F9F /* ShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareButton.h; sourceTree = "<group>"; };
@@ -444,6 +454,8 @@
 		25BA6FD1219C1D6A00EF2FDC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		25D57336223657A400A14A99 /* MCIAPPayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCIAPPayHelper.m; sourceTree = "<group>"; };
 		25D57337223657A400A14A99 /* MCIAPPayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCIAPPayHelper.h; sourceTree = "<group>"; };
+		25F57CC3235AF63A009B8418 /* CropViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CropViewController.h; sourceTree = "<group>"; };
+		25F57CC4235AF63A009B8418 /* CropViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CropViewController.m; sourceTree = "<group>"; };
 		25F7F25221EC9938007D6B48 /* CALayerControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CALayerControllerViewController.h; sourceTree = "<group>"; };
 		25F7F25321EC9938007D6B48 /* CALayerControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerControllerViewController.m; sourceTree = "<group>"; };
 		25F7F25521EC998B007D6B48 /* AnimationDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDataVM.h; sourceTree = "<group>"; };
@@ -530,6 +542,8 @@
 				25B12E25230693FE00FC3137 /* LockController.m */,
 				25B12E2723069F7900FC3137 /* MCOSpinLock.h */,
 				25B12E2823069F7900FC3137 /* MCOSpinLock.m */,
+				1A666B03D78B978E61BDDF3B /* ThreadController.m */,
+				1A6668B5A257238837F8C28C /* ThreadController.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -781,6 +795,12 @@
 				1A666B960CB8F1C3E6D2CE93 /* TouchShot.h */,
 				1A666DD1E9117A5BD7DAD771 /* ViewController.m */,
 				1A66610E13CF3D85E7766C40 /* ViewController.h */,
+				25118993235871BC0037C490 /* ScollViewController.h */,
+				25118994235871BC0037C490 /* ScollViewController.m */,
+				25F57CC3235AF63A009B8418 /* CropViewController.h */,
+				25F57CC4235AF63A009B8418 /* CropViewController.m */,
+				1A6668E7F58B6B31E111D6C0 /* RACTestController.m */,
+				1A666463F7BE7C978910F5AF /* RACTestController.h */,
 			);
 			path = old;
 			sourceTree = "<group>";
@@ -1337,6 +1357,7 @@
 				1A666853EF142A6DC3F2A7B3 /* PraiseController.m in Sources */,
 				1A66697DBBA02177CC030573 /* String2HexViewController.m in Sources */,
 				1A66602867CA411898CD82C8 /* UIControlSliderTestController.m in Sources */,
+				25118995235871BC0037C490 /* ScollViewController.m in Sources */,
 				1A6668C07E79FEAD8788AFB5 /* PlayerController.m in Sources */,
 				1A666973FB35452995B2B02F /* PlayerLoadResourceController.m in Sources */,
 				1A666246246D381AFDCE4D45 /* GridSliderProgress.m in Sources */,
@@ -1349,6 +1370,7 @@
 				1A666530EA49CE7E0A6E0CDF /* SliderControl.m in Sources */,
 				1A6668FAB03E6DCE56A22B49 /* ALAssetController.m in Sources */,
 				1A666E75D05B3D4F4F7EA234 /* QRCodeViewController.m in Sources */,
+				25F57CC5235AF63A009B8418 /* CropViewController.m in Sources */,
 				1A6663DAF4EC1317CC37F158 /* EnTestController.m in Sources */,
 				1A66693A8034C7716D3CF209 /* ActionSheetControllerViewController.m in Sources */,
 				1A6661011A5A4348017FE4F7 /* NSString+MD5.m in Sources */,
@@ -1398,6 +1420,8 @@
 				1A666D2B88741D5080378424 /* BabyVideoCropBottomTrimView.m in Sources */,
 				1A666173D3B43293D69F8AD6 /* ThumbImageView.m in Sources */,
 				1A666651AB822CFD21908D4C /* BabyTrimViewController.m in Sources */,
+				1A666228C56A6C6C6563A078 /* RACTestController.m in Sources */,
+				1A66636ECE4A8E2096EFE011 /* ThreadController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

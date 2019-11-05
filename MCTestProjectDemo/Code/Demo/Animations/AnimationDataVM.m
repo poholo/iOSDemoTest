@@ -79,8 +79,6 @@
         dto.dimissAnimaterClass = [FrameDismissAnimator class];
         [self.dataList addObject:dto];
     }
-    
-
 }
 
 @end

@@ -23,6 +23,8 @@
 #import "PlayerController.h"
 #import "EnTestController.h"
 #import "QRCodeViewController.h"
+#import "ScollViewController.h"
+#import "RACTestController.h"
 
 @interface OldListController ()
 
@@ -40,7 +42,8 @@
             @"slider", @"UIControlSliderTestController", @"PlayerTestViewController",
             @"PlayerLoadResourceController", @"String2HexViewController",
             @"ViewController", @"PhotoListController", @"ALAssetController",
-            @"JSCoreController", @"PraiseController", @"PlayerController", @"EnTestController", @"QRCodeViewController"];
+            @"JSCoreController", @"PraiseController", @"PlayerController", @"EnTestController",
+            @"QRCodeViewController", @"ScollViewController", @"RACTestController"];
     self.targetClasses = @[[RefreshViewController class], [LeftRightViewController class],
             [SliderController class], [UIControlSliderTestController class],
             [PlayerTestViewController class],
@@ -53,7 +56,9 @@
             [PraiseController class],
             [PlayerController class],
             [EnTestController class],
-            [QRCodeViewController class]];
+            [QRCodeViewController class],
+            [ScollViewController class],
+            [RACTestController class]];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
 
 
