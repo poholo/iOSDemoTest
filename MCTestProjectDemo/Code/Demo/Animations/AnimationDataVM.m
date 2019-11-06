@@ -17,6 +17,7 @@
 #import "FrameDismissAnimator.h"
 #import "CoverAnimator.h"
 #import "MCTestProjectDemo-Swift.h"
+#import "FlipAnimationController.h"
 
 @implementation AnimationDataVM
 
@@ -79,6 +80,17 @@
         dto.dimissAnimaterClass = [FrameDismissAnimator class];
         [self.dataList addObject:dto];
     }
+    {
+        AnimationActionDto *dto = [AnimationActionDto new];
+        dto.targetClass = [FlipAnimationController class];
+        dto.name = @"6. 翻转动画";
+        dto.desc = @"抖音分享";
+        dto.toAnimaterClass = [CoverAnimator class];
+        dto.dimissAnimaterClass = [FlipAnimationController class];
+        [self.dataList addObject:dto];
+    }
+
+
 }
 
 @end

@@ -72,6 +72,7 @@
 		1A666A5DBBD82A5FD903B490 /* VM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666454AAA48B6E2DD060D1 /* VM.m */; };
 		1A666B8B70A6A029B44F3433 /* PlayerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6667E8D130887FC26768CD /* PlayerTestViewController.m */; };
 		1A666B9BD04F2D04CE97AE7F /* HUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6665E7A1ACA364F7877BE8 /* HUDView.m */; };
+		1A666BBED3A1874F376CF923 /* FlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666B2F7111A3AF05F23723 /* FlipAnimationController.m */; };
 		1A666BFB560DA1CD3ACC5C39 /* FadeDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666A85C11116B8EE0E8296 /* FadeDismissAnimator.m */; };
 		1A666C629958288A777FC9EE /* PhotoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66657BC404A350E0210904 /* PhotoListController.m */; };
 		1A666CFFD733B2C1909451B7 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66630E546E587DA4EF5346 /* BaseController.m */; };
@@ -79,6 +80,7 @@
 		1A666D455B5B5A40E516B6EF /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6669FFB5670AEE4D996D2C /* ListController.m */; };
 		1A666D56407A9F5C47F83480 /* DesignPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66665F8D19A45D07F60B9D /* DesignPatternController.m */; };
 		1A666DA7E022CBBA88E50A4E /* Test.js in Sources */ = {isa = PBXBuildFile; fileRef = 1A6663D0B5CF3714DF77036E /* Test.js */; };
+		1A666E009A48C658E3724BF7 /* FlipAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666409BEA633D29114C4C2 /* FlipAnimationView.m */; };
 		1A666E123F3309379737F59E /* FrameAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6666B6D8B77E6C9404162A /* FrameAnimator.m */; };
 		1A666E75D05B3D4F4F7EA234 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A66665172404DE388EE542C /* QRCodeViewController.m */; };
 		1A666E770D675253D289DDD1 /* OldListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A666933CC5AD03D509E70BC /* OldListController.m */; };
@@ -142,6 +144,7 @@
 		1A6660C8ABC12BFD4AD4AF4C /* ToastUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastUtils.m; sourceTree = "<group>"; };
 		1A6660F6C8EA27E4EB1551CE /* ScanQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRView.m; sourceTree = "<group>"; };
 		1A66610E13CF3D85E7766C40 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A66614685600721EAD49C63 /* FlipAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipAnimationView.h; sourceTree = "<group>"; };
 		1A666151C3A484CF6863EC8C /* MCPayProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPayProtocol.h; sourceTree = "<group>"; };
 		1A66615E4277ECC170F32AD3 /* SliderLayerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderLayerControl.h; sourceTree = "<group>"; };
 		1A66617CFAC2EE4057F97BF1 /* PlayerLoadResourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLoadResourceController.m; sourceTree = "<group>"; };
@@ -167,6 +170,7 @@
 		1A6663C4945229ED08C9386E /* AnimationActionDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationActionDto.m; sourceTree = "<group>"; };
 		1A6663D0B5CF3714DF77036E /* Test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Test.js; sourceTree = "<group>"; };
 		1A6663E13539A5B15CB47B71 /* MMNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNavController.h; sourceTree = "<group>"; };
+		1A666409BEA633D29114C4C2 /* FlipAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationView.m; sourceTree = "<group>"; };
 		1A66643B48BC61805E640F45 /* AVFoundationDataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationDataVM.m; sourceTree = "<group>"; };
 		1A666440E43802EAA34AE382 /* DataVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVM.m; sourceTree = "<group>"; };
 		1A666454AAA48B6E2DD060D1 /* VM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VM.m; sourceTree = "<group>"; };
@@ -241,6 +245,7 @@
 		1A666B03D78B978E61BDDF3B /* ThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadController.m; sourceTree = "<group>"; };
 		1A666B1047FAB5EA420B4995 /* AnimationListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationListController.h; sourceTree = "<group>"; };
 		1A666B269E15FC0EFB532A79 /* MMNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavController.m; sourceTree = "<group>"; };
+		1A666B2F7111A3AF05F23723 /* FlipAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipAnimationController.m; sourceTree = "<group>"; };
 		1A666B408F38DC8B332F2700 /* praise@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "praise@3x.png"; sourceTree = "<group>"; };
 		1A666B6C7828163B5764A46E /* SliderProgressDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderProgressDot.h; sourceTree = "<group>"; };
 		1A666B73EBBD48B6B76899F9 /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
@@ -269,6 +274,7 @@
 		1A666D565D2BB889EFDAAC25 /* ActionDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionDto.m; sourceTree = "<group>"; };
 		1A666D614052E18D5F0DB5E9 /* SliderProgressDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderProgressDot.m; sourceTree = "<group>"; };
 		1A666D9372E2C47FC6DAD39A /* GridSliderProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridSliderProgress.h; sourceTree = "<group>"; };
+		1A666D93FD5D1CF2BE25B2CC /* FlipAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipAnimationController.h; sourceTree = "<group>"; };
 		1A666DBD4E2757873739A4B3 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		1A666DBF6F9BFDDF19D35E71 /* LeftRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftRightViewController.m; sourceTree = "<group>"; };
 		1A666DC15134FB139B587E96 /* AnimationListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationListController.m; sourceTree = "<group>"; };
@@ -646,6 +652,8 @@
 				1A66675DCD9EE97E0A787DA7 /* Cover */,
 				250C23FB22FC0068005D9AF3 /* ArtLikeAnimationController.swift */,
 				2528CE33231E10AC00CF5F9F /* DouYinAnimationController.swift */,
+				1A666B2F7111A3AF05F23723 /* FlipAnimationController.m */,
+				1A666D93FD5D1CF2BE25B2CC /* FlipAnimationController.h */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -880,6 +888,8 @@
 			isa = PBXGroup;
 			children = (
 				250C23F922FC003B005D9AF3 /* ArtLikeAnimationView.swift */,
+				1A666409BEA633D29114C4C2 /* FlipAnimationView.m */,
+				1A66614685600721EAD49C63 /* FlipAnimationView.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1422,6 +1432,8 @@
 				1A666651AB822CFD21908D4C /* BabyTrimViewController.m in Sources */,
 				1A666228C56A6C6C6563A078 /* RACTestController.m in Sources */,
 				1A66636ECE4A8E2096EFE011 /* ThreadController.m in Sources */,
+				1A666BBED3A1874F376CF923 /* FlipAnimationController.m in Sources */,
+				1A666E009A48C658E3724BF7 /* FlipAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
