@@ -9,6 +9,6 @@
 
 @interface FlipAnimationView : UIView
 
-+ (void)showAnimaiton:(UIImage *)image imgII:(UIImage *)destImage withSuperView:(UIView *)superView frame:(CGRect)frame;
++ (void)showAnimaiton:(UIImage *)image imgII:(UIImage *)destImage withSuperView:(UIView *)superView frame:(CGRect)frame callBack:(void (^)(BOOL success))callBack;
 
 @end

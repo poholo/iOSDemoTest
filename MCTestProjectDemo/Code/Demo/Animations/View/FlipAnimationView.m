@@ -10,6 +10,7 @@
 @property(nonatomic, strong) UIView *board;
 @property(nonatomic, strong) UIImageView *iv1;
 @property(nonatomic, strong) UIImageView *iv2;
+@property(nonatomic, copy) void (^callBack)(BOOL success);
 
 @property(nonatomic, weak) UIView *superView;
 
@@ -17,10 +18,11 @@
 
 @implementation FlipAnimationView
 
-+ (void)showAnimaiton:(UIImage *)image imgII:(UIImage *)destImage withSuperView:(UIView *)superView frame:(CGRect)frame {
++ (void)showAnimaiton:(UIImage *)image imgII:(UIImage *)destImage withSuperView:(UIView *)superView frame:(CGRect)frame callBack:(void (^)(BOOL success))callBack {
     FlipAnimationView *animationView = [[FlipAnimationView alloc] initWithFrame:frame];
     animationView.iv1.image = destImage;
     animationView.iv2.image = image;
+    animationView.callBack = callBack;
     animationView.superView = superView;
     [superView addSubview:animationView];
     [animationView showAnimation];
@@ -90,8 +92,10 @@
 }
 
 
-
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
+    if (self.callBack) {
+        self.callBack(YES);
+    }
     [self removeFromSuperview];
 }
 

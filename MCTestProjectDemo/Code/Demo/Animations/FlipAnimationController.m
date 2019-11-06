@@ -22,7 +22,9 @@
 }
 
 - (void)startBtnClick {
-    [FlipAnimationView showAnimaiton:[UIImage imageNamed:@"timg.jpeg"] imgII:[UIImage imageNamed:@"timg-2.jpeg"] withSuperView:self.view frame:CGRectMake(20, 50, CGRectGetWidth(self.view.frame) - 40, CGRectGetWidth(self.view.frame) - 40)];
+    [FlipAnimationView showAnimaiton:[UIImage imageNamed:@"timg.jpeg"] imgII:[UIImage imageNamed:@"timg-2.jpeg"]
+                       withSuperView:self.view frame:CGRectMake(20, 50, CGRectGetWidth(self.view.frame) - 40, CGRectGetWidth(self.view.frame) - 40) callBack:^(BOOL success)
+    ];
 }
 
 
