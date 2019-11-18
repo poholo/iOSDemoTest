@@ -27,7 +27,7 @@
 //        NSLog(@"exe end");
     }
 
-    {
+    /*{
         dispatch_queue_t queue = dispatch_get_main_queue();
         dispatch_async(queue, ^{
             NSLog(@"1");
@@ -38,5 +38,59 @@
         });
         NSLog(@"主线程执行完了");
     }
+     */
+    
+//    [self syncSerialTest];
+//    [self syncConcurrentTest];
+//    [self asyncSerialTest];
+    [self asyncConcurrentTest];
 }
+
+
+- (void)syncSerialTest {
+    dispatch_queue_t queue = dispatch_queue_create("com.mc.test", DISPATCH_QUEUE_SERIAL);
+    dispatch_sync(queue, ^{
+        sleep(1);
+        NSLog(@"%s block1", __func__);
+    });
+    
+    dispatch_sync(queue, ^{
+        NSLog(@"%s block2", __func__);
+    });
+}
+
+- (void)syncConcurrentTest {
+    dispatch_queue_t queue = dispatch_queue_create("com.mc.test", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_sync(queue, ^{
+        sleep(2);
+        NSLog(@"%s block1", __func__);
+    });
+    
+    dispatch_sync(queue, ^{
+          NSLog(@"%s block2", __func__);
+    });
+}
+
+- (void)asyncSerialTest {
+    dispatch_queue_t queue = dispatch_queue_create("com.mc.test", DISPATCH_QUEUE_SERIAL);
+    dispatch_async(queue, ^{
+        sleep(2);
+        NSLog(@"%s block1", __func__);
+    });
+    dispatch_async(queue, ^{
+        NSLog(@"%s block2", __func__);
+    });
+}
+
+- (void)asyncConcurrentTest {
+    dispatch_queue_t queue = dispatch_queue_create("com.mc.test", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_async(queue, ^{
+        sleep(2);
+        NSLog(@"%s block1", __func__);
+    });
+    dispatch_async(queue, ^{
+        NSLog(@"%s block2", __func__);
+    });
+}
+
 @end

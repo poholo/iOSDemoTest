@@ -110,6 +110,7 @@
 		25409B73219AC4A300F29736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25409B72219AC4A300F29736 /* main.m */; };
 		2556CC121F7A5A76006617B2 /* faved_big@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2556CC101F7A5A76006617B2 /* faved_big@3x.png */; };
 		2556CC131F7A5A76006617B2 /* faved_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2556CC111F7A5A76006617B2 /* faved_big@2x.png */; };
+		257918D4237AA916006AB926 /* ObjcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257918D3237AA915006AB926 /* ObjcViewController.m */; };
 		2582658D219D531D009C0564 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2582658C219D531C009C0564 /* libz.1.2.5.tbd */; };
 		2582658F219D5330009C0564 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2582658E219D5330009C0564 /* libbz2.1.0.tbd */; };
 		25826591219D5341009C0564 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 25826590219D5341009C0564 /* libiconv.tbd */; };
@@ -333,6 +334,8 @@
 		2556CC101F7A5A76006617B2 /* faved_big@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faved_big@3x.png"; sourceTree = "<group>"; };
 		2556CC111F7A5A76006617B2 /* faved_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faved_big@2x.png"; sourceTree = "<group>"; };
 		25773C54219C1D1C00E9559D /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		257918D2237AA915006AB926 /* ObjcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcViewController.h; sourceTree = "<group>"; };
+		257918D3237AA915006AB926 /* ObjcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
 		2582658C219D531C009C0564 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		2582658E219D5330009C0564 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		25826590219D5341009C0564 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -550,6 +553,8 @@
 				25B12E2823069F7900FC3137 /* MCOSpinLock.m */,
 				1A666B03D78B978E61BDDF3B /* ThreadController.m */,
 				1A6668B5A257238837F8C28C /* ThreadController.h */,
+				257918D2237AA915006AB926 /* ObjcViewController.h */,
+				257918D3237AA915006AB926 /* ObjcViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1371,6 +1376,7 @@
 				1A6668C07E79FEAD8788AFB5 /* PlayerController.m in Sources */,
 				1A666973FB35452995B2B02F /* PlayerLoadResourceController.m in Sources */,
 				1A666246246D381AFDCE4D45 /* GridSliderProgress.m in Sources */,
+				257918D4237AA916006AB926 /* ObjcViewController.m in Sources */,
 				1A666C629958288A777FC9EE /* PhotoListController.m in Sources */,
 				1A66645A2F5DF9EF3D5DD0EF /* RefreshViewController.m in Sources */,
 				25D57338223657A400A14A99 /* MCIAPPayHelper.m in Sources */,

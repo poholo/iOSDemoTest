@@ -9,6 +9,7 @@
 #import "LifeCircleController.h"
 #import "LockController.h"
 #import "ThreadController.h"
+#import "ObjcViewController.h"
 
 
 @implementation BaseDataVM
@@ -39,6 +40,16 @@
         dto.desc = @"13 thread";
         [self.dataList addObject:dto];
     }
+    
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [ObjcViewController class];
+        dto.name = @"4.ObjcViewController";
+        dto.desc = @"13 objc-runtime";
+        [self.dataList addObject:dto];
+    }
+    
+    
 
 }
 
