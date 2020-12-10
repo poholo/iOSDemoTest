@@ -12,6 +12,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    RACSignal *signal = [RACSignal createSignal:
+                         ^RACDisposable *(id<RACSubscriber> subscriber)
+    {
+        [subscriber sendNext:@1];
+        [subscriber sendNext:@2];
+        [subscriber sendNext:@3];
+        [subscriber sendCompleted];
+        return [RACDisposable disposableWithBlock:^{
+            NSLog(@"signal dispose");
+        }];
+    }];
+    
+    RACSignal *bindSignal = [signal bind:^RACStreamBindBlock{
+        return ^RACSignal *(NSNumber *value, BOOL *stop){
+            value = @(value.integerValue * 2);
+            return [RACSignal return:value];
+        };
+    }];
+    
+    [bindSignal subscribeNext:^(id x) {
+        NSLog(@"subscribe value = %@", x);
+    }];
+    
     {
         RACSignal *signal = [RACSignal createSignal:^RACDisposable *(id <RACSubscriber> subscriber) {
             [subscriber sendNext:@1];
@@ -36,17 +60,20 @@
         }];
 
         // concat
+        NSLog(@"-[concat]");
         RACSignal *contatSignal = [signal concat:signals];
         [contatSignal subscribeNext:^(id x) {
             NSLog(@"subscribe value = %@", x);
         }];
-
+        
+        NSLog(@"-[zip]");
         // zip
         RACSignal *zipSignal = [signal zipWith:signals];
         [zipSignal subscribeNext:^(id x) {
             NSLog(@"zip subscribe value = %@", x);
         }];
 
+        NSLog(@"-[mapReplace]-[HA]");
         //mapRplace
         RACSignal *mapReplaceSignal = [signal mapReplace:@"HA"];
         [mapReplaceSignal subscribeNext:^(id x) {

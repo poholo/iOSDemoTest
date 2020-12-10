@@ -57,15 +57,15 @@
 }
 
 - (void)moneyTest {
-    dispatch_queue_global_t queue = dispatch_get_global_queue(0, 0);
-    
+    dispatch_queue_global_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_async(queue, ^{
         for(int i = 0; i < 5; i++) {
             [self saveMoney];
         }
     });
     
-    dispatch_async(queue, ^{
+    dispatch_queue_t takeQueue = dispatch_queue_create("com.queue.take", DISPATCH_QUEUE_PRIORITY_DEFAULT);
+    dispatch_async(takeQueue, ^{
         for(int i = 0; i < 5; i++) {
             [self drawMoney];
         }

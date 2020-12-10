@@ -10,4 +10,7 @@ target 'MCTestProjectDemo' do
   pod 'MBProgressHUD'
   pod 'MMPopupView'
   pod 'FFmpeg'
+  
+  pod 'HMSegmentedControl', '1.5.4'
+  pod 'MJRefresh', '3.1.12'
 end

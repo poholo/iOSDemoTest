@@ -133,6 +133,35 @@
 		25F57CC5235AF63A009B8418 /* CropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F57CC4235AF63A009B8418 /* CropViewController.m */; };
 		25F7F25421EC9938007D6B48 /* CALayerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25321EC9938007D6B48 /* CALayerControllerViewController.m */; };
 		25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25621EC998B007D6B48 /* AnimationDataVM.m */; };
+		332C9ECC2579D76C004EA2C7 /* QueueTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332C9ECA2579D76C004EA2C7 /* QueueTestController.m */; };
+		332C9ECD2579D76C004EA2C7 /* QueueTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */; };
+		333F14F62580DD690005EDF7 /* HoriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F14F42580DD690005EDF7 /* HoriCell.swift */; };
+		333F14F72580DD690005EDF7 /* HoriCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333F14F52580DD690005EDF7 /* HoriCell.xib */; };
+		339B9C842581B46500DBD77D /* HoriVerticalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9C822581B46500DBD77D /* HoriVerticalTableViewController.swift */; };
+		339B9C852581B46500DBD77D /* HoriVerticalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339B9C832581B46500DBD77D /* HoriVerticalTableViewController.xib */; };
+		339B9C8C2581B76100DBD77D /* TwoTableRelationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9C8A2581B76100DBD77D /* TwoTableRelationController.swift */; };
+		339B9C8D2581B76100DBD77D /* TwoTableRelationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339B9C8B2581B76100DBD77D /* TwoTableRelationController.xib */; };
+		339B9C9E2581C46900DBD77D /* HorizontalTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9C9C2581C46800DBD77D /* HorizontalTableController.swift */; };
+		339B9CC22581C94F00DBD77D /* MMPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CA62581C94F00DBD77D /* MMPageView.m */; };
+		339B9CC32581C94F00DBD77D /* MMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CA72581C94F00DBD77D /* MMPageViewController.m */; };
+		339B9CC42581C94F00DBD77D /* MMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CAC2581C94F00DBD77D /* MMSegmentedControl.m */; };
+		339B9CC52581C94F00DBD77D /* MMParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CAE2581C94F00DBD77D /* MMParallaxHeader.m */; };
+		339B9CC62581C94F00DBD77D /* MMScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CAF2581C94F00DBD77D /* MMScrollViewController.m */; };
+		339B9CC72581C94F00DBD77D /* MMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CB02581C94F00DBD77D /* MMScrollView.m */; };
+		339B9CC82581C94F00DBD77D /* MMBottomPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CB72581C94F00DBD77D /* MMBottomPageController.m */; };
+		339B9CC92581C94F00DBD77D /* MMFullPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CB92581C94F00DBD77D /* MMFullPageController.m */; };
+		339B9CCA2581C94F00DBD77D /* MMTopPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CBA2581C94F00DBD77D /* MMTopPageController.m */; };
+		339B9CCB2581C94F00DBD77D /* MMCenterPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CBC2581C94F00DBD77D /* MMCenterPageController.m */; };
+		339B9CCC2581C94F00DBD77D /* MMComplexPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CBE2581C94F00DBD77D /* MMComplexPagerController.m */; };
+		339B9CCD2581C94F00DBD77D /* MMComplexPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CBF2581C94F00DBD77D /* MMComplexPager.m */; };
+		339B9CDB2581CAAC00DBD77D /* HorizontalMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CDA2581CAAC00DBD77D /* HorizontalMainController.swift */; };
+		339B9CEB2581F78900DBD77D /* HorizontalTableConllectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CE92581F78900DBD77D /* HorizontalTableConllectionController.swift */; };
+		339B9CEC2581F78900DBD77D /* HorizontalTableConllectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339B9CEA2581F78900DBD77D /* HorizontalTableConllectionController.xib */; };
+		339B9CF12581F87800DBD77D /* HorizontalMutilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CEF2581F87800DBD77D /* HorizontalMutilCell.swift */; };
+		339B9CF22581F87800DBD77D /* HorizontalMutilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339B9CF02581F87800DBD77D /* HorizontalMutilCell.xib */; };
+		339B9CF72581F90E00DBD77D /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CF52581F90E00DBD77D /* HorizontalCollectionViewCell.swift */; };
+		339B9CF82581F90E00DBD77D /* HorizontalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339B9CF62581F90E00DBD77D /* HorizontalCollectionViewCell.xib */; };
+		339B9CFC258203D900DBD77D /* HorizontalTableCollectionMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9CFB258203D900DBD77D /* HorizontalTableCollectionMainController.swift */; };
 		452F9FB84DD7E018AC972DFC /* libPods-MCTestProjectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF8D5C2544E0F9D89375C4D /* libPods-MCTestProjectDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -470,6 +499,48 @@
 		25F7F25521EC998B007D6B48 /* AnimationDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDataVM.h; sourceTree = "<group>"; };
 		25F7F25621EC998B007D6B48 /* AnimationDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDataVM.m; sourceTree = "<group>"; };
 		25FF6F5F22E1BBD800ED9544 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		332C9EC92579D76C004EA2C7 /* QueueTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueTestController.h; sourceTree = "<group>"; };
+		332C9ECA2579D76C004EA2C7 /* QueueTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTestController.m; sourceTree = "<group>"; };
+		332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QueueTestController.xib; sourceTree = "<group>"; };
+		333F14F42580DD690005EDF7 /* HoriCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoriCell.swift; sourceTree = "<group>"; };
+		333F14F52580DD690005EDF7 /* HoriCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoriCell.xib; sourceTree = "<group>"; };
+		339B9C822581B46500DBD77D /* HoriVerticalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoriVerticalTableViewController.swift; sourceTree = "<group>"; };
+		339B9C832581B46500DBD77D /* HoriVerticalTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoriVerticalTableViewController.xib; sourceTree = "<group>"; };
+		339B9C8A2581B76100DBD77D /* TwoTableRelationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTableRelationController.swift; sourceTree = "<group>"; };
+		339B9C8B2581B76100DBD77D /* TwoTableRelationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTableRelationController.xib; sourceTree = "<group>"; };
+		339B9C9C2581C46800DBD77D /* HorizontalTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableController.swift; sourceTree = "<group>"; };
+		339B9CA62581C94F00DBD77D /* MMPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPageView.m; sourceTree = "<group>"; };
+		339B9CA72581C94F00DBD77D /* MMPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPageViewController.m; sourceTree = "<group>"; };
+		339B9CA82581C94F00DBD77D /* MMPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPageView.h; sourceTree = "<group>"; };
+		339B9CA92581C94F00DBD77D /* MMPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPageViewController.h; sourceTree = "<group>"; };
+		339B9CAB2581C94F00DBD77D /* MMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSegmentedControl.h; sourceTree = "<group>"; };
+		339B9CAC2581C94F00DBD77D /* MMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSegmentedControl.m; sourceTree = "<group>"; };
+		339B9CAE2581C94F00DBD77D /* MMParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMParallaxHeader.m; sourceTree = "<group>"; };
+		339B9CAF2581C94F00DBD77D /* MMScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMScrollViewController.m; sourceTree = "<group>"; };
+		339B9CB02581C94F00DBD77D /* MMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMScrollView.m; sourceTree = "<group>"; };
+		339B9CB12581C94F00DBD77D /* MMScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMScrollViewController.h; sourceTree = "<group>"; };
+		339B9CB22581C94F00DBD77D /* MMParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMParallaxHeader.h; sourceTree = "<group>"; };
+		339B9CB32581C94F00DBD77D /* MMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMScrollView.h; sourceTree = "<group>"; };
+		339B9CB52581C94F00DBD77D /* MMTopPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTopPageController.h; sourceTree = "<group>"; };
+		339B9CB62581C94F00DBD77D /* MMFullPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFullPageController.h; sourceTree = "<group>"; };
+		339B9CB72581C94F00DBD77D /* MMBottomPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBottomPageController.m; sourceTree = "<group>"; };
+		339B9CB82581C94F00DBD77D /* MMCenterPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCenterPageController.h; sourceTree = "<group>"; };
+		339B9CB92581C94F00DBD77D /* MMFullPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFullPageController.m; sourceTree = "<group>"; };
+		339B9CBA2581C94F00DBD77D /* MMTopPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTopPageController.m; sourceTree = "<group>"; };
+		339B9CBB2581C94F00DBD77D /* MMBottomPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBottomPageController.h; sourceTree = "<group>"; };
+		339B9CBC2581C94F00DBD77D /* MMCenterPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCenterPageController.m; sourceTree = "<group>"; };
+		339B9CBE2581C94F00DBD77D /* MMComplexPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMComplexPagerController.m; sourceTree = "<group>"; };
+		339B9CBF2581C94F00DBD77D /* MMComplexPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMComplexPager.m; sourceTree = "<group>"; };
+		339B9CC02581C94F00DBD77D /* MMComplexPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMComplexPagerController.h; sourceTree = "<group>"; };
+		339B9CC12581C94F00DBD77D /* MMComplexPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMComplexPager.h; sourceTree = "<group>"; };
+		339B9CDA2581CAAC00DBD77D /* HorizontalMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalMainController.swift; sourceTree = "<group>"; };
+		339B9CE92581F78900DBD77D /* HorizontalTableConllectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableConllectionController.swift; sourceTree = "<group>"; };
+		339B9CEA2581F78900DBD77D /* HorizontalTableConllectionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalTableConllectionController.xib; sourceTree = "<group>"; };
+		339B9CEF2581F87800DBD77D /* HorizontalMutilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalMutilCell.swift; sourceTree = "<group>"; };
+		339B9CF02581F87800DBD77D /* HorizontalMutilCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalMutilCell.xib; sourceTree = "<group>"; };
+		339B9CF52581F90E00DBD77D /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
+		339B9CF62581F90E00DBD77D /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
+		339B9CFB258203D900DBD77D /* HorizontalTableCollectionMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableCollectionMainController.swift; sourceTree = "<group>"; };
 		3BF1BD2AB13F2DD351D03826 /* Pods-MCTestProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCTestProjectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCTestProjectDemo/Pods-MCTestProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5EF8D5C2544E0F9D89375C4D /* libPods-MCTestProjectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCTestProjectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -541,6 +612,7 @@
 		1A6662479461394E7801134C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				333F14F32580DD350005EDF7 /* Views */,
 				1A66630E546E587DA4EF5346 /* BaseController.m */,
 				1A666BDA0B170079CA66A338 /* BaseController.h */,
 				1A666242B0F4D0383340D5C4 /* BaseDataVM.m */,
@@ -555,6 +627,15 @@
 				1A6668B5A257238837F8C28C /* ThreadController.h */,
 				257918D2237AA915006AB926 /* ObjcViewController.h */,
 				257918D3237AA915006AB926 /* ObjcViewController.m */,
+				339B9C822581B46500DBD77D /* HoriVerticalTableViewController.swift */,
+				339B9C832581B46500DBD77D /* HoriVerticalTableViewController.xib */,
+				339B9C8A2581B76100DBD77D /* TwoTableRelationController.swift */,
+				339B9C8B2581B76100DBD77D /* TwoTableRelationController.xib */,
+				339B9C9C2581C46800DBD77D /* HorizontalTableController.swift */,
+				339B9CDA2581CAAC00DBD77D /* HorizontalMainController.swift */,
+				339B9CFB258203D900DBD77D /* HorizontalTableCollectionMainController.swift */,
+				339B9CE92581F78900DBD77D /* HorizontalTableConllectionController.swift */,
+				339B9CEA2581F78900DBD77D /* HorizontalTableConllectionController.xib */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -675,6 +756,7 @@
 		1A66677DD5D9EDDB913951E6 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				339B9CA42581C94F00DBD77D /* MMPages */,
 				1A666BC805DC0336C4925B7E /* Routable */,
 				1A6661953E01189610C0265F /* HUD */,
 				1A66677E3C01CA4E986157A9 /* Toast */,
@@ -858,6 +940,7 @@
 		1A666EEB655022A3D5B43D04 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				332C9EC82579D749004EA2C7 /* Queue */,
 				1A666893BF33E5B36CF6CDEF /* ffmpeg */,
 				1A666B9F43475EA82135D1F3 /* old */,
 				1A666266CCDD0B1CBD165D17 /* AVFoundation */,
@@ -1199,6 +1282,100 @@
 			path = Swift;
 			sourceTree = "<group>";
 		};
+		332C9EC82579D749004EA2C7 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				332C9EC92579D76C004EA2C7 /* QueueTestController.h */,
+				332C9ECA2579D76C004EA2C7 /* QueueTestController.m */,
+				332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		333F14F32580DD350005EDF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				333F14F42580DD690005EDF7 /* HoriCell.swift */,
+				333F14F52580DD690005EDF7 /* HoriCell.xib */,
+				339B9CEF2581F87800DBD77D /* HorizontalMutilCell.swift */,
+				339B9CF02581F87800DBD77D /* HorizontalMutilCell.xib */,
+				339B9CF52581F90E00DBD77D /* HorizontalCollectionViewCell.swift */,
+				339B9CF62581F90E00DBD77D /* HorizontalCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		339B9CA42581C94F00DBD77D /* MMPages */ = {
+			isa = PBXGroup;
+			children = (
+				339B9CA52581C94F00DBD77D /* MMPagerView */,
+				339B9CAA2581C94F00DBD77D /* MMSegmentedControl */,
+				339B9CAD2581C94F00DBD77D /* MMScrollHeader */,
+				339B9CB42581C94F00DBD77D /* MMPageController */,
+				339B9CBD2581C94F00DBD77D /* MMComplexPager */,
+			);
+			path = MMPages;
+			sourceTree = "<group>";
+		};
+		339B9CA52581C94F00DBD77D /* MMPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				339B9CA62581C94F00DBD77D /* MMPageView.m */,
+				339B9CA72581C94F00DBD77D /* MMPageViewController.m */,
+				339B9CA82581C94F00DBD77D /* MMPageView.h */,
+				339B9CA92581C94F00DBD77D /* MMPageViewController.h */,
+			);
+			path = MMPagerView;
+			sourceTree = "<group>";
+		};
+		339B9CAA2581C94F00DBD77D /* MMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				339B9CAB2581C94F00DBD77D /* MMSegmentedControl.h */,
+				339B9CAC2581C94F00DBD77D /* MMSegmentedControl.m */,
+			);
+			path = MMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		339B9CAD2581C94F00DBD77D /* MMScrollHeader */ = {
+			isa = PBXGroup;
+			children = (
+				339B9CAE2581C94F00DBD77D /* MMParallaxHeader.m */,
+				339B9CAF2581C94F00DBD77D /* MMScrollViewController.m */,
+				339B9CB02581C94F00DBD77D /* MMScrollView.m */,
+				339B9CB12581C94F00DBD77D /* MMScrollViewController.h */,
+				339B9CB22581C94F00DBD77D /* MMParallaxHeader.h */,
+				339B9CB32581C94F00DBD77D /* MMScrollView.h */,
+			);
+			path = MMScrollHeader;
+			sourceTree = "<group>";
+		};
+		339B9CB42581C94F00DBD77D /* MMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				339B9CB52581C94F00DBD77D /* MMTopPageController.h */,
+				339B9CB62581C94F00DBD77D /* MMFullPageController.h */,
+				339B9CB72581C94F00DBD77D /* MMBottomPageController.m */,
+				339B9CB82581C94F00DBD77D /* MMCenterPageController.h */,
+				339B9CB92581C94F00DBD77D /* MMFullPageController.m */,
+				339B9CBA2581C94F00DBD77D /* MMTopPageController.m */,
+				339B9CBB2581C94F00DBD77D /* MMBottomPageController.h */,
+				339B9CBC2581C94F00DBD77D /* MMCenterPageController.m */,
+			);
+			path = MMPageController;
+			sourceTree = "<group>";
+		};
+		339B9CBD2581C94F00DBD77D /* MMComplexPager */ = {
+			isa = PBXGroup;
+			children = (
+				339B9CBE2581C94F00DBD77D /* MMComplexPagerController.m */,
+				339B9CBF2581C94F00DBD77D /* MMComplexPager.m */,
+				339B9CC02581C94F00DBD77D /* MMComplexPagerController.h */,
+				339B9CC12581C94F00DBD77D /* MMComplexPager.h */,
+			);
+			path = MMComplexPager;
+			sourceTree = "<group>";
+		};
 		4BBA327C01E2B437F36548B7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1219,6 +1396,7 @@
 				253A85681E7C0F07006864F3 /* Sources */,
 				253A85691E7C0F07006864F3 /* Frameworks */,
 				253A856A1E7C0F07006864F3 /* Resources */,
+				F3F7A09991D19CA4C39FE597 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1298,15 +1476,22 @@
 				25847AA21F90D06100BAFF61 /* 59c0defacecaab508c5b9bab.m4a in Resources */,
 				2556CC131F7A5A76006617B2 /* faved_big@2x.png in Resources */,
 				258429781F44204400ED4EEE /* script2.js in Resources */,
+				339B9C852581B46500DBD77D /* HoriVerticalTableViewController.xib in Resources */,
 				1A666672EE963E2EBC30FCCE /* IJKFFmpeg.sh in Resources */,
 				1A666223EA82333B9FB24AB0 /* praise@2x.png in Resources */,
 				1A666066E29955CFB8447E5E /* praise@3x.png in Resources */,
 				1A6668B36B3B56BD28362E5E /* timg.jpeg in Resources */,
 				1A666828D246BA3BFE80A4E9 /* timg-2.jpeg in Resources */,
+				339B9C8D2581B76100DBD77D /* TwoTableRelationController.xib in Resources */,
+				339B9CEC2581F78900DBD77D /* HorizontalTableConllectionController.xib in Resources */,
+				332C9ECD2579D76C004EA2C7 /* QueueTestController.xib in Resources */,
 				1A666F8C9E328AE551DBED31 /* LaunchScreen.storyboard in Resources */,
 				1A66687FFEC2756EFD2B0B15 /* Assets.xcassets in Resources */,
 				1A6662157DE84DB4F34ABA10 /* Main.storyboard in Resources */,
+				339B9CF82581F90E00DBD77D /* HorizontalCollectionViewCell.xib in Resources */,
+				339B9CF22581F87800DBD77D /* HorizontalMutilCell.xib in Resources */,
 				1A666341E08136E3DC4CE852 /* slider@2x.png in Resources */,
+				333F14F72580DD690005EDF7 /* HoriCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1341,6 +1526,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F3F7A09991D19CA4C39FE597 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCTestProjectDemo/Pods-MCTestProjectDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MCTestProjectDemo/Pods-MCTestProjectDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1355,8 +1558,11 @@
 				1A666A5DBBD82A5FD903B490 /* VM.m in Sources */,
 				1A666070E293D2DBEB4675BD /* DataVM.m in Sources */,
 				1A66616503D22E8A68B0E8FE /* Dto.m in Sources */,
+				339B9CC62581C94F00DBD77D /* MMScrollViewController.m in Sources */,
 				1A666FCA54B3CF2DD6B4CD14 /* MMController.m in Sources */,
+				339B9CF12581F87800DBD77D /* HorizontalMutilCell.swift in Sources */,
 				1A66611AE745CF77F5AC15D8 /* MMNavController.m in Sources */,
+				339B9C9E2581C46900DBD77D /* HorizontalTableController.swift in Sources */,
 				1A6664C1CF4C0ADBDEBCE2BD /* MMTableController.m in Sources */,
 				2528CE30231E0F3700CF5F9F /* PlayerControlButton.m in Sources */,
 				1A666EE7297F870FF2C51688 /* FFmpegController.m in Sources */,
@@ -1365,11 +1571,16 @@
 				252B9ABC22E6FE0F009773B1 /* AlgorithmController.swift in Sources */,
 				1A66664009191CAF85690D54 /* Wideo.m in Sources */,
 				25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */,
+				339B9CC42581C94F00DBD77D /* MMSegmentedControl.m in Sources */,
 				2528CE34231E10AC00CF5F9F /* DouYinAnimationController.swift in Sources */,
 				2528CE2F231E0F3700CF5F9F /* ShareButton.m in Sources */,
+				339B9CFC258203D900DBD77D /* HorizontalTableCollectionMainController.swift in Sources */,
+				339B9CEB2581F78900DBD77D /* HorizontalTableConllectionController.swift in Sources */,
 				25B2DDB2223909370027B40B /* BlockSyncAsyncTestController.m in Sources */,
 				1A6666B865F1516D88517262 /* SliderLayerControl.m in Sources */,
+				339B9CF72581F90E00DBD77D /* HorizontalCollectionViewCell.swift in Sources */,
 				1A666853EF142A6DC3F2A7B3 /* PraiseController.m in Sources */,
+				339B9CCD2581C94F00DBD77D /* MMComplexPager.m in Sources */,
 				1A66697DBBA02177CC030573 /* String2HexViewController.m in Sources */,
 				1A66602867CA411898CD82C8 /* UIControlSliderTestController.m in Sources */,
 				25118995235871BC0037C490 /* ScollViewController.m in Sources */,
@@ -1394,10 +1605,13 @@
 				1A66678DA724C227E1143507 /* SliderProgressDot.m in Sources */,
 				1A666E770D675253D289DDD1 /* OldListController.m in Sources */,
 				250C23FC22FC0068005D9AF3 /* ArtLikeAnimationController.swift in Sources */,
+				332C9ECC2579D76C004EA2C7 /* QueueTestController.m in Sources */,
 				1A66664B1546E25292D8BAA3 /* TouchShot.m in Sources */,
 				1A666168C64791375CF37B75 /* SliderController.m in Sources */,
 				1A66698D6C406B6CA7035F32 /* CircleProgress.m in Sources */,
 				1A6668463E42D8D9E31F34CC /* ViewController.m in Sources */,
+				339B9CC72581C94F00DBD77D /* MMScrollView.m in Sources */,
+				339B9CC92581C94F00DBD77D /* MMFullPageController.m in Sources */,
 				1A6664E82DB6BB006E497828 /* AVFoundationListController.m in Sources */,
 				1A666FEC40725A822C14C7F5 /* AnimationListController.m in Sources */,
 				1A66665402C29F764EA49946 /* AlgorithmListController.m in Sources */,
@@ -1406,6 +1620,7 @@
 				25B12E26230693FE00FC3137 /* LockController.m in Sources */,
 				1A6664A028BA81650AB1A485 /* ListDataVM.m in Sources */,
 				1A666A29577C53ED9E234BE5 /* ActionDto.m in Sources */,
+				339B9CCB2581C94F00DBD77D /* MMCenterPageController.m in Sources */,
 				1A666D56407A9F5C47F83480 /* DesignPatternController.m in Sources */,
 				1A66630D9439C27972FF16B0 /* ScanQRView.m in Sources */,
 				1A6667A08858C40115917805 /* ScanQRCodeDataVM.m in Sources */,
@@ -1415,21 +1630,29 @@
 				1A66662706A19D0A0A6F615F /* PayListDataVM.m in Sources */,
 				1A66602DE259BA512F0CCEB9 /* MCGoodsDto.m in Sources */,
 				1A6667CA7BFD9203A7CEB556 /* PayDto.m in Sources */,
+				339B9CCC2581C94F00DBD77D /* MMComplexPagerController.m in Sources */,
 				1A666B9BD04F2D04CE97AE7F /* HUDView.m in Sources */,
 				250C23FA22FC003B005D9AF3 /* ArtLikeAnimationView.swift in Sources */,
 				1A666F384AF58AC9C2D9BB9A /* ToastUtils.m in Sources */,
 				1A666FFDADB828B81D9DEE6D /* UIView+Toast.m in Sources */,
 				1A666781E872F4103183BC51 /* TranstionToAnimationController.m in Sources */,
 				1A666BFB560DA1CD3ACC5C39 /* FadeDismissAnimator.m in Sources */,
+				339B9CC32581C94F00DBD77D /* MMPageViewController.m in Sources */,
 				1A66698AE731E9C2305D6A27 /* FadeAnimator.m in Sources */,
 				1A6667C875D04FC912BA0D80 /* TranstionAnimationController.m in Sources */,
 				1A666E123F3309379737F59E /* FrameAnimator.m in Sources */,
 				1A6660893F220560B583A7A5 /* FrameDismissAnimator.m in Sources */,
+				339B9CCA2581C94F00DBD77D /* MMTopPageController.m in Sources */,
 				1A6660F38BBA90F18E7B2022 /* AnimationActionDto.m in Sources */,
 				1A66693CE123B554046E41A1 /* CoverAnimator.m in Sources */,
 				1A66642B69D2244F81B465BA /* FFmpegDataVM.m in Sources */,
+				339B9CC52581C94F00DBD77D /* MMParallaxHeader.m in Sources */,
+				339B9CDB2581CAAC00DBD77D /* HorizontalMainController.swift in Sources */,
 				1A666327FCE62122492A8316 /* FFPngDecoderController.m in Sources */,
+				339B9C842581B46500DBD77D /* HoriVerticalTableViewController.swift in Sources */,
 				1A666CFFD733B2C1909451B7 /* BaseController.m in Sources */,
+				333F14F62580DD690005EDF7 /* HoriCell.swift in Sources */,
+				339B9CC82581C94F00DBD77D /* MMBottomPageController.m in Sources */,
 				1A6665CD47B404E5E7939DCD /* BaseDataVM.m in Sources */,
 				1A666330DE595A7790DCFF6F /* LifeCircleController.m in Sources */,
 				1A6668035690558DC229B7B4 /* ThumbCollectionCell.m in Sources */,
@@ -1437,8 +1660,10 @@
 				1A666173D3B43293D69F8AD6 /* ThumbImageView.m in Sources */,
 				1A666651AB822CFD21908D4C /* BabyTrimViewController.m in Sources */,
 				1A666228C56A6C6C6563A078 /* RACTestController.m in Sources */,
+				339B9CC22581C94F00DBD77D /* MMPageView.m in Sources */,
 				1A66636ECE4A8E2096EFE011 /* ThreadController.m in Sources */,
 				1A666BBED3A1874F376CF923 /* FlipAnimationController.m in Sources */,
+				339B9C8C2581B76100DBD77D /* TwoTableRelationController.swift in Sources */,
 				1A666E009A48C658E3724BF7 /* FlipAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

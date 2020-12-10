@@ -14,6 +14,7 @@
 #import "PayListController.h"
 #import "FFmpegController.h"
 #import "BaseController.h"
+#import "QueueTestController.h"
 #import "MCTestProjectDemo-Swift.h"
 
 
@@ -92,6 +93,15 @@
         dto.targetClass = [AlgorithmController class];
         dto.name = @"9.swift";
         dto.desc = @"swift";
+        [self.dataList addObject:dto];
+    }
+    
+    
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [QueueTestController class];
+        dto.name = @"10.线程队列";
+        dto.desc = @"oc swift";
         [self.dataList addObject:dto];
     }
 }
