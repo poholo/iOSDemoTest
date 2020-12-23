@@ -106,7 +106,13 @@
         [self.dataList addObject:dto];
     }
     
-    
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [JSONTestViewController class];
+        dto.name = @"10.JSONTestViewController";
+        dto.desc = @"JSONTestViewController";
+        [self.dataList addObject:dto];
+    }
     
     
 }

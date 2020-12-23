@@ -12,6 +12,13 @@ class HorizontalTableConllectionController: MMController, UITableViewDataSource,
 
     @IBOutlet weak var tableView: UITableView!
     
+    lazy var headerView: HorizontalMutilCell = {
+        let headerView = Bundle.main.loadNibNamed("HorizontalMutilCell", owner: self, options: nil)?.first as! HorizontalMutilCell
+        headerView.loadData(syncOffsetCallBack())
+        headerView.backgroundColor = .blue
+        return headerView
+    } ()
+    
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
@@ -32,6 +39,14 @@ class HorizontalTableConllectionController: MMController, UITableViewDataSource,
         tableView.mj_footer = MJRefreshAutoNormalFooter(refreshingBlock: { [weak self] in
             self?.tableView.mj_footer.endRefreshing()
         })
+        /*
+        let headerView = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 100))
+        headerView.backgroundColor = .blue
+        headerView.text = "headerview"
+        tableView.tableHeaderView = headerView
+         */
+        
+        tableView.tableHeaderView = headerView
     }
 
     // MARK: - Table view data source
@@ -61,6 +76,9 @@ class HorizontalTableConllectionController: MMController, UITableViewDataSource,
                 if let c = cell as? HorizontalMutilCell {
                     c.refreshContentOffset(point)
                 }
+            }
+            if currenCell != self?.headerView {
+                self?.headerView.refreshContentOffset(point)
             }
         }
     }

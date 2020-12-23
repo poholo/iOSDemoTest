@@ -133,6 +133,7 @@
 		25F57CC5235AF63A009B8418 /* CropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F57CC4235AF63A009B8418 /* CropViewController.m */; };
 		25F7F25421EC9938007D6B48 /* CALayerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25321EC9938007D6B48 /* CALayerControllerViewController.m */; };
 		25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25621EC998B007D6B48 /* AnimationDataVM.m */; };
+		3311A70525846CA1000421A3 /* JSONTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3311A70425846CA1000421A3 /* JSONTestViewController.swift */; };
 		332C9ECC2579D76C004EA2C7 /* QueueTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332C9ECA2579D76C004EA2C7 /* QueueTestController.m */; };
 		332C9ECD2579D76C004EA2C7 /* QueueTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */; };
 		333F14F62580DD690005EDF7 /* HoriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F14F42580DD690005EDF7 /* HoriCell.swift */; };
@@ -499,6 +500,7 @@
 		25F7F25521EC998B007D6B48 /* AnimationDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDataVM.h; sourceTree = "<group>"; };
 		25F7F25621EC998B007D6B48 /* AnimationDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDataVM.m; sourceTree = "<group>"; };
 		25FF6F5F22E1BBD800ED9544 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3311A70425846CA1000421A3 /* JSONTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTestViewController.swift; sourceTree = "<group>"; };
 		332C9EC92579D76C004EA2C7 /* QueueTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueTestController.h; sourceTree = "<group>"; };
 		332C9ECA2579D76C004EA2C7 /* QueueTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTestController.m; sourceTree = "<group>"; };
 		332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QueueTestController.xib; sourceTree = "<group>"; };
@@ -636,6 +638,7 @@
 				339B9CFB258203D900DBD77D /* HorizontalTableCollectionMainController.swift */,
 				339B9CE92581F78900DBD77D /* HorizontalTableConllectionController.swift */,
 				339B9CEA2581F78900DBD77D /* HorizontalTableConllectionController.xib */,
+				3311A70425846CA1000421A3 /* JSONTestViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -940,6 +943,7 @@
 		1A666EEB655022A3D5B43D04 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1A6662479461394E7801134C /* Base */,
 				332C9EC82579D749004EA2C7 /* Queue */,
 				1A666893BF33E5B36CF6CDEF /* ffmpeg */,
 				1A666B9F43475EA82135D1F3 /* old */,
@@ -949,7 +953,6 @@
 				1A666EA2C640539D8A3E4BD6 /* Algorithm */,
 				1A666BEE219192D2EEC6232D /* List */,
 				1A6669BA4220FD9E19C14E32 /* Pay */,
-				1A6662479461394E7801134C /* Base */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -1619,6 +1622,7 @@
 				1A666D455B5B5A40E516B6EF /* ListController.m in Sources */,
 				25B12E26230693FE00FC3137 /* LockController.m in Sources */,
 				1A6664A028BA81650AB1A485 /* ListDataVM.m in Sources */,
+				3311A70525846CA1000421A3 /* JSONTestViewController.swift in Sources */,
 				1A666A29577C53ED9E234BE5 /* ActionDto.m in Sources */,
 				339B9CCB2581C94F00DBD77D /* MMCenterPageController.m in Sources */,
 				1A666D56407A9F5C47F83480 /* DesignPatternController.m in Sources */,

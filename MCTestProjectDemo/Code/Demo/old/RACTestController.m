@@ -36,12 +36,39 @@
         NSLog(@"subscribe value = %@", x);
     }];
     
+    RACSignal * signalII = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:@"string"];
+        [subscriber sendNext:@3];
+        [subscriber sendNext:@"info"];
+        [subscriber sendCompleted];
+        return [RACDisposable disposableWithBlock:^{
+            NSLog(@"signalII dispose");
+        }];
+    }];
+    
+    RACSignal *bindSignalII = [signalII bind:^RACStreamBindBlock{
+        return ^RACSignal *(id value, BOOL *stop) {
+            if([value isKindOfClass:[NSString class]]) {
+                value = [NSString stringWithFormat:@"%@bind", value];
+            } else if([value isKindOfClass:[NSNumber class]]) {
+                value = @([value floatValue] * 2);
+            }
+            return [RACSignal return:value];
+        };
+    }];
+
+    [bindSignalII subscribeNext:^(id x) {
+        NSLog(@"bindSignalII %@", x);
+    }];
+    
     {
         RACSignal *signal = [RACSignal createSignal:^RACDisposable *(id <RACSubscriber> subscriber) {
             [subscriber sendNext:@1];
             [subscriber sendNext:@"a"];
             [subscriber sendNext:@"b"];
             [subscriber sendNext:@"c"];
+            [subscriber sendNext:@"c"];
+            [subscriber sendNext:@"lastvalue"];
             [subscriber sendCompleted];
             return [RACDisposable disposableWithBlock:^{
                 NSLog(@"signal dispose");
@@ -105,13 +132,17 @@
                 return @([fist integerValue] * [second integerValue] * [third integerValue]);
             };
             [subscriber sendNext:RACTuplePack(block, @2, @3, @8)];
-            [subscriber sendNext:RACTuplePack((id) (^id(NSNumber *x) {
-                return @(x.integerValue * 10);
+            [subscriber sendNext:RACTuplePack((id) (^id(NSNumber *x, NSNumber *x1, NSNumber *x2) {
+                return @((x.integerValue + x1.integerValue + x2.integerValue) * 10);
             }), @9, @10, @30)];
             [subscriber sendCompleted];
             return [RACDisposable disposableWithBlock:^{
-                NSLog(@"reduceApple signal dispose");
+                NSLog(@"reduceApply signal dispose");
             }];
+        }];
+        
+        [signal subscribeNext:^(id x) {
+            NSLog(@"reduce map before %@", x);
         }];
 
         RACSignal *reduceSignal = [signal reduceApply];
@@ -119,7 +150,7 @@
             NSLog(@"reduce value = %@", x);
         }];
     }
-
+    
     //materialize
     {
         RACSignal *signal = [RACSignal createSignal:^RACDisposable *(id <RACSubscriber> subscriber) {
@@ -145,6 +176,7 @@
 
     }
 
+    
     //not
     {
         RACSignal *signal = [RACSignal createSignal:^RACDisposable *(id <RACSubscriber> subscriber) {
@@ -186,6 +218,7 @@
         NSLog(@"%zd", 0b0001 & 0b0010);
     }
 
+    return;
 
     //or
     {
