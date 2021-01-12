@@ -27,6 +27,10 @@ class HorizontalTableConllectionController: MMController, UITableViewDataSource,
         super.init(coder: coder)
     }
     
+    required init!(routerParams params: MMDict!) {
+        super.init(routerParams: params)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "HorizontalMutilCell", bundle: nil), forCellReuseIdentifier: "HorizontalMutilCell")

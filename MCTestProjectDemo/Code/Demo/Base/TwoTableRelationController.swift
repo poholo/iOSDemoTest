@@ -21,6 +21,10 @@ class TwoTableRelationController: MMController, UITableViewDataSource, UITableVi
         super.init(coder: coder)
     }
     
+    required init!(routerParams params: MMDict!) {
+        super.init(routerParams: params)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         t1.register(UINib(nibName: "HoriCell", bundle: nil), forCellReuseIdentifier: "HoriCell")

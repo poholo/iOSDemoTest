@@ -90,7 +90,7 @@
     
     {
         ActionDto *dto = [ActionDto new];
-        dto.targetClass = [AlgorithmController class];
+        dto.targetClass = [SwiftListController class];
         dto.name = @"9.swift";
         dto.desc = @"swift";
         [self.dataList addObject:dto];

@@ -133,6 +133,9 @@
 		25F57CC5235AF63A009B8418 /* CropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F57CC4235AF63A009B8418 /* CropViewController.m */; };
 		25F7F25421EC9938007D6B48 /* CALayerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25321EC9938007D6B48 /* CALayerControllerViewController.m */; };
 		25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25621EC998B007D6B48 /* AnimationDataVM.m */; };
+		33095DB425AD36AF0095AD5A /* SwiftListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DB325AD36AF0095AD5A /* SwiftListController.swift */; };
+		33095DB825AD377B0095AD5A /* SwiftListDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */; };
+		33095DBC25AD39FC0095AD5A /* SwiftTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */; };
 		3311A70525846CA1000421A3 /* JSONTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3311A70425846CA1000421A3 /* JSONTestViewController.swift */; };
 		332C9ECC2579D76C004EA2C7 /* QueueTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332C9ECA2579D76C004EA2C7 /* QueueTestController.m */; };
 		332C9ECD2579D76C004EA2C7 /* QueueTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */; };
@@ -500,6 +503,9 @@
 		25F7F25521EC998B007D6B48 /* AnimationDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDataVM.h; sourceTree = "<group>"; };
 		25F7F25621EC998B007D6B48 /* AnimationDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDataVM.m; sourceTree = "<group>"; };
 		25FF6F5F22E1BBD800ED9544 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		33095DB325AD36AF0095AD5A /* SwiftListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListController.swift; sourceTree = "<group>"; };
+		33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListDataVM.swift; sourceTree = "<group>"; };
+		33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestController.swift; sourceTree = "<group>"; };
 		3311A70425846CA1000421A3 /* JSONTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTestViewController.swift; sourceTree = "<group>"; };
 		332C9EC92579D76C004EA2C7 /* QueueTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueTestController.h; sourceTree = "<group>"; };
 		332C9ECA2579D76C004EA2C7 /* QueueTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTestController.m; sourceTree = "<group>"; };
@@ -1281,6 +1287,9 @@
 				25FF6F5F22E1BBD800ED9544 /* MyPlayground.playground */,
 				252B9ABB22E6FE0F009773B1 /* AlgorithmController.swift */,
 				252B9ABA22E6FE0F009773B1 /* MCTestProjectDemo-Bridging-Header.h */,
+				33095DB325AD36AF0095AD5A /* SwiftListController.swift */,
+				33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */,
+				33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -1575,6 +1584,7 @@
 				1A66664009191CAF85690D54 /* Wideo.m in Sources */,
 				25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */,
 				339B9CC42581C94F00DBD77D /* MMSegmentedControl.m in Sources */,
+				33095DB425AD36AF0095AD5A /* SwiftListController.swift in Sources */,
 				2528CE34231E10AC00CF5F9F /* DouYinAnimationController.swift in Sources */,
 				2528CE2F231E0F3700CF5F9F /* ShareButton.m in Sources */,
 				339B9CFC258203D900DBD77D /* HorizontalTableCollectionMainController.swift in Sources */,
@@ -1608,6 +1618,7 @@
 				1A66678DA724C227E1143507 /* SliderProgressDot.m in Sources */,
 				1A666E770D675253D289DDD1 /* OldListController.m in Sources */,
 				250C23FC22FC0068005D9AF3 /* ArtLikeAnimationController.swift in Sources */,
+				33095DBC25AD39FC0095AD5A /* SwiftTestController.swift in Sources */,
 				332C9ECC2579D76C004EA2C7 /* QueueTestController.m in Sources */,
 				1A66664B1546E25292D8BAA3 /* TouchShot.m in Sources */,
 				1A666168C64791375CF37B75 /* SliderController.m in Sources */,
@@ -1651,6 +1662,7 @@
 				1A66693CE123B554046E41A1 /* CoverAnimator.m in Sources */,
 				1A66642B69D2244F81B465BA /* FFmpegDataVM.m in Sources */,
 				339B9CC52581C94F00DBD77D /* MMParallaxHeader.m in Sources */,
+				33095DB825AD377B0095AD5A /* SwiftListDataVM.swift in Sources */,
 				339B9CDB2581CAAC00DBD77D /* HorizontalMainController.swift in Sources */,
 				1A666327FCE62122492A8316 /* FFPngDecoderController.m in Sources */,
 				339B9C842581B46500DBD77D /* HoriVerticalTableViewController.swift in Sources */,
@@ -1818,6 +1830,7 @@
 				INFOPLIST_FILE = MCTestProjectDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MCTestProjectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MCTestProjectDemo/Code/Swift/MCTestProjectDemo-Bridging-Header.h";

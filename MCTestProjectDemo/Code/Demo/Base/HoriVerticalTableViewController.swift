@@ -20,6 +20,10 @@ class HoriVerticalTableViewController: MMController, UITableViewDataSource, UITa
         super.init(coder: coder)
     }
     
+    required init!(routerParams params: MMDict!) {
+        super.init(routerParams: params)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "HoriCell", bundle: nil), forCellReuseIdentifier: "HoriCell")

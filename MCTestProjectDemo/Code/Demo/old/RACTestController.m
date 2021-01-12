@@ -218,7 +218,6 @@
         NSLog(@"%zd", 0b0001 & 0b0010);
     }
 
-    return;
 
     //or
     {
@@ -454,7 +453,65 @@
         }];
     }
 
+    [self relyon];
+}
 
+- (void)relyon {
+    NSLog(@"relyon");
+    {
+        
+        RACSignal * signalA = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+            [subscriber sendNext:@{@"a": @"b"}];
+            [subscriber sendCompleted];
+            return  nil;
+        }];
+        
+        RACSignal *signalB = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+            [subscriber sendNext:@{@"c": @"d"}];
+            [subscriber sendCompleted];
+            return nil;
+        }];
+        
+        RACSignal *signal = [signalA zipWith:signalB];
+        
+        [signal subscribeNext:^(id x) {
+            RACTuple * tuple = x;
+            NSLog(@"%@", tuple.first);
+            NSLog(@"%@", tuple.second);
+        }];
+    }
+    
+    {
+        
+        RACSignal * signalA = [[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+            [subscriber sendNext:@{@"a": @"b"}];
+            [subscriber sendCompleted];
+            return  nil;
+        }] map:^id(id value) {
+            NSLog(@"%@", value);
+            return nil;
+        }];
+        
+        
+        RACSignal *signalB = [[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+            [subscriber sendNext:@{@"c": @"d"}];
+            [subscriber sendCompleted];
+            return nil;
+        }] map:^id(id value) {
+            NSLog(@"%@", value);
+            return nil;
+        }];
+        
+        RACSignal *signal = [signalA zipWith:signalB];
+        
+        [signal subscribeNext:^(id x) {
+            RACTuple * tuple = x;
+            NSLog(@"%@", tuple.first);
+            NSLog(@"%@", tuple.second);
+        }];
+    }
+    
+    
 }
 
 @end
