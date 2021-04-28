@@ -3,9 +3,9 @@
 // Copyright (c) 2019 mjc. All rights reserved.
 //
 
-#import "MMController.h"
+#import "MMTableController.h"
 
 
-@interface RACTestController : MMController
+@interface RACTestController : MMTableController
 
 @end

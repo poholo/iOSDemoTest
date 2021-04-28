@@ -141,6 +141,7 @@
 		332C9ECD2579D76C004EA2C7 /* QueueTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */; };
 		333F14F62580DD690005EDF7 /* HoriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F14F42580DD690005EDF7 /* HoriCell.swift */; };
 		333F14F72580DD690005EDF7 /* HoriCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333F14F52580DD690005EDF7 /* HoriCell.xib */; };
+		3380DF66263113020059AACE /* RACTestDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 3380DF65263113020059AACE /* RACTestDataVM.m */; };
 		339B9C842581B46500DBD77D /* HoriVerticalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9C822581B46500DBD77D /* HoriVerticalTableViewController.swift */; };
 		339B9C852581B46500DBD77D /* HoriVerticalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339B9C832581B46500DBD77D /* HoriVerticalTableViewController.xib */; };
 		339B9C8C2581B76100DBD77D /* TwoTableRelationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9C8A2581B76100DBD77D /* TwoTableRelationController.swift */; };
@@ -512,6 +513,8 @@
 		332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QueueTestController.xib; sourceTree = "<group>"; };
 		333F14F42580DD690005EDF7 /* HoriCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoriCell.swift; sourceTree = "<group>"; };
 		333F14F52580DD690005EDF7 /* HoriCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoriCell.xib; sourceTree = "<group>"; };
+		3380DF64263113020059AACE /* RACTestDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACTestDataVM.h; sourceTree = "<group>"; };
+		3380DF65263113020059AACE /* RACTestDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTestDataVM.m; sourceTree = "<group>"; };
 		339B9C822581B46500DBD77D /* HoriVerticalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoriVerticalTableViewController.swift; sourceTree = "<group>"; };
 		339B9C832581B46500DBD77D /* HoriVerticalTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoriVerticalTableViewController.xib; sourceTree = "<group>"; };
 		339B9C8A2581B76100DBD77D /* TwoTableRelationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTableRelationController.swift; sourceTree = "<group>"; };
@@ -905,6 +908,8 @@
 				25F57CC4235AF63A009B8418 /* CropViewController.m */,
 				1A6668E7F58B6B31E111D6C0 /* RACTestController.m */,
 				1A666463F7BE7C978910F5AF /* RACTestController.h */,
+				3380DF64263113020059AACE /* RACTestDataVM.h */,
+				3380DF65263113020059AACE /* RACTestDataVM.m */,
 			);
 			path = old;
 			sourceTree = "<group>";
@@ -1650,6 +1655,7 @@
 				250C23FA22FC003B005D9AF3 /* ArtLikeAnimationView.swift in Sources */,
 				1A666F384AF58AC9C2D9BB9A /* ToastUtils.m in Sources */,
 				1A666FFDADB828B81D9DEE6D /* UIView+Toast.m in Sources */,
+				3380DF66263113020059AACE /* RACTestDataVM.m in Sources */,
 				1A666781E872F4103183BC51 /* TranstionToAnimationController.m in Sources */,
 				1A666BFB560DA1CD3ACC5C39 /* FadeDismissAnimator.m in Sources */,
 				339B9CC32581C94F00DBD77D /* MMPageViewController.m in Sources */,
