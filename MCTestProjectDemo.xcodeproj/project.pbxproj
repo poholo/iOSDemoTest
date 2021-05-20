@@ -141,6 +141,13 @@
 		332C9ECD2579D76C004EA2C7 /* QueueTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */; };
 		333F14F62580DD690005EDF7 /* HoriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F14F42580DD690005EDF7 /* HoriCell.swift */; };
 		333F14F72580DD690005EDF7 /* HoriCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333F14F52580DD690005EDF7 /* HoriCell.xib */; };
+		33735EF12656109600F13FAD /* MethodInvocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33735EF02656109600F13FAD /* MethodInvocationController.m */; };
+		33735EF4265610D200F13FAD /* MethodInvocationDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 33735EF3265610D200F13FAD /* MethodInvocationDataVM.m */; };
+		33735EF72656143800F13FAD /* MethodInvocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33735EF62656143800F13FAD /* MethodInvocationView.m */; };
+		33735EF92656144500F13FAD /* MethodInvocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33735EF82656144500F13FAD /* MethodInvocationView.xib */; };
+		33735EFD265616ED00F13FAD /* MethodInvocationMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33735EFB265616ED00F13FAD /* MethodInvocationMsgCell.m */; };
+		33735EFE265616ED00F13FAD /* MethodInvocationMsgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33735EFC265616ED00F13FAD /* MethodInvocationMsgCell.xib */; };
+		33735F01265619F900F13FAD /* MethodInvocationDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 33735F00265619F900F13FAD /* MethodInvocationDto.m */; };
 		3380DF66263113020059AACE /* RACTestDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 3380DF65263113020059AACE /* RACTestDataVM.m */; };
 		339B9C842581B46500DBD77D /* HoriVerticalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B9C822581B46500DBD77D /* HoriVerticalTableViewController.swift */; };
 		339B9C852581B46500DBD77D /* HoriVerticalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339B9C832581B46500DBD77D /* HoriVerticalTableViewController.xib */; };
@@ -513,6 +520,18 @@
 		332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QueueTestController.xib; sourceTree = "<group>"; };
 		333F14F42580DD690005EDF7 /* HoriCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoriCell.swift; sourceTree = "<group>"; };
 		333F14F52580DD690005EDF7 /* HoriCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoriCell.xib; sourceTree = "<group>"; };
+		33735EEF2656109600F13FAD /* MethodInvocationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodInvocationController.h; sourceTree = "<group>"; };
+		33735EF02656109600F13FAD /* MethodInvocationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodInvocationController.m; sourceTree = "<group>"; };
+		33735EF2265610D200F13FAD /* MethodInvocationDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodInvocationDataVM.h; sourceTree = "<group>"; };
+		33735EF3265610D200F13FAD /* MethodInvocationDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodInvocationDataVM.m; sourceTree = "<group>"; };
+		33735EF52656143800F13FAD /* MethodInvocationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodInvocationView.h; sourceTree = "<group>"; };
+		33735EF62656143800F13FAD /* MethodInvocationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodInvocationView.m; sourceTree = "<group>"; };
+		33735EF82656144500F13FAD /* MethodInvocationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MethodInvocationView.xib; sourceTree = "<group>"; };
+		33735EFA265616ED00F13FAD /* MethodInvocationMsgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodInvocationMsgCell.h; sourceTree = "<group>"; };
+		33735EFB265616ED00F13FAD /* MethodInvocationMsgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodInvocationMsgCell.m; sourceTree = "<group>"; };
+		33735EFC265616ED00F13FAD /* MethodInvocationMsgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MethodInvocationMsgCell.xib; sourceTree = "<group>"; };
+		33735EFF265619F900F13FAD /* MethodInvocationDto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodInvocationDto.h; sourceTree = "<group>"; };
+		33735F00265619F900F13FAD /* MethodInvocationDto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodInvocationDto.m; sourceTree = "<group>"; };
 		3380DF64263113020059AACE /* RACTestDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACTestDataVM.h; sourceTree = "<group>"; };
 		3380DF65263113020059AACE /* RACTestDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTestDataVM.m; sourceTree = "<group>"; };
 		339B9C822581B46500DBD77D /* HoriVerticalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoriVerticalTableViewController.swift; sourceTree = "<group>"; };
@@ -850,66 +869,12 @@
 		1A666B9F43475EA82135D1F3 /* old */ = {
 			isa = PBXGroup;
 			children = (
-				1A6666B922D63B50F904677D /* PraiseController.h */,
-				1A6669AE8F0E9E86DF99CAD9 /* JSCoreController.m */,
-				1A666CAB3F265B848E8ADBBD /* Wideo.h */,
-				1A666DBF6F9BFDDF19D35E71 /* LeftRightViewController.m */,
-				1A666B6C7828163B5764A46E /* SliderProgressDot.h */,
-				1A666E52213CA74959D1E9DA /* Wideo.m */,
-				1A666FD938474CFC31489BAF /* RefreshViewController.h */,
-				1A6665EB0DA19BAF90397D41 /* SliderLayerControl.m */,
-				1A66672C9185DCFDC78ADBDA /* PraiseController.m */,
-				1A6668821132A55370787B64 /* String2HexViewController.m */,
-				1A666520EA1D9F5522C771E4 /* UIControlSliderTestController.m */,
-				1A6666D71122C1B1D72F463E /* PlayerController.h */,
-				1A66697BF7E7B8CF74DC1D36 /* PlayerTestViewController.h */,
-				1A666D9372E2C47FC6DAD39A /* GridSliderProgress.h */,
-				1A666B73EBBD48B6B76899F9 /* PlayerController.m */,
-				1A666C55B2CEF2CCD059BDDC /* String2HexViewController.h */,
-				1A6662CE2DE31B475961FC05 /* PhotoListController.h */,
-				1A666645B569E04847F99004 /* UIControlSliderTestController.h */,
-				1A66617CFAC2EE4057F97BF1 /* PlayerLoadResourceController.m */,
-				1A6668BD9261A4E9FFBB916A /* SliderProgressDelegate.h */,
-				1A6660365A7557D9F57883C6 /* GridSliderProgress.m */,
-				1A66657BC404A350E0210904 /* PhotoListController.m */,
-				1A666A510EB1E093A2CE943A /* PlayerLoadResourceController.h */,
-				1A666349E98F349230FCDDF2 /* RefreshViewController.m */,
-				1A6667E8D130887FC26768CD /* PlayerTestViewController.m */,
-				1A666E928A1C566FFF1915DC /* JSCoreController.h */,
-				1A666B8309FB445AD5B14E1E /* SliderControl.m */,
-				1A6663AC93DEB4B9CF0ACCBD /* SliderControl.h */,
-				1A666C92C91973ACB27C7AA5 /* ALAssetController.m */,
-				1A666BDEE2331376BC7A15C8 /* LeftRightViewController.h */,
-				1A66665172404DE388EE542C /* QRCodeViewController.m */,
-				1A66615E4277ECC170F32AD3 /* SliderLayerControl.h */,
-				1A666C66F7ECD5C7AEF827BB /* ActionSheetControllerViewController.h */,
-				1A666E6EA07E57EF10B44F5E /* EnTestController.m */,
-				1A666C503B05809019209214 /* ActionSheetControllerViewController.m */,
-				1A6669152C0069BE6BC118E3 /* NSString+MD5.m */,
-				1A6663D0B5CF3714DF77036E /* Test.js */,
-				1A6664DF38D204E5B91AB00F /* QRCodeViewController.h */,
-				1A6668CFB463649D3185E0BD /* EnTestController.h */,
-				1A666DBD4E2757873739A4B3 /* NSString+MD5.h */,
-				1A666D614052E18D5F0DB5E9 /* SliderProgressDot.m */,
-				1A666BF140B49EFF4D7F7768 /* ALAssetController.h */,
-				1A666970D83AA21DFA484FFB /* OldListController.h */,
-				1A666933CC5AD03D509E70BC /* OldListController.m */,
-				1A6665532829791A25FB30B9 /* TouchShot.m */,
-				1A666EBB44E560F712AF6D25 /* CircleProgress.h */,
-				1A6662A91D365665B7C5ECFE /* SliderController.h */,
-				1A666BDB7E3C24459799F3C4 /* SliderController.m */,
-				1A666FC3A4F5BD2E0D77F506 /* CircleProgress.m */,
-				1A666B960CB8F1C3E6D2CE93 /* TouchShot.h */,
-				1A666DD1E9117A5BD7DAD771 /* ViewController.m */,
-				1A66610E13CF3D85E7766C40 /* ViewController.h */,
-				25118993235871BC0037C490 /* ScollViewController.h */,
-				25118994235871BC0037C490 /* ScollViewController.m */,
-				25F57CC3235AF63A009B8418 /* CropViewController.h */,
-				25F57CC4235AF63A009B8418 /* CropViewController.m */,
-				1A6668E7F58B6B31E111D6C0 /* RACTestController.m */,
-				1A666463F7BE7C978910F5AF /* RACTestController.h */,
-				3380DF64263113020059AACE /* RACTestDataVM.h */,
-				3380DF65263113020059AACE /* RACTestDataVM.m */,
+				33735EE926560FB000F13FAD /* Controller */,
+				33735EEE2656101E00F13FAD /* Helper */,
+				33735EEB2656100600F13FAD /* Model */,
+				33735EEC2656100F00F13FAD /* Resources */,
+				33735EEA26560FEB00F13FAD /* View */,
+				33735EED2656101700F13FAD /* VM */,
 			);
 			path = old;
 			sourceTree = "<group>";
@@ -1322,6 +1287,120 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		33735EE926560FB000F13FAD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A66610E13CF3D85E7766C40 /* ViewController.h */,
+				1A666DD1E9117A5BD7DAD771 /* ViewController.m */,
+				1A666645B569E04847F99004 /* UIControlSliderTestController.h */,
+				1A666520EA1D9F5522C771E4 /* UIControlSliderTestController.m */,
+				1A666C66F7ECD5C7AEF827BB /* ActionSheetControllerViewController.h */,
+				1A666C503B05809019209214 /* ActionSheetControllerViewController.m */,
+				1A666BF140B49EFF4D7F7768 /* ALAssetController.h */,
+				1A666C92C91973ACB27C7AA5 /* ALAssetController.m */,
+				25F57CC3235AF63A009B8418 /* CropViewController.h */,
+				25F57CC4235AF63A009B8418 /* CropViewController.m */,
+				1A6668CFB463649D3185E0BD /* EnTestController.h */,
+				1A666E6EA07E57EF10B44F5E /* EnTestController.m */,
+				1A666E928A1C566FFF1915DC /* JSCoreController.h */,
+				1A6669AE8F0E9E86DF99CAD9 /* JSCoreController.m */,
+				1A666BDEE2331376BC7A15C8 /* LeftRightViewController.h */,
+				1A666DBF6F9BFDDF19D35E71 /* LeftRightViewController.m */,
+				1A666970D83AA21DFA484FFB /* OldListController.h */,
+				1A666933CC5AD03D509E70BC /* OldListController.m */,
+				1A6662CE2DE31B475961FC05 /* PhotoListController.h */,
+				1A66657BC404A350E0210904 /* PhotoListController.m */,
+				1A6666D71122C1B1D72F463E /* PlayerController.h */,
+				1A666B73EBBD48B6B76899F9 /* PlayerController.m */,
+				1A666A510EB1E093A2CE943A /* PlayerLoadResourceController.h */,
+				1A66617CFAC2EE4057F97BF1 /* PlayerLoadResourceController.m */,
+				1A66697BF7E7B8CF74DC1D36 /* PlayerTestViewController.h */,
+				1A6666B922D63B50F904677D /* PraiseController.h */,
+				1A66672C9185DCFDC78ADBDA /* PraiseController.m */,
+				1A6664DF38D204E5B91AB00F /* QRCodeViewController.h */,
+				1A66665172404DE388EE542C /* QRCodeViewController.m */,
+				1A666463F7BE7C978910F5AF /* RACTestController.h */,
+				1A6668E7F58B6B31E111D6C0 /* RACTestController.m */,
+				1A666FD938474CFC31489BAF /* RefreshViewController.h */,
+				1A666349E98F349230FCDDF2 /* RefreshViewController.m */,
+				25118993235871BC0037C490 /* ScollViewController.h */,
+				25118994235871BC0037C490 /* ScollViewController.m */,
+				1A6662A91D365665B7C5ECFE /* SliderController.h */,
+				1A666BDB7E3C24459799F3C4 /* SliderController.m */,
+				1A666C55B2CEF2CCD059BDDC /* String2HexViewController.h */,
+				1A6668821132A55370787B64 /* String2HexViewController.m */,
+				1A6667E8D130887FC26768CD /* PlayerTestViewController.m */,
+				33735EEF2656109600F13FAD /* MethodInvocationController.h */,
+				33735EF02656109600F13FAD /* MethodInvocationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33735EEA26560FEB00F13FAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A6663AC93DEB4B9CF0ACCBD /* SliderControl.h */,
+				1A666B8309FB445AD5B14E1E /* SliderControl.m */,
+				1A66615E4277ECC170F32AD3 /* SliderLayerControl.h */,
+				1A6665EB0DA19BAF90397D41 /* SliderLayerControl.m */,
+				1A666EBB44E560F712AF6D25 /* CircleProgress.h */,
+				1A666FC3A4F5BD2E0D77F506 /* CircleProgress.m */,
+				1A666D9372E2C47FC6DAD39A /* GridSliderProgress.h */,
+				1A6660365A7557D9F57883C6 /* GridSliderProgress.m */,
+				1A666B6C7828163B5764A46E /* SliderProgressDot.h */,
+				1A666D614052E18D5F0DB5E9 /* SliderProgressDot.m */,
+				1A666B960CB8F1C3E6D2CE93 /* TouchShot.h */,
+				33735EF82656144500F13FAD /* MethodInvocationView.xib */,
+				1A6665532829791A25FB30B9 /* TouchShot.m */,
+				33735EF52656143800F13FAD /* MethodInvocationView.h */,
+				33735EF62656143800F13FAD /* MethodInvocationView.m */,
+				33735EFA265616ED00F13FAD /* MethodInvocationMsgCell.h */,
+				33735EFB265616ED00F13FAD /* MethodInvocationMsgCell.m */,
+				33735EFC265616ED00F13FAD /* MethodInvocationMsgCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33735EEB2656100600F13FAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A666CAB3F265B848E8ADBBD /* Wideo.h */,
+				1A666E52213CA74959D1E9DA /* Wideo.m */,
+				33735EFF265619F900F13FAD /* MethodInvocationDto.h */,
+				33735F00265619F900F13FAD /* MethodInvocationDto.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33735EEC2656100F00F13FAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A6663D0B5CF3714DF77036E /* Test.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33735EED2656101700F13FAD /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				3380DF64263113020059AACE /* RACTestDataVM.h */,
+				1A6668BD9261A4E9FFBB916A /* SliderProgressDelegate.h */,
+				3380DF65263113020059AACE /* RACTestDataVM.m */,
+				33735EF2265610D200F13FAD /* MethodInvocationDataVM.h */,
+				33735EF3265610D200F13FAD /* MethodInvocationDataVM.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		33735EEE2656101E00F13FAD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1A666DBD4E2757873739A4B3 /* NSString+MD5.h */,
+				1A6669152C0069BE6BC118E3 /* NSString+MD5.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		339B9CA42581C94F00DBD77D /* MMPages */ = {
 			isa = PBXGroup;
 			children = (
@@ -1492,6 +1571,7 @@
 				2556CC121F7A5A76006617B2 /* faved_big@3x.png in Resources */,
 				25847AA21F90D06100BAFF61 /* 59c0defacecaab508c5b9bab.m4a in Resources */,
 				2556CC131F7A5A76006617B2 /* faved_big@2x.png in Resources */,
+				33735EFE265616ED00F13FAD /* MethodInvocationMsgCell.xib in Resources */,
 				258429781F44204400ED4EEE /* script2.js in Resources */,
 				339B9C852581B46500DBD77D /* HoriVerticalTableViewController.xib in Resources */,
 				1A666672EE963E2EBC30FCCE /* IJKFFmpeg.sh in Resources */,
@@ -1503,6 +1583,7 @@
 				339B9CEC2581F78900DBD77D /* HorizontalTableConllectionController.xib in Resources */,
 				332C9ECD2579D76C004EA2C7 /* QueueTestController.xib in Resources */,
 				1A666F8C9E328AE551DBED31 /* LaunchScreen.storyboard in Resources */,
+				33735EF92656144500F13FAD /* MethodInvocationView.xib in Resources */,
 				1A66687FFEC2756EFD2B0B15 /* Assets.xcassets in Resources */,
 				1A6662157DE84DB4F34ABA10 /* Main.storyboard in Resources */,
 				339B9CF82581F90E00DBD77D /* HorizontalCollectionViewCell.xib in Resources */,
@@ -1574,6 +1655,7 @@
 				1A6667B2BFF93855D90E2FB1 /* MMRoutable.m in Sources */,
 				1A666A5DBBD82A5FD903B490 /* VM.m in Sources */,
 				1A666070E293D2DBEB4675BD /* DataVM.m in Sources */,
+				33735F01265619F900F13FAD /* MethodInvocationDto.m in Sources */,
 				1A66616503D22E8A68B0E8FE /* Dto.m in Sources */,
 				339B9CC62581C94F00DBD77D /* MMScrollViewController.m in Sources */,
 				1A666FCA54B3CF2DD6B4CD14 /* MMController.m in Sources */,
@@ -1596,12 +1678,14 @@
 				339B9CEB2581F78900DBD77D /* HorizontalTableConllectionController.swift in Sources */,
 				25B2DDB2223909370027B40B /* BlockSyncAsyncTestController.m in Sources */,
 				1A6666B865F1516D88517262 /* SliderLayerControl.m in Sources */,
+				33735EF4265610D200F13FAD /* MethodInvocationDataVM.m in Sources */,
 				339B9CF72581F90E00DBD77D /* HorizontalCollectionViewCell.swift in Sources */,
 				1A666853EF142A6DC3F2A7B3 /* PraiseController.m in Sources */,
 				339B9CCD2581C94F00DBD77D /* MMComplexPager.m in Sources */,
 				1A66697DBBA02177CC030573 /* String2HexViewController.m in Sources */,
 				1A66602867CA411898CD82C8 /* UIControlSliderTestController.m in Sources */,
 				25118995235871BC0037C490 /* ScollViewController.m in Sources */,
+				33735EF72656143800F13FAD /* MethodInvocationView.m in Sources */,
 				1A6668C07E79FEAD8788AFB5 /* PlayerController.m in Sources */,
 				1A666973FB35452995B2B02F /* PlayerLoadResourceController.m in Sources */,
 				1A666246246D381AFDCE4D45 /* GridSliderProgress.m in Sources */,
@@ -1662,12 +1746,14 @@
 				1A66698AE731E9C2305D6A27 /* FadeAnimator.m in Sources */,
 				1A6667C875D04FC912BA0D80 /* TranstionAnimationController.m in Sources */,
 				1A666E123F3309379737F59E /* FrameAnimator.m in Sources */,
+				33735EF12656109600F13FAD /* MethodInvocationController.m in Sources */,
 				1A6660893F220560B583A7A5 /* FrameDismissAnimator.m in Sources */,
 				339B9CCA2581C94F00DBD77D /* MMTopPageController.m in Sources */,
 				1A6660F38BBA90F18E7B2022 /* AnimationActionDto.m in Sources */,
 				1A66693CE123B554046E41A1 /* CoverAnimator.m in Sources */,
 				1A66642B69D2244F81B465BA /* FFmpegDataVM.m in Sources */,
 				339B9CC52581C94F00DBD77D /* MMParallaxHeader.m in Sources */,
+				33735EFD265616ED00F13FAD /* MethodInvocationMsgCell.m in Sources */,
 				33095DB825AD377B0095AD5A /* SwiftListDataVM.swift in Sources */,
 				339B9CDB2581CAAC00DBD77D /* HorizontalMainController.swift in Sources */,
 				1A666327FCE62122492A8316 /* FFPngDecoderController.m in Sources */,

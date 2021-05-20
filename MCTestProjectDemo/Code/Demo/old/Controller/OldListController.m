@@ -25,6 +25,7 @@
 #import "QRCodeViewController.h"
 #import "ScollViewController.h"
 #import "RACTestController.h"
+#import "MethodInvocationController.h"
 
 @interface OldListController ()
 
@@ -43,7 +44,7 @@
             @"PlayerLoadResourceController", @"String2HexViewController",
             @"ViewController", @"PhotoListController", @"ALAssetController",
             @"JSCoreController", @"PraiseController", @"PlayerController", @"EnTestController",
-            @"QRCodeViewController", @"ScollViewController", @"RACTestController"];
+            @"QRCodeViewController", @"ScollViewController", @"RACTestController", @"MethodInvocationController"];
     self.targetClasses = @[[RefreshViewController class], [LeftRightViewController class],
             [SliderController class], [UIControlSliderTestController class],
             [PlayerTestViewController class],
@@ -58,7 +59,8 @@
             [EnTestController class],
             [QRCodeViewController class],
             [ScollViewController class],
-            [RACTestController class]];
+            [RACTestController class],
+    [MethodInvocationController class]];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
 
 

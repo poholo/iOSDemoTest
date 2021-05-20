@@ -129,7 +129,7 @@
     NSArray<RACSignal *> * array = [self siganals];
     RACSignal *signal = array.firstObject;
     NSLog(@"-[mapReplace]-[HA]");
-    //mapRplace
+    //mapReplace
     RACSignal *mapReplaceSignal = [signal mapReplace:@"HA"];
     [mapReplaceSignal subscribeNext:^(id x) {
         NSLog(@"mapReplace value = %@", x);
@@ -138,14 +138,6 @@
 }
 
 - (void)reduceEach {
-    NSArray<RACSignal *> * array = [self siganals];
-    RACSignal *signal = array.firstObject;
-    NSLog(@"-[mapReplace]-[HA]");
-    //mapRplace
-    RACSignal *mapReplaceSignal = [signal mapReplace:@"HA"];
-    [mapReplaceSignal subscribeNext:^(id x) {
-        NSLog(@"mapReplace value = %@", x);
-    }];
     RACSignal *tupleSignal = [RACSignal createSignal:^RACDisposable *(id <RACSubscriber> subscriber) {
         RACTuple *tuple = [RACTuple tupleWithObjects:@1, @2, nil];
         RACTuple *tuple2 = [RACTuple tupleWithObjectsFromArray:@[@3, @4]];
