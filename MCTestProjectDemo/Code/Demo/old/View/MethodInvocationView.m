@@ -29,34 +29,32 @@
 }
 
 - (IBAction)instanceInvocationClick:(id)sender {
-//    [self.dataVM.dto performSelector:@selector(test)];
     [self.dataVM.dataList removeAllObjects];
     [self.dataVM.dataList addObjectsFromArray:@[
-        @"thread #1, queue = 'com.apple.main-thread', stop reason = signal SIGABRT",
-        @"libsystem_kernel.dylib`__pthread_kill + 8",
-        @"libsystem_pthread.dylib`pthread_kill + 212",
-        @"libsystem_c.dylib`abort + 100",
-        @"libc++abi.dylib`abort_message + 128",
-        @"libc++abi.dylib`demangling_terminate_handler() + 296",
-        @"libobjc.A.dylib`_objc_terminate() + 124",
-        @"libc++abi.dylib`std::__terminate(void (*)()) + 16",
-        @"libc++abi.dylib`__cxa_rethrow + 144",
-        @"libobjc.A.dylib`objc_exception_rethrow + 40",
-        @"CoreFoundation`CFRunLoopRunSpecific + 808",
-        @"GraphicsServices`GSEventRunModal + 160",
-        @"UIKitCore`-[UIApplication _run] + 1052",
-        @"UIKitCore`UIApplicationMain + 164",
-        @"MCTestProjectDemo`main(argc=1, argv=0x000000016f8a7878) at main.m:14:16",
-        @"libdyld.dylib`start + 4",
+        @"resolveInstanceMethod:",
+        @"forwardingTargetForSelector:",
+        @"methodSignatureForSelector:",
+        @"resolveInstanceMethod:",
+        @"forwardInvocation:",
+        @"MethodInvocation test",
     ]];
     [self.table reloadData];
+    
+    [self.dataVM.dto test];
 }
 
 - (IBAction)classInvocationClick:(id)sender {
-//    [MethodInvocationDto performSelector:@selector(test1)];
     [self.dataVM.dataList removeAllObjects];
     [self.dataVM.dataList addObjectsFromArray:@[
+        @"resolveClassMethod:",
+        @"resolveClassMethod:"
+    ]];
+    [MethodInvocationDto classTest];
     
+    return;
+    [self.dataVM.dataList removeAllObjects];
+    [self.dataVM.dataList addObjectsFromArray:@[
+        @" unrecognized selector sent to class",
         @"CoreFoundation`+[NSObject(NSObject) doesNotRecognizeSelector:] + 140",
         @"CoreFoundation`___forwarding___ + 1440",
         @"CoreFoundation`_CF_forwarding_prep_0 + 92",

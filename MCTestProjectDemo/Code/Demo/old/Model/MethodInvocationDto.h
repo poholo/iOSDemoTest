@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MethodInvocationDto : Dto
 
+- (void)test;
+
++ (void)classTest;
+
 @end
 
 NS_ASSUME_NONNULL_END
