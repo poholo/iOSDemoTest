@@ -114,6 +114,15 @@
         [self.dataList addObject:dto];
     }
     
+    {
+        ActionDto *dto = [ActionDto new];
+        dto.targetClass = [ScrollZoomController class];
+        dto.name = @"10.ScrollZoomController";
+        dto.desc = @"ScrollZoomController";
+        [self.dataList addObject:dto];
+    }
+    
+    
     
 }
 

@@ -133,6 +133,9 @@
 		25F57CC5235AF63A009B8418 /* CropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F57CC4235AF63A009B8418 /* CropViewController.m */; };
 		25F7F25421EC9938007D6B48 /* CALayerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25321EC9938007D6B48 /* CALayerControllerViewController.m */; };
 		25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F7F25621EC998B007D6B48 /* AnimationDataVM.m */; };
+		3301E82E26B7A2FE00ACC146 /* ScrollZoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E82D26B7A2FE00ACC146 /* ScrollZoomController.swift */; };
+		3301E83126B7A75900ACC146 /* ScrollZoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E82F26B7A75900ACC146 /* ScrollZoomCell.swift */; };
+		3301E83226B7A75900ACC146 /* ScrollZoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3301E83026B7A75900ACC146 /* ScrollZoomCell.xib */; };
 		33095DB425AD36AF0095AD5A /* SwiftListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DB325AD36AF0095AD5A /* SwiftListController.swift */; };
 		33095DB825AD377B0095AD5A /* SwiftListDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */; };
 		33095DBC25AD39FC0095AD5A /* SwiftTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */; };
@@ -511,6 +514,9 @@
 		25F7F25521EC998B007D6B48 /* AnimationDataVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationDataVM.h; sourceTree = "<group>"; };
 		25F7F25621EC998B007D6B48 /* AnimationDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDataVM.m; sourceTree = "<group>"; };
 		25FF6F5F22E1BBD800ED9544 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3301E82D26B7A2FE00ACC146 /* ScrollZoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollZoomController.swift; sourceTree = "<group>"; };
+		3301E82F26B7A75900ACC146 /* ScrollZoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollZoomCell.swift; sourceTree = "<group>"; };
+		3301E83026B7A75900ACC146 /* ScrollZoomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollZoomCell.xib; sourceTree = "<group>"; };
 		33095DB325AD36AF0095AD5A /* SwiftListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListController.swift; sourceTree = "<group>"; };
 		33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListDataVM.swift; sourceTree = "<group>"; };
 		33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestController.swift; sourceTree = "<group>"; };
@@ -665,6 +671,7 @@
 				339B9CDA2581CAAC00DBD77D /* HorizontalMainController.swift */,
 				339B9CFB258203D900DBD77D /* HorizontalTableCollectionMainController.swift */,
 				339B9CE92581F78900DBD77D /* HorizontalTableConllectionController.swift */,
+				3301E82D26B7A2FE00ACC146 /* ScrollZoomController.swift */,
 				339B9CEA2581F78900DBD77D /* HorizontalTableConllectionController.xib */,
 				3311A70425846CA1000421A3 /* JSONTestViewController.swift */,
 			);
@@ -1283,6 +1290,8 @@
 				339B9CF02581F87800DBD77D /* HorizontalMutilCell.xib */,
 				339B9CF52581F90E00DBD77D /* HorizontalCollectionViewCell.swift */,
 				339B9CF62581F90E00DBD77D /* HorizontalCollectionViewCell.xib */,
+				3301E82F26B7A75900ACC146 /* ScrollZoomCell.swift */,
+				3301E83026B7A75900ACC146 /* ScrollZoomCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1590,6 +1599,7 @@
 				339B9CF22581F87800DBD77D /* HorizontalMutilCell.xib in Resources */,
 				1A666341E08136E3DC4CE852 /* slider@2x.png in Resources */,
 				333F14F72580DD690005EDF7 /* HoriCell.xib in Resources */,
+				3301E83226B7A75900ACC146 /* ScrollZoomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1670,6 +1680,7 @@
 				252B9ABC22E6FE0F009773B1 /* AlgorithmController.swift in Sources */,
 				1A66664009191CAF85690D54 /* Wideo.m in Sources */,
 				25F7F25721EC998B007D6B48 /* AnimationDataVM.m in Sources */,
+				3301E83126B7A75900ACC146 /* ScrollZoomCell.swift in Sources */,
 				339B9CC42581C94F00DBD77D /* MMSegmentedControl.m in Sources */,
 				33095DB425AD36AF0095AD5A /* SwiftListController.swift in Sources */,
 				2528CE34231E10AC00CF5F9F /* DouYinAnimationController.swift in Sources */,
@@ -1766,6 +1777,7 @@
 				1A6668035690558DC229B7B4 /* ThumbCollectionCell.m in Sources */,
 				1A666D2B88741D5080378424 /* BabyVideoCropBottomTrimView.m in Sources */,
 				1A666173D3B43293D69F8AD6 /* ThumbImageView.m in Sources */,
+				3301E82E26B7A2FE00ACC146 /* ScrollZoomController.swift in Sources */,
 				1A666651AB822CFD21908D4C /* BabyTrimViewController.m in Sources */,
 				1A666228C56A6C6C6563A078 /* RACTestController.m in Sources */,
 				339B9CC22581C94F00DBD77D /* MMPageView.m in Sources */,
