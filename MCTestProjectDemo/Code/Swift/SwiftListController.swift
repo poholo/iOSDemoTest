@@ -40,7 +40,7 @@ class SwiftListController: MMTableController {
     
     override func tableView(_ tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         
-        return SwiftListNode.algorithm.rawValue + 1
+        return SwiftListNode.sum.rawValue
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 44
@@ -53,6 +53,9 @@ class SwiftListController: MMTableController {
             navigationController?.pushViewController(test, animated: true)
         } else if node == .algorithm {
             let vc = AlgorithmController()
+            navigationController?.pushViewController(vc, animated: true)
+        } else if node == .type {
+            let vc = SwiftTypeTestController()
             navigationController?.pushViewController(vc, animated: true)
         }
     }

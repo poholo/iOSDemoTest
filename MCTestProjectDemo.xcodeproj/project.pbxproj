@@ -136,6 +136,7 @@
 		3301E82E26B7A2FE00ACC146 /* ScrollZoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E82D26B7A2FE00ACC146 /* ScrollZoomController.swift */; };
 		3301E83126B7A75900ACC146 /* ScrollZoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E82F26B7A75900ACC146 /* ScrollZoomCell.swift */; };
 		3301E83226B7A75900ACC146 /* ScrollZoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3301E83026B7A75900ACC146 /* ScrollZoomCell.xib */; };
+		3301E87A26BD3CFB00ACC146 /* SwiftTypeTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3301E87926BD3CFB00ACC146 /* SwiftTypeTestController.swift */; };
 		33095DB425AD36AF0095AD5A /* SwiftListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DB325AD36AF0095AD5A /* SwiftListController.swift */; };
 		33095DB825AD377B0095AD5A /* SwiftListDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */; };
 		33095DBC25AD39FC0095AD5A /* SwiftTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */; };
@@ -517,6 +518,7 @@
 		3301E82D26B7A2FE00ACC146 /* ScrollZoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollZoomController.swift; sourceTree = "<group>"; };
 		3301E82F26B7A75900ACC146 /* ScrollZoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollZoomCell.swift; sourceTree = "<group>"; };
 		3301E83026B7A75900ACC146 /* ScrollZoomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollZoomCell.xib; sourceTree = "<group>"; };
+		3301E87926BD3CFB00ACC146 /* SwiftTypeTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTypeTestController.swift; sourceTree = "<group>"; };
 		33095DB325AD36AF0095AD5A /* SwiftListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListController.swift; sourceTree = "<group>"; };
 		33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListDataVM.swift; sourceTree = "<group>"; };
 		33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestController.swift; sourceTree = "<group>"; };
@@ -1267,6 +1269,7 @@
 				33095DB325AD36AF0095AD5A /* SwiftListController.swift */,
 				33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */,
 				33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */,
+				3301E87926BD3CFB00ACC146 /* SwiftTypeTestController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -1727,6 +1730,7 @@
 				339B9CC72581C94F00DBD77D /* MMScrollView.m in Sources */,
 				339B9CC92581C94F00DBD77D /* MMFullPageController.m in Sources */,
 				1A6664E82DB6BB006E497828 /* AVFoundationListController.m in Sources */,
+				3301E87A26BD3CFB00ACC146 /* SwiftTypeTestController.swift in Sources */,
 				1A666FEC40725A822C14C7F5 /* AnimationListController.m in Sources */,
 				1A66665402C29F764EA49946 /* AlgorithmListController.m in Sources */,
 				1A666804F0BEAAEBE4B21A08 /* AlgorithmListDataVM.m in Sources */,

@@ -9,7 +9,7 @@
 import UIKit
 
 enum SwiftListNode: Int {
-    case test = 0, algorithm
+    case test = 0, algorithm, type, sum
 }
 
 class SwiftListDataVM: DataVM {
@@ -20,6 +20,8 @@ class SwiftListDataVM: DataVM {
             return "test"
         case.algorithm:
             return "algorithm"
+        case .type:
+            return "AnyClass Type Self"
         default:
             return nil
         }
