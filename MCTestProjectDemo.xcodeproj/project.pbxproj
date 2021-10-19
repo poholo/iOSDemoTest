@@ -579,6 +579,8 @@
 		339B9CF52581F90E00DBD77D /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
 		339B9CF62581F90E00DBD77D /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
 		339B9CFB258203D900DBD77D /* HorizontalTableCollectionMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableCollectionMainController.swift; sourceTree = "<group>"; };
+		33F3149726FB24F9009319EB /* MyViewVC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyViewVC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		33F3149826FB256C009319EB /* NumberTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NumberTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BF1BD2AB13F2DD351D03826 /* Pods-MCTestProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCTestProjectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCTestProjectDemo/Pods-MCTestProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5EF8D5C2544E0F9D89375C4D /* libPods-MCTestProjectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCTestProjectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1270,6 +1272,8 @@
 				33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */,
 				33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */,
 				3301E87926BD3CFB00ACC146 /* SwiftTypeTestController.swift */,
+				33F3149726FB24F9009319EB /* MyViewVC.playground */,
+				33F3149826FB256C009319EB /* NumberTest.playground */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

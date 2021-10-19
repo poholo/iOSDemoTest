@@ -238,3 +238,4 @@ func anyCommenElements<T: Sequence, U: Sequence>(_ lhs: T, _ rhs: U) -> Bool whe
 print(anyCommenElements([1, 2, 3], [4, 5, 6]))
 print(anyCommenElements([1, 2, 3], [3, 4, 5]))
 print(anyCommenElements(["a", "b", "c"], ["b", "d", "f"]))
+
