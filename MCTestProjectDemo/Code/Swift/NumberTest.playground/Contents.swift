@@ -180,3 +180,43 @@ print(airports)
 for (key, value) in airports {
     print(key + "-" + value)
 }
+
+
+let minteInterval = 5
+let mintes = 60
+for t in stride(from: 0, through: mintes, by: minteInterval) {
+    print(t)
+}
+
+print("stide through by")
+
+for t in stride(from: 80, to: 100, by: 4) {
+    print(t)
+}
+
+let rr = [Int](repeating: 1, count: 20)
+
+print(rr)
+
+var conditon : Bool = true
+var numbers = 1
+//while conditon {
+//    if numbers > 100 {
+//        conditon = false
+//    } else {
+//        numbers += 1
+//        print(numbers)
+//    }
+//}
+
+conditon = true
+numbers = 1
+repeat {
+    if numbers > 100 {
+        conditon = false
+    } else {
+        numbers += 1
+        print(numbers)
+    }
+} while conditon
+
