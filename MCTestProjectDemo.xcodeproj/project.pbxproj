@@ -523,6 +523,7 @@
 		33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftListDataVM.swift; sourceTree = "<group>"; };
 		33095DBB25AD39FC0095AD5A /* SwiftTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestController.swift; sourceTree = "<group>"; };
 		3311A70425846CA1000421A3 /* JSONTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTestViewController.swift; sourceTree = "<group>"; };
+		331D56522746009F004EF005 /* Enumrations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumrations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		332C9EC92579D76C004EA2C7 /* QueueTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueTestController.h; sourceTree = "<group>"; };
 		332C9ECA2579D76C004EA2C7 /* QueueTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTestController.m; sourceTree = "<group>"; };
 		332C9ECB2579D76C004EA2C7 /* QueueTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QueueTestController.xib; sourceTree = "<group>"; };
@@ -579,6 +580,7 @@
 		339B9CF52581F90E00DBD77D /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
 		339B9CF62581F90E00DBD77D /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
 		339B9CFB258203D900DBD77D /* HorizontalTableCollectionMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableCollectionMainController.swift; sourceTree = "<group>"; };
+		33B17C43273E53DE00DB7CA8 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		33F3149726FB24F9009319EB /* MyViewVC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyViewVC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		33F3149826FB256C009319EB /* NumberTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NumberTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BF1BD2AB13F2DD351D03826 /* Pods-MCTestProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCTestProjectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCTestProjectDemo/Pods-MCTestProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -1267,6 +1269,7 @@
 			children = (
 				25FF6F5F22E1BBD800ED9544 /* MyPlayground.playground */,
 				252B9ABB22E6FE0F009773B1 /* AlgorithmController.swift */,
+				33B17C43273E53DE00DB7CA8 /* Functions.playground */,
 				252B9ABA22E6FE0F009773B1 /* MCTestProjectDemo-Bridging-Header.h */,
 				33095DB325AD36AF0095AD5A /* SwiftListController.swift */,
 				33095DB725AD377B0095AD5A /* SwiftListDataVM.swift */,
@@ -1274,6 +1277,7 @@
 				3301E87926BD3CFB00ACC146 /* SwiftTypeTestController.swift */,
 				33F3149726FB24F9009319EB /* MyViewVC.playground */,
 				33F3149826FB256C009319EB /* NumberTest.playground */,
+				331D56522746009F004EF005 /* Enumrations.playground */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

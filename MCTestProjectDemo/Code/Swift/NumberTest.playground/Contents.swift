@@ -109,7 +109,7 @@ shoppingList += ["milk", "orange"]
 print(shoppingList)
 
 shoppingList[2...4] = ["H", "K", "L"]
-print(shoppingList)
+print(shoppingList[1...3])
 
 shoppingList.insert("A", at: 2)
 print(shoppingList)
@@ -219,4 +219,193 @@ repeat {
         print(numbers)
     }
 } while conditon
+
+
+let json = """
+{
+            "ct": "topic",
+            "foods": [
+                {
+                    "collectnum": 0,
+                    "cooker": {
+                        "cooknum": 0,
+                        "fansnum": 0,
+                        "follownum": 0,
+                        "gender": "",
+                        "id": "10140888",
+                        "job": "",
+                        "jointime": 0,
+                        "location": "",
+                        "nm": "烟火间",
+                        "pic": "http://39.105.91.114/images/02/02808ee0c9164ee8b85e003fc2f77bb6_162w_162h.jpg",
+                        "token": ""
+                    },
+                    "cooknum": 11751,
+                    "created": 1374199847.0,
+                    "ct": "food",
+                    "id": "100013174",
+                    "isCollected": false,
+                    "isPraised": false,
+                    "isProfessional": true,
+                    "lom": [],
+                    "nm": "香辣口水鸡",
+                    "pic": "http://39.105.91.114/images/d5/d54269bc87ca11e6b87c0242ac110003_1000w_853h.jpg",
+                    "picBig": "http://39.105.91.114/images/d5/d54269bc87ca11e6b87c0242ac110003_1000w_853h.jpg",
+                    "planTime": 0.0,
+                    "praisenum": 0,
+                    "score": "8.5",
+                    "step": []
+                },
+                {
+                    "collectnum": 0,
+                    "cooker": {
+                        "cooknum": 0,
+                        "fansnum": 0,
+                        "follownum": 0,
+                        "gender": "",
+                        "id": "10140888",
+                        "job": "",
+                        "jointime": 0,
+                        "location": "",
+                        "nm": "烟火间",
+                        "pic": "http://39.105.91.114/images/02/02808ee0c9164ee8b85e003fc2f77bb6_162w_162h.jpg",
+                        "token": ""
+                    },
+                    "cooknum": 6842,
+                    "created": 1376267516.0,
+                    "ct": "food",
+                    "id": "100021799",
+                    "isCollected": false,
+                    "isPraised": false,
+                    "isProfessional": true,
+                    "lom": [],
+                    "nm": "手撕杏鲍菇",
+                    "pic": "http://39.105.91.114/images/9a/9a39cd9487d711e6a9a10242ac110002_500w_752h.jpg",
+                    "picBig": "http://39.105.91.114/images/9a/9a39cd9487d711e6a9a10242ac110002_500w_752h.jpg",
+                    "planTime": 0.0,
+                    "praisenum": 0,
+                    "score": "8.3",
+                    "step": []
+                },
+                {
+                    "collectnum": 0,
+                    "cooker": {
+                        "cooknum": 0,
+                        "fansnum": 0,
+                        "follownum": 0,
+                        "gender": "",
+                        "id": "10001401",
+                        "job": "",
+                        "jointime": 0,
+                        "location": "",
+                        "nm": "渍",
+                        "pic": "http://39.105.91.114/images/a8/a8b5b274c3264875bb3615aa6af37fcd_160w_160h.jpg",
+                        "token": ""
+                    },
+                    "cooknum": 72395,
+                    "created": 1302075491.0,
+                    "ct": "food",
+                    "id": "1000229",
+                    "isCollected": false,
+                    "isPraised": false,
+                    "isProfessional": true,
+                    "lom": [],
+                    "nm": "可乐鸡翅",
+                    "pic": "http://39.105.91.114/images/ed/ed35e338873811e6b87c0242ac110003_450w_600h.jpg",
+                    "picBig": "http://39.105.91.114/images/ed/ed35e338873811e6b87c0242ac110003_450w_600h.jpg",
+                    "planTime": 0.0,
+                    "praisenum": 0,
+                    "score": "8.2",
+                    "step": []
+                },
+                {
+                    "collectnum": 0,
+                    "cooker": {
+                        "cooknum": 0,
+                        "fansnum": 0,
+                        "follownum": 0,
+                        "gender": "",
+                        "id": "11566793",
+                        "job": "",
+                        "jointime": 0,
+                        "location": "",
+                        "nm": "歌歌小姐",
+                        "pic": "http://39.105.91.114/images/47/47735d72549211e7947d0242ac110002_160w_160h.jpg",
+                        "token": ""
+                    },
+                    "cooknum": 3835,
+                    "created": 1377056013.0,
+                    "ct": "food",
+                    "id": "100023491",
+                    "isCollected": false,
+                    "isPraised": false,
+                    "isProfessional": true,
+                    "lom": [],
+                    "nm": "肉末番茄烧毛豆",
+                    "pic": "http://39.105.91.114/images/74/7445f6a287dd11e6b87c0242ac110003_750w_749h.jpg",
+                    "picBig": "http://39.105.91.114/images/74/7445f6a287dd11e6b87c0242ac110003_750w_749h.jpg",
+                    "planTime": 0.0,
+                    "praisenum": 0,
+                    "score": "8.2",
+                    "step": []
+                }
+            ],
+            "id": "40076",
+            "nm": "家常菜"
+        }
+"""
+
+struct FoodDto: Codable, Identifiable {
+    var id: String
+    var tids: [String]?
+    var nm: String?
+    var tags: String?
+    var score: Float?
+    var praisenum: Int?
+    var collect: Int?
+    var created: Int?
+    var cookednum: Int?
+    var isPraised: Bool?
+    var isCollected: Bool?
+    var pic: String?
+    var picBig: String?
+    var desc: String?
+    var tips: String?
+    var isProfessional: Bool?
+    var planTime: Int?
+}
+
+struct TopicDto: Codable, Identifiable {
+    var id: String
+    let nm: String?
+//    let foods: [FoodDto]
+    
+//    enum CodginKeys: String, CodingKey { case id, nm, foodarr }
+//
+//    enum FoodKeys: String, CodginKey { case foods }
+//
+//
+//    init(from decoder: Decoder) throws {
+//        let values = try decoder.container(keyedBy: CodingKeys.self)
+//        id = try values.decode(String.self, forKey: .id)
+//        nm = try values.decode(String.self, forKey: .nm)
+//
+//        let foodDicts = try values.nestedContainer(keyedBy: FoodKeys.self, forKey: .foodarr)
+//
+//    }
+}
+
+func toModel<T>(_ type: T.Type, value: Any) -> T? where T : Decodable {
+    guard let data = try? JSONSerialization.data(withJSONObject: value) else { return nil }
+    let decoder = JSONDecoder()
+    decoder.nonConformingFloatDecodingStrategy = .convertFromString(positiveInfinity: "+Infinity", negativeInfinity: "-Infinity", nan: "NaN")
+    let d = try? decoder.decode(type, from: data)
+    return d
+}
+
+let data = json.data(using: .utf8)
+
+
+let topic = toModel(TopicDto.self, value: data)
+
 
