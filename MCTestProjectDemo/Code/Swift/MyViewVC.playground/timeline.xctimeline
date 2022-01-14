@@ -2,5 +2,15 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/majiancheng/Desktop/Code/iOSDemoTest/MCTestProjectDemo/Code/Swift/MyViewVC.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=600&amp;EndingColumnNumber=6&amp;EndingLineNumber=24&amp;StartingColumnNumber=5&amp;StartingLineNumber=24&amp;Timestamp=659611331.771512"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/majiancheng/Desktop/Code/iOSDemoTest/MCTestProjectDemo/Code/Swift/MyViewVC.playground#CharacterRangeLen=1&amp;CharacterRangeLoc=617&amp;EndingColumnNumber=6&amp;EndingLineNumber=25&amp;StartingColumnNumber=5&amp;StartingLineNumber=25&amp;Timestamp=659611331.771636"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
