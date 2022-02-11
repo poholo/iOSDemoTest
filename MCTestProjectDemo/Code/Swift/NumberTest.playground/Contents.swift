@@ -63,6 +63,8 @@ let inch = sqrt(pow(ip13w, 2) + pow(ip13h, 2))
 let names = ["a", "b", "c", "d"]
 
 print("2...3")
+let abb = names[2...3]
+print(abb)
 for a in names[2...3] {
     print(a)
 }

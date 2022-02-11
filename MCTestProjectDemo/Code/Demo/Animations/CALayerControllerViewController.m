@@ -36,7 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"CGAffineTransform";
-    self.manuY = CGRectGetHeight(self.view.frame) - 44 - 150;
+    self.manuY = CGRectGetHeight(self.view.frame) - 44 - 250;
     self.manuW = CGRectGetWidth(self.view.frame) / 4;
     self.manuH = 44;
     // Do any additional setup after loading the view.
@@ -156,11 +156,19 @@
 
 - (UIView *)contentView {
     if(!_contentView) {
-        _contentView = [UIView new];
+        _contentView = [[UIView alloc] initWithFrame:CGRectMake(40, 100, 60 , 30)];
         _contentView.backgroundColor = [UIColor blackColor];
         _contentView.layer.cornerRadius = 10;
         _contentView.layer.borderColor = [UIColor orangeColor].CGColor;
         _contentView.layer.borderWidth = 2;
+        
+        UILabel *tLb = [[UILabel alloc] initWithFrame:CGRectMake(0, 7, 60, 15)];
+        tLb.text = @"AAAAA";
+        tLb.textAlignment = NSTextAlignmentCenter;
+        tLb.font = [UIFont systemFontOfSize:14];
+        tLb.textColor = [UIColor redColor];
+        
+        [_contentView addSubview:tLb];
     }
     return _contentView;
 }

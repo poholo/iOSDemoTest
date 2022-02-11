@@ -17,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self testAsync];
+//    [self testAsync];
+    NSLog(@"-----------------------");
+    [self testSync];
 }
 
 - (void)testAsync {

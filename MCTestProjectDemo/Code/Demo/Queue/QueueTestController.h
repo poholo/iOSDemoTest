@@ -6,11 +6,11 @@
 //  Copyright © 2020 mjc. All rights reserved.
 //
 
-#import "MMController.h"
+#import "MMTableController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QueueTestController : MMController
+@interface QueueTestController : MMTableController
 
 @end
 

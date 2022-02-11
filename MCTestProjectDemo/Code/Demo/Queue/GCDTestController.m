@@ -3,13 +3,13 @@
 // Copyright (c) 2019 mjc. All rights reserved.
 //
 
-#import "ThreadController.h"
+#import "GCDTestController.h"
 
 #import <ReactiveCocoa.h>
 #import <Masonry.h>
 
 
-@interface ThreadController()
+@interface GCDTestController()
 
 @property(nonatomic, strong) UIButton *btnI;
 @property(nonatomic, strong) UIButton *btnII;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation ThreadController
+@implementation GCDTestController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

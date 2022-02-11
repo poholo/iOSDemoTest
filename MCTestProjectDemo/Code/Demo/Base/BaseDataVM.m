@@ -8,7 +8,7 @@
 #import "ActionDto.h"
 #import "LifeCircleController.h"
 #import "LockController.h"
-#import "ThreadController.h"
+#import "GCDTestController.h"
 #import "ObjcViewController.h"
 #import "RACTestController.h"
 
@@ -37,7 +37,7 @@
     }
     {
         ActionDto *dto = [ActionDto new];
-        dto.targetClass = [ThreadController class];
+        dto.targetClass = [GCDTestController class];
         dto.name = @"3.ThreadController";
         dto.desc = @"13 thread";
         [self.dataList addObject:dto];

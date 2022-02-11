@@ -6,6 +6,6 @@
 #import "MMController.h"
 
 
-@interface ThreadController : MMController
+@interface GCDTestController : MMController
 
 @end
