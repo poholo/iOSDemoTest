@@ -34,6 +34,7 @@
 
 
 - (void)clear {
+    [self.lock lock];
     [self.infos removeAllObjects];
     if(NSThread.isMainThread) {
         self.watchLogLb.text = @"...";
@@ -42,16 +43,19 @@
             self.watchLogLb.text = @"...";
         });
     }
+    [self.lock unlock];
 }
 
 - (void)log:(NSString *)info {
+    NSLog(@"%@", info);
     [self.lock lock];
     [self.infos addObject:info];
+    NSString * i = [self.infos componentsJoinedByString:@"\n"];
     if(NSThread.isMainThread) {
-        self.watchLogLb.text = [self.infos componentsJoinedByString:@"\n"];
+        self.watchLogLb.text = i;
     } else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            self.watchLogLb.text = [self.infos componentsJoinedByString:@"\n"];
+            self.watchLogLb.text = i;
         });
     }
     [self.lock unlock];
@@ -104,6 +108,9 @@
 }
 - (IBAction)syncQueueStartClick:(id)sender {
     self.otherSyncQueue.suspended = true;
+}
+- (IBAction)syncQueueDesuspendClick:(id)sender {
+    self.otherSyncQueue.suspended = false;
 }
 
 

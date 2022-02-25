@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9I0-uE-Nz1">
-                    <rect key="frame" x="0.0" y="44" width="207" height="44"/>
+                    <rect key="frame" x="0.0" y="44" width="210" height="44"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="44" id="91u-aR-dtd"/>
                     </constraints>
@@ -32,7 +32,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-hr-z5h">
-                    <rect key="frame" x="0.0" y="88" width="207" height="44"/>
+                    <rect key="frame" x="0.0" y="88" width="210" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="denpendA"/>
                     <connections>
@@ -40,7 +40,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMB-2a-XBH">
-                    <rect key="frame" x="0.0" y="132" width="207" height="44"/>
+                    <rect key="frame" x="0.0" y="132" width="210" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncQueueStart"/>
                     <connections>
@@ -48,32 +48,35 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVA-bw-vis">
-                    <rect key="frame" x="0.0" y="176" width="207" height="44"/>
+                    <rect key="frame" x="0.0" y="176" width="210" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncQueueDesuspend"/>
+                    <connections>
+                        <action selector="syncQueueDesuspendClick:" destination="-1" eventType="touchUpInside" id="FxT-DT-FFu"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbA-pu-vKc">
-                    <rect key="frame" x="0.0" y="220" width="207" height="44"/>
+                    <rect key="frame" x="0.0" y="220" width="210" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncQueueStart"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZ4-8H-vXv">
-                    <rect key="frame" x="0.0" y="264" width="207" height="44"/>
+                    <rect key="frame" x="0.0" y="264" width="210" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncQueueStart"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkg-IG-j1F">
-                    <rect key="frame" x="215" y="220" width="199" height="44"/>
+                    <rect key="frame" x="218" y="220" width="202" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncQueueStart"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkf-EG-3Wp">
-                    <rect key="frame" x="215" y="264" width="199" height="44"/>
+                    <rect key="frame" x="218" y="264" width="202" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncQueueStart"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6aJ-Qy-uaF">
-                    <rect key="frame" x="215" y="88" width="199" height="44"/>
+                    <rect key="frame" x="218" y="88" width="202" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncmainQueueStart"/>
                     <connections>
@@ -81,7 +84,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyZ-Pa-AQ7">
-                    <rect key="frame" x="215" y="44" width="199" height="44"/>
+                    <rect key="frame" x="218" y="44" width="202" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="blockOpration"/>
                     <connections>
@@ -89,13 +92,13 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9U1-2o-L4g">
-                    <rect key="frame" x="0.0" y="845" width="414" height="17"/>
+                    <rect key="frame" x="0.0" y="845" width="420" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ga-pI-Ula">
-                    <rect key="frame" x="215" y="132" width="199" height="44"/>
+                    <rect key="frame" x="218" y="132" width="202" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncmainQueueDeSuspend"/>
                     <connections>
@@ -103,7 +106,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thx-NB-Xe3">
-                    <rect key="frame" x="215" y="176" width="199" height="44"/>
+                    <rect key="frame" x="218" y="176" width="202" height="44"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="syncQueueStart"/>
                 </button>
