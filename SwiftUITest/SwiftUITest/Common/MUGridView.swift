@@ -49,7 +49,8 @@ struct MUGridView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UICollectionView, context: Context) {
-        
+        print("reload")
+        uiView.reloadData()
     }
     
     func makeCoordinator() -> MUGridCoordinator {

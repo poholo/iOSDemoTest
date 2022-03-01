@@ -12,6 +12,7 @@
 		3309FB6327A2AC2000C4BEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3309FB6227A2AC2000C4BEC7 /* Assets.xcassets */; };
 		3309FB6627A2AC2000C4BEC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3309FB6527A2AC2000C4BEC7 /* Preview Assets.xcassets */; };
 		3309FB6D27A2AC5100C4BEC7 /* CurveContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309FB6C27A2AC5100C4BEC7 /* CurveContentView.swift */; };
+		3364572727CDBCDB0031C934 /* MUCollectionViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364572627CDBCDB0031C934 /* MUCollectionViewControl.swift */; };
 		337666B627A6305F002B1D02 /* MUGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337666B527A6305F002B1D02 /* MUGridView.swift */; };
 		337666B827A631E6002B1D02 /* MUCollectionViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337666B727A631E6002B1D02 /* MUCollectionViewTest.swift */; };
 		337666BA27A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337666B927A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift */; };
@@ -24,6 +25,7 @@
 		3309FB6227A2AC2000C4BEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3309FB6527A2AC2000C4BEC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3309FB6C27A2AC5100C4BEC7 /* CurveContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurveContentView.swift; path = ../../MCTestProjectDemo/Code/Swift/CurveContentView.swift; sourceTree = "<group>"; };
+		3364572627CDBCDB0031C934 /* MUCollectionViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCollectionViewControl.swift; sourceTree = "<group>"; };
 		337666B527A6305F002B1D02 /* MUGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUGridView.swift; sourceTree = "<group>"; };
 		337666B727A631E6002B1D02 /* MUCollectionViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCollectionViewTest.swift; sourceTree = "<group>"; };
 		337666B927A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCollectionViewChangeDataTest.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				3309FB6427A2AC2000C4BEC7 /* Preview Content */,
 				337666B727A631E6002B1D02 /* MUCollectionViewTest.swift */,
 				337666B927A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift */,
+				3364572627CDBCDB0031C934 /* MUCollectionViewControl.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				337666B827A631E6002B1D02 /* MUCollectionViewTest.swift in Sources */,
 				3309FB6127A2AC1D00C4BEC7 /* ContentView.swift in Sources */,
 				337666B627A6305F002B1D02 /* MUGridView.swift in Sources */,
+				3364572727CDBCDB0031C934 /* MUCollectionViewControl.swift in Sources */,
 				337666BA27A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift in Sources */,
 				3309FB5F27A2AC1D00C4BEC7 /* SwiftUITestApp.swift in Sources */,
 			);

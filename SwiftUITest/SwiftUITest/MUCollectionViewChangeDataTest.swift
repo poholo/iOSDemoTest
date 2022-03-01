@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MUCollectionViewChangeDataTest: View {
     @State var works: [Int] =  [1, 2, 3, 4, 5]
+    var control = MUCollectionViewControl()
     var body: some View {
         MUCollectionViewTest(works: $works)
             .onHover(perform: { _ in
@@ -16,9 +17,17 @@ struct MUCollectionViewChangeDataTest: View {
                 print("...")
             })
             .onTapGesture {
-                works = [2, 5, 7]
+                if works.count == 3 {
+                    works = [1, 2, 3, 4, 5]
+                } else {
+                    works = [2, 5, 7]
+                }
                 print("...")
             }
+    }
+    
+    init() {
+        control.start()
     }
 }
 
@@ -27,3 +36,5 @@ struct MUCollectionViewChangeDataTest_Previews: PreviewProvider {
         MUCollectionViewChangeDataTest()
     }
 }
+
+
