@@ -16,6 +16,8 @@
 		337666B627A6305F002B1D02 /* MUGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337666B527A6305F002B1D02 /* MUGridView.swift */; };
 		337666B827A631E6002B1D02 /* MUCollectionViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337666B727A631E6002B1D02 /* MUCollectionViewTest.swift */; };
 		337666BA27A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337666B927A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift */; };
+		33B16D9027F161DA00FE2F15 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B16D8F27F161DA00FE2F15 /* SettingView.swift */; };
+		33EB181127E3127F001F9C17 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB181027E3127F001F9C17 /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		337666B527A6305F002B1D02 /* MUGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUGridView.swift; sourceTree = "<group>"; };
 		337666B727A631E6002B1D02 /* MUCollectionViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCollectionViewTest.swift; sourceTree = "<group>"; };
 		337666B927A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCollectionViewChangeDataTest.swift; sourceTree = "<group>"; };
+		33B16D8F27F161DA00FE2F15 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		33EB181027E3127F001F9C17 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				337666B727A631E6002B1D02 /* MUCollectionViewTest.swift */,
 				337666B927A6343A002B1D02 /* MUCollectionViewChangeDataTest.swift */,
 				3364572627CDBCDB0031C934 /* MUCollectionViewControl.swift */,
+				33EB181027E3127F001F9C17 /* GridView.swift */,
+				33B16D8F27F161DA00FE2F15 /* SettingView.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -162,6 +168,8 @@
 			files = (
 				3309FB6D27A2AC5100C4BEC7 /* CurveContentView.swift in Sources */,
 				337666B827A631E6002B1D02 /* MUCollectionViewTest.swift in Sources */,
+				33EB181127E3127F001F9C17 /* GridView.swift in Sources */,
+				33B16D9027F161DA00FE2F15 /* SettingView.swift in Sources */,
 				3309FB6127A2AC1D00C4BEC7 /* ContentView.swift in Sources */,
 				337666B627A6305F002B1D02 /* MUGridView.swift in Sources */,
 				3364572727CDBCDB0031C934 /* MUCollectionViewControl.swift in Sources */,

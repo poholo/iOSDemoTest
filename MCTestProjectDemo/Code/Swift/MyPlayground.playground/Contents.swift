@@ -239,3 +239,14 @@ print(anyCommenElements([1, 2, 3], [4, 5, 6]))
 print(anyCommenElements([1, 2, 3], [3, 4, 5]))
 print(anyCommenElements(["a", "b", "c"], ["b", "d", "f"]))
 
+var ss: String?
+let z = ss?.count ?? 13 <= 12
+
+var bbb: Int?
+var nn = 10 - (bbb ?? 1)
+
+let documentPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last
+print(documentPath)
+
+
+

@@ -39,6 +39,11 @@ class SwiftTestController: MMController {
         print("DEBUG else")
         #endif
         
+        
+        let v = Bundle.main.infoDictionary
+        print(v)
+        print(v?["CFBundleShortVersionString"])
+        
     }
 
 
